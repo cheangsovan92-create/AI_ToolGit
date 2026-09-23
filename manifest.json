@@ -1,12 +1,22 @@
 {
  "data": {
-  "version": "1.4.1",
-  "min_version": "1.4.1",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v1.4.1/KhmerDubStudio_update_1.4.1.zip",
-  "sha256": "1fe01a74fa3c595e9994321e1cd9c67367486629d7b455f1e5c6dd4275e6f752",
-  "size": 216949,
-  "notes": "### New\n- 🔄 \"Check for updates\" button in the top bar.\n- The app checks for a new version automatically when it opens and when you import videos.\n### Improved\n- Gemini: when one model or API key reaches its free limit, the app switches to the next one at once\n  (no long waiting), with clearer messages.\n- Clearer messages when the update server cannot be reached.",
+  "version": "1.4.3",
+  "min_version": "1.4.3",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v1.4.3/KhmerDubStudio_update_1.4.3.zip",
+  "sha256": "05ccd3a19abfb396c469ddcd3c2b177551360957bf99b75ef9fb03e2cae13c6d",
+  "size": 218370,
+  "notes": "### Improved\n- Update checks are now more reliable when you click the check buttons.",
   "changelog": [
+   {
+    "version": "1.4.3",
+    "date": "2026-09-23",
+    "text": "### Improved\n- Update checks are now more reliable when you click the check buttons."
+   },
+   {
+    "version": "1.4.2",
+    "date": "2026-09-23",
+    "text": "### Improved\n- Settings panel now automatically resizes to prevent any controls from being cut off at the edge.\n- Layout and spacing of audio volume sliders and checkboxes have been streamlined.\n- Scrollbars throughout the app have been given a cleaner, modern look."
+   },
    {
     "version": "1.4.1",
     "date": "2026-09-23",
@@ -40,5 +50,5 @@
   ],
   "date": "2026-09-23"
  },
- "sig": "a468d6c9bbf376265c524ecfcc2fa1f47e7268871c4e8252ae5c59729bf1bd521b3714182625d8184761e098fc0d97a011b2a9b894ed97811c181154338cef05"
+ "sig": "3a446ee2a371997f3733593a983d88db8836c5b654b695e4c0dc2871068f9c9cccfd96f3484c37fd8870bf0d76641f93aef2716cf601bfdb027398d4e695e90b"
 }
