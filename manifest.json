@@ -1,12 +1,18 @@
 {
  "data": {
-  "version": "2.0.1",
-  "min_version": "2.0.1",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.0.1/KhmerDubStudio_update_2.0.1.zip",
-  "sha256": "18a574a1ef7b9b693f55d380dd5b4ef0893ba3ce18a01a8b10d1526efea4c49d",
-  "size": 459016,
-  "notes": "### New\n- Added a full video editor right below the preview to add custom text layers, blur sensitive areas, sponsor pictures, frames, and colour filters.\n- Added support for Facebook Reel, 1:1 square, and custom preview shapes from the window menu.\n### Improved\n- Speeded up video transcription and rendering by automatically utilizing all CPU cores and graphics card hardware acceleration.\n- Made vocal removal smarter by automatically rechecking the original audio if the separated voice track is too quiet.\n- Refreshed the user interface with a cleaner menu layout and improved tab styling.\n### Fixed\n- Fixed an issue where videos with very quiet or missing vocal separation tracks failed to transcribe speech properly.",
+  "revoked": [],
+  "version": "1.5.0",
+  "min_version": "1.5.0",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v1.5.0/KhmerDubStudio_update_1.5.0.zip",
+  "sha256": "8a8d3ec6cd5e5ec6214b8b65650fe576f248d99d44fd8ebe106df933e2a59782",
+  "size": 466307,
+  "notes": "### New\n- Added a full video editor to customize your videos with text layers, blur boxes, color filters, image overlays, and sponsors (Pro).\n- Added support for hardware-accelerated video rendering using NVIDIA, Intel, and AMD graphics chips for much faster export speeds.\n- Added live preview support for dragging and positioning subtitles, logos, and custom text layers directly on the video.\n- Added automatic detection to fall back to the original audio track if separated voice tracks are too quiet.\n### Improved\n- Improved Khmer speech recognition and translation accuracy by using all available CPU threads and better handling of silent audio tracks.\n- Updated Khmer subtitle formatting with support for rounded background boxes, custom outlines, shadows, and precise line breaking.\n- Updated app shortcuts on your Desktop and Start menu to automatically display the current version number.\n- Updated license and update checking to support remote key revocations and enhanced security integrity checks.\n### Fixed\n- Fixed an issue where Windows text players would sometimes fail to display Khmer Unicode characters correctly in exported subtitle files.\n- Fixed character order and word spacing issues for Khmer text layers and subtitles.",
   "changelog": [
+   {
+    "version": "1.5.0",
+    "date": "2026-09-24",
+    "text": "### New\n- Added a full video editor to customize your videos with text layers, blur boxes, color filters, image overlays, and sponsors (Pro).\n- Added support for hardware-accelerated video rendering using NVIDIA, Intel, and AMD graphics chips for much faster export speeds.\n- Added live preview support for dragging and positioning subtitles, logos, and custom text layers directly on the video.\n- Added automatic detection to fall back to the original audio track if separated voice tracks are too quiet.\n### Improved\n- Improved Khmer speech recognition and translation accuracy by using all available CPU threads and better handling of silent audio tracks.\n- Updated Khmer subtitle formatting with support for rounded background boxes, custom outlines, shadows, and precise line breaking.\n- Updated app shortcuts on your Desktop and Start menu to automatically display the current version number.\n- Updated license and update checking to support remote key revocations and enhanced security integrity checks.\n### Fixed\n- Fixed an issue where Windows text players would sometimes fail to display Khmer Unicode characters correctly in exported subtitle files.\n- Fixed character order and word spacing issues for Khmer text layers and subtitles."
+   },
    {
     "version": "2.0.1",
     "date": "2026-09-24",
@@ -75,5 +81,5 @@
   ],
   "date": "2026-09-24"
  },
- "sig": "c376978000afccd780665211604bd2be2a03676df754f39e2bca5fa9d733e238ed6b35518c07c14c5518795a86e5168f141c25ea9a5211f47de570d76b913c05"
+ "sig": "4abea2e73484f4d2a2c36cbd8030049066ca60f26a7b8b070c146cc3fd4c479d7944c0f713e9fbe8b06647f793949a7f9449e64762517e9d56cee021fabed403"
 }
