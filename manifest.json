@@ -1,14 +1,21 @@
 {
  "data": {
-  "revoked": [],
+  "revoked": [
+   "3b983b2c759bb24e"
+  ],
   "blocked_api_keys": [],
   "version": "2.0.3",
   "min_version": "2.0.3",
   "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.0.3/SV_Dubber_update_2.0.3.zip",
-  "sha256": "34352bcf28fe0225e7e033afe9df7e14bfecf952265e91e1b5c6e1661454682e",
-  "size": 776389,
-  "notes": "### New\n- Added a dedicated window for managing your Gemini API key with step-by-step setup instructions.\n- Added support for entering multiple API keys (Pro).\n### Improved\n- Speed up video translation significantly by running multiple batches in parallel across available API keys.\n- Speed up key validation checks by optimizing Google AI communication.\n- Refreshed desktop shortcuts and icons automatically during updates.\n### Fixed\n- Fixed an issue where expired or blocked admin API keys were not cleared correctly.",
+  "sha256": "6599f99347e202596c2874e88dec58e8e06197df1c0db1206e5782b8020bee66",
+  "size": 776448,
+  "notes": "### New\n- Added a dedicated window for managing your Gemini API key with step-by-step instructions.\n### Improved\n- Speeded up video translation significantly by optimizing parallel batch processing and AI settings.\n- Updated shortcuts and app names cleanly across updates.\n- Refined API key checking for faster and clearer status feedback.",
   "changelog": [
+   {
+    "version": "2.0.3",
+    "date": "2026-09-24",
+    "text": "### New\n- Added a dedicated window for managing your Gemini API key with step-by-step instructions.\n### Improved\n- Speeded up video translation significantly by optimizing parallel batch processing and AI settings.\n- Updated shortcuts and app names cleanly across updates.\n- Refined API key checking for faster and clearer status feedback."
+   },
    {
     "version": "2.0.3",
     "date": "2026-09-24",
@@ -97,5 +104,5 @@
   ],
   "date": "2026-09-24"
  },
- "sig": "0c26dc396cad79a412d60478e048601f44f99c8375b0ddca345acf9fdaa6ba7b5eb7a57d85867dfc049f9d4c96de8ff0609abd3164705a204e67662241f3f109"
+ "sig": "fe945932a83117792254cbe4f2085b1b862bc57e771d011cd16c4daf4f3a18d3155c2ab9a19a16f9d52b92b0be4fed8d1c1a5dd401a6db31f0b7d1de639b5d07"
 }
