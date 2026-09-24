@@ -1,12 +1,22 @@
 {
  "data": {
-  "version": "1.4.4",
-  "min_version": "1.4.4",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v1.4.4/KhmerDubStudio_update_1.4.4.zip",
-  "sha256": "de6bd26e479298d110fb8f658c0dd7c31ca0ab6736e6efbddd31ae9b1cde4c98",
-  "size": 238577,
-  "notes": "### New\n- Interactively drag and resize your logo directly on a preview frame of your video (Pro).\n- Flip your video horizontally with the new Mirror Video option without reversing subtitles or logos.\n- Easily reach support via Telegram, phone, or email using the new Contact Admin button.\n- Choose how many videos to process in each run with the new batch size setting (Pro).\n### Improved\n- The video list now clearly notifies you how many videos remain after a batch completes so you can easily run the next set.\n- Convenient contact links and your Machine ID are now shown directly on login and update windows.",
+  "version": "2.0.0",
+  "min_version": "2.0.0",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.0.0/KhmerDubStudio_update_2.0.0.zip",
+  "sha256": "2b0de609986b9d75eb7eb7e691ff08814611dffcc65eb8539d4fbd3c56f1f43f",
+  "size": 270634,
+  "notes": "### New\n- Added a full menu bar (File, Action, Window, Help) for quicker access to all features and settings.\n- Added Settings Dialog to configure all preferences in a dedicated window.\n- Added Khmer Subtitle Preview to view and position subtitles directly on a still video frame [(Pro)].\n- Added support for alternative Khmer subtitle styles including a background box or clean outlined text [(Pro)].\n- Added Developer Tools for turning images into app icons [(Pro)].\n### Improved\n- Completely overhauled Khmer text processing with accurate Unicode character ordering, proper line breaking between words, and HarfBuzz shaping.\n- Updated video rendering to draw subtitles using Qt with custom outlines, shadows, and alignment [(Pro)].\n- Renamed application shortcuts automatically on updates for easier identification.\n### Fixed\n- Fixed Khmer text wrapping so lines never break inside a letter cluster.\n- Fixed subtitle file exporting to include the proper UTF-8 with BOM encoding for Windows video players.",
   "changelog": [
+   {
+    "version": "2.0.0",
+    "date": "2026-09-24",
+    "text": "### New\n- Added a full menu bar (File, Action, Window, Help) for quicker access to all features and settings.\n- Added Settings Dialog to configure all preferences in a dedicated window.\n- Added Khmer Subtitle Preview to view and position subtitles directly on a still video frame [(Pro)].\n- Added support for alternative Khmer subtitle styles including a background box or clean outlined text [(Pro)].\n- Added Developer Tools for turning images into app icons [(Pro)].\n### Improved\n- Completely overhauled Khmer text processing with accurate Unicode character ordering, proper line breaking between words, and HarfBuzz shaping.\n- Updated video rendering to draw subtitles using Qt with custom outlines, shadows, and alignment [(Pro)].\n- Renamed application shortcuts automatically on updates for easier identification.\n### Fixed\n- Fixed Khmer text wrapping so lines never break inside a letter cluster.\n- Fixed subtitle file exporting to include the proper UTF-8 with BOM encoding for Windows video players."
+   },
+   {
+    "version": "1.4.4",
+    "date": "2026-09-24",
+    "text": "### New\n- Mirror video option to flip footage horizontally while keeping subtitles and logos readable.\n- Interactive video preview to visually drag, position, and resize logos and subtitles. (Pro)\n- New subtitle styles allowing you to choose between blur bands, background boxes, or clean outlined text. (Pro)\n- Dedicated contact window with quick links to Telegram, phone, and email for licensing and support.\n- Batch processing control to choose how many queued videos run at the same time. (Pro)\n### Improved\n- Subtitle line wrapping now breaks naturally between Khmer words without splitting letter clusters.\n- Expanded subtitle styling options, including Khmer font selection, alignment, shadows, and outline thickness. (Pro)\n- Streamlined interface featuring a top menu bar and a dedicated settings window.\n- Desktop and Start Menu shortcuts now automatically update with the current app version.\n### Fixed\n- Exported Khmer subtitle (.srt) files now open reliably in Windows media players without character corruption."
+   },
    {
     "version": "1.4.4",
     "date": "2026-09-24",
@@ -55,5 +65,5 @@
   ],
   "date": "2026-09-24"
  },
- "sig": "b9c34553752c849d37271090e987d7adb1acf4f79b68232bcaf76c2a2274897695d14bc9d42e0cf808b656cbbc4439850244d0c84fb3b9a7442819de8ccaa702"
+ "sig": "87d3f3a4d6cbb12b7cf1779d69536f55e0bd73d08262e3b8a25ea86c2a8ae963f5a4d93f23ba326f6a4149e7ed33bb22ab09e3138bc643107b027538323fca04"
 }
