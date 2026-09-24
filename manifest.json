@@ -1,12 +1,22 @@
 {
  "data": {
-  "version": "2.0.0",
-  "min_version": "2.0.0",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.0.0/KhmerDubStudio_update_2.0.0.zip",
-  "sha256": "2b0de609986b9d75eb7eb7e691ff08814611dffcc65eb8539d4fbd3c56f1f43f",
-  "size": 270634,
-  "notes": "### New\n- Added a full menu bar (File, Action, Window, Help) for quicker access to all features and settings.\n- Added Settings Dialog to configure all preferences in a dedicated window.\n- Added Khmer Subtitle Preview to view and position subtitles directly on a still video frame [(Pro)].\n- Added support for alternative Khmer subtitle styles including a background box or clean outlined text [(Pro)].\n- Added Developer Tools for turning images into app icons [(Pro)].\n### Improved\n- Completely overhauled Khmer text processing with accurate Unicode character ordering, proper line breaking between words, and HarfBuzz shaping.\n- Updated video rendering to draw subtitles using Qt with custom outlines, shadows, and alignment [(Pro)].\n- Renamed application shortcuts automatically on updates for easier identification.\n### Fixed\n- Fixed Khmer text wrapping so lines never break inside a letter cluster.\n- Fixed subtitle file exporting to include the proper UTF-8 with BOM encoding for Windows video players.",
+  "version": "2.0.1",
+  "min_version": "2.0.1",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.0.1/KhmerDubStudio_update_2.0.1.zip",
+  "sha256": "18a574a1ef7b9b693f55d380dd5b4ef0893ba3ce18a01a8b10d1526efea4c49d",
+  "size": 459016,
+  "notes": "### New\n- Added a full video editor right below the preview to add custom text layers, blur sensitive areas, sponsor pictures, frames, and colour filters.\n- Added support for Facebook Reel, 1:1 square, and custom preview shapes from the window menu.\n### Improved\n- Speeded up video transcription and rendering by automatically utilizing all CPU cores and graphics card hardware acceleration.\n- Made vocal removal smarter by automatically rechecking the original audio if the separated voice track is too quiet.\n- Refreshed the user interface with a cleaner menu layout and improved tab styling.\n### Fixed\n- Fixed an issue where videos with very quiet or missing vocal separation tracks failed to transcribe speech properly.",
   "changelog": [
+   {
+    "version": "2.0.1",
+    "date": "2026-09-24",
+    "text": "### New\n- Added a full video editor right below the preview to add custom text layers, blur sensitive areas, sponsor pictures, frames, and colour filters.\n- Added support for Facebook Reel, 1:1 square, and custom preview shapes from the window menu.\n### Improved\n- Speeded up video transcription and rendering by automatically utilizing all CPU cores and graphics card hardware acceleration.\n- Made vocal removal smarter by automatically rechecking the original audio if the separated voice track is too quiet.\n- Refreshed the user interface with a cleaner menu layout and improved tab styling.\n### Fixed\n- Fixed an issue where videos with very quiet or missing vocal separation tracks failed to transcribe speech properly."
+   },
+   {
+    "version": "2.0.0",
+    "date": "2026-09-24",
+    "text": "### New\n- Added a full video editor [Pro] to add custom text, blur boxes to hide original text, sponsor images, and overlay frames.\n- Added support for hardware-accelerated video rendering [Pro/Trial] using your graphics chip for much faster export.\n### Improved\n- Improved Khmer speech recognition and translation accuracy by automatically checking both the separated voice track and original audio.\n- Updated Khmer text shaping and hyphenation to ensure subtitles and custom text wrap correctly without breaking words.\n- Desktop and Start Menu shortcuts now automatically keep the correct version number when updated.\n### Fixed\n- Fixed an issue where very quiet separated voice tracks could cause translation or transcription to fail.\n- Fixed a bug with subtitle file encoding so Khmer characters now display correctly across all Windows media players."
+   },
    {
     "version": "2.0.0",
     "date": "2026-09-24",
@@ -65,5 +75,5 @@
   ],
   "date": "2026-09-24"
  },
- "sig": "87d3f3a4d6cbb12b7cf1779d69536f55e0bd73d08262e3b8a25ea86c2a8ae963f5a4d93f23ba326f6a4149e7ed33bb22ab09e3138bc643107b027538323fca04"
+ "sig": "c376978000afccd780665211604bd2be2a03676df754f39e2bca5fa9d733e238ed6b35518c07c14c5518795a86e5168f141c25ea9a5211f47de570d76b913c05"
 }
