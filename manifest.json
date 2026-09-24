@@ -7,8 +7,8 @@
   "version": "2.0.3",
   "min_version": "2.0.3",
   "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.0.3/SV_Dubber_update_2.0.3.zip",
-  "sha256": "6599f99347e202596c2874e88dec58e8e06197df1c0db1206e5782b8020bee66",
-  "size": 776448,
+  "sha256": "cc51e347061cf10238ad1f68d461628f3915498129204d2c7a69d114a646e780",
+  "size": 776872,
   "notes": "### New\n- Added a dedicated window for managing your Gemini API key with step-by-step instructions.\n### Improved\n- Speeded up video translation significantly by optimizing parallel batch processing and AI settings.\n- Updated shortcuts and app names cleanly across updates.\n- Refined API key checking for faster and clearer status feedback.",
   "changelog": [
    {
@@ -104,5 +104,5 @@
   ],
   "date": "2026-09-24"
  },
- "sig": "fe945932a83117792254cbe4f2085b1b862bc57e771d011cd16c4daf4f3a18d3155c2ab9a19a16f9d52b92b0be4fed8d1c1a5dd401a6db31f0b7d1de639b5d07"
+ "sig": "76f94a0666f91ce008664c659fdd80513d6461b6eae6bffb40136ecc05d1618b75b4e7e89e67534e2917b46bcd6f66f207569a7f2a0e255f2d02e8b6932caa0f"
 }
