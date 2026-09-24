@@ -1,13 +1,18 @@
 {
  "data": {
   "revoked": [],
-  "version": "1.5.0",
-  "min_version": "1.5.0",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v1.5.0/KhmerDubStudio_update_1.5.0.zip",
-  "sha256": "8a8d3ec6cd5e5ec6214b8b65650fe576f248d99d44fd8ebe106df933e2a59782",
-  "size": 466307,
-  "notes": "### New\n- Added a full video editor to customize your videos with text layers, blur boxes, color filters, image overlays, and sponsors (Pro).\n- Added support for hardware-accelerated video rendering using NVIDIA, Intel, and AMD graphics chips for much faster export speeds.\n- Added live preview support for dragging and positioning subtitles, logos, and custom text layers directly on the video.\n- Added automatic detection to fall back to the original audio track if separated voice tracks are too quiet.\n### Improved\n- Improved Khmer speech recognition and translation accuracy by using all available CPU threads and better handling of silent audio tracks.\n- Updated Khmer subtitle formatting with support for rounded background boxes, custom outlines, shadows, and precise line breaking.\n- Updated app shortcuts on your Desktop and Start menu to automatically display the current version number.\n- Updated license and update checking to support remote key revocations and enhanced security integrity checks.\n### Fixed\n- Fixed an issue where Windows text players would sometimes fail to display Khmer Unicode characters correctly in exported subtitle files.\n- Fixed character order and word spacing issues for Khmer text layers and subtitles.",
+  "version": "2.0.2",
+  "min_version": "2.0.2",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.0.2/KhmerDubStudio_update_2.0.2.zip",
+  "sha256": "b17b083a5ffa8421defbaba9842c0d1075a4db19ad6829e1d4af6392cee8573b",
+  "size": 476530,
+  "notes": "### New\n- Added a setting to automatically open the output folder when a video translation is finished [Standard, Pro, Trial].\n### Improved\n- Upgraded speaker gender detection for much higher accuracy, better handling of overlapping voices, and smarter grouping of speakers by pitch and voice color.\n- Redesigned the editor tabs to fit nicely and share the full window width.\n### Fixed\n- Fixed an issue where minor pitch fluctuations could occasionally misidentify speaker genders in challenging audio.",
   "changelog": [
+   {
+    "version": "2.0.2",
+    "date": "2026-09-24",
+    "text": "### New\n- Added a setting to automatically open the output folder when a video translation is finished [Standard, Pro, Trial].\n### Improved\n- Upgraded speaker gender detection for much higher accuracy, better handling of overlapping voices, and smarter grouping of speakers by pitch and voice color.\n- Redesigned the editor tabs to fit nicely and share the full window width.\n### Fixed\n- Fixed an issue where minor pitch fluctuations could occasionally misidentify speaker genders in challenging audio."
+   },
    {
     "version": "1.5.0",
     "date": "2026-09-24",
@@ -81,5 +86,5 @@
   ],
   "date": "2026-09-24"
  },
- "sig": "4abea2e73484f4d2a2c36cbd8030049066ca60f26a7b8b070c146cc3fd4c479d7944c0f713e9fbe8b06647f793949a7f9449e64762517e9d56cee021fabed403"
+ "sig": "bf80223d1f545617d3be117e31970e8f40e53ad598b39385d5d9652a7ee9cf94c2aeeb3221dbef4bf9c2b74fdbf57564cfcf86b7e7835b4c222bb8ffd110ff02"
 }
