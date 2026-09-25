@@ -2,13 +2,23 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.1.1",
+  "version": "2.1.2",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.1/SV_Dubber_update_2.1.1.zip",
-  "sha256": "aaf3f29ac64a9059cecedb9cd52bcafbca7cd18fbd38f4c1170e5ce85a10b2f6",
-  "size": 896911,
-  "notes": "### New\n- Added automatic license checks during use to instantly lock the app if blocked by the administrator [Pro / Trial].\n### Improved\n- Updated the About window with a clean, streamlined layout and non-selectable text.\n- Refreshed dialog themes and title bars to match the current app appearance.\n### Fixed\n- Fixed an issue where expired or mismatched payment orders could cause display glitches.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.2/SV_Dubber_update_2.1.2.zip",
+  "sha256": "98ed85cbac5bb7db193311530cfa76a91bf89fcee721ce3bf6cdf0aa2a900d74",
+  "size": 897741,
+  "notes": "### Improved\n- Security checks now run more reliably to ensure license keys are properly validated.\n- The app now correctly handles license status updates even when online payment features are temporarily disabled.",
   "changelog": [
+   {
+    "version": "2.1.2",
+    "date": "2026-09-25",
+    "text": "### Improved\n- Security checks now run more reliably to ensure license keys are properly validated.\n- The app now correctly handles license status updates even when online payment features are temporarily disabled."
+   },
+   {
+    "version": "2.1.1",
+    "date": "2026-09-25",
+    "text": "### New\n- The app now automatically verifies your license status to keep your access up to date.\n- Added a clear notification message if your license key is disabled by the administrator.\n### Improved\n- Updated the \"About\" window with a cleaner, more readable layout.\n- Refreshed the \"Buy\" and \"Plan\" screens for a more consistent and modern look (Pro/Trial).\n- All dialog windows now feature consistent title bars that match your selected theme.\n- Improved the clarity of status messages when purchasing or restoring a license (Pro/Trial)."
+   },
    {
     "version": "2.1.1",
     "date": "2026-09-25",
@@ -98,19 +108,9 @@
     "version": "1.3.0",
     "date": "2026-09-23",
     "text": "### New\n- Automatic updates: the app checks for new versions at every start.\n- Pro licenses update with one click (\"Update now\"); the update is verified before it is installed.\n- Trial licenses get updates during the trial; Standard licenses keep the version they bought.\n- \"What's new\" window after each update and a 📝 What's new button for the full history.\n- Separate developer and customer apps (developer data is kept apart).\n### Improved\n- A Trial lasts at most 3 days.\n- Old versions are blocked after an important release, so everyone uses a working version.\n- The app can run offline for up to 7 days between version checks."
-   },
-   {
-    "version": "1.2.0",
-    "date": "2026-09-23",
-    "text": "### New\n- Login with a license key bound to the computer (Machine ID).\n- Responsive screen: works on laptops and large monitors; panels move into tabs on small screens.\n- One-click setup package: installs by itself, adds Desktop and Start-menu shortcuts.\n### Improved\n- Much smaller download and install size (about 600 MB instead of 2–5 GB).\n- New vocal-removal engine (MDX-Net), faster on computers without a graphics card.\n- Temporary audio files are deleted after rendering to save disk space.\n- In-app video preview is optional; videos can open in the normal video player.\n### Fixed\n- The setup window no longer pauses when you click inside it.\n- Clear error message instead of nothing happening when the app cannot start."
-   },
-   {
-    "version": "1.1.0",
-    "date": "2026-09-23",
-    "text": "### New\n- Automatic male / female Khmer voice that matches the original speaker.\n- All Gemini 3 models in the model list, with automatic switching when a model is busy.\n- \"Re-translate Selected\" button and \"Auto shorten long lines\" option.\n- Start without the black console window (KhmerDubStudio.exe).\n### Improved\n- Better translation: the whole video is read first (names and terms stay consistent),\n  more context per line, pronouns match the speaker (បាទ / ចាស).\n- Missing translations are retried automatically – no more silent lines.\n- Quiet speech is recognised better; the language is detected from several parts of the video.\n- Subtitles are no longer burned into the video; the picture is kept in original quality.\n### Fixed\n- Khmer voice was cut off at the end of long lines.\n- \"Cannot send a request\" error when checking the Gemini API key."
    }
   ],
   "date": "2026-09-25"
  },
- "sig": "991346f2c941f7bbe7fa8f8a49ae2d003ec49cfbf31501304670b744636bbfaacf44bf261e90209be5d102bec7bd59ffdad26c54383ca9186531d4a60f4c340d"
+ "sig": "63ef74701fe120e722bf94fc640dd3df70869d18101b37613f2b835441a4337ee5558e2a55218ae988a645781e500c70d5ee8121eb7d582bb7b85e575d8db40d"
 }
