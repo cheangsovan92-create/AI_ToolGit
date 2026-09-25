@@ -2,13 +2,23 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.1.3",
+  "version": "2.1.4",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.3/SV_Dubber_update_2.1.3.zip",
-  "sha256": "9209fd2498051a7e87173517018f25c830a3216523ea933a87ca293c6e49bc71",
-  "size": 898186,
-  "notes": "### Improved\n- Improvements and bug fixes.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.4/SV_Dubber_update_2.1.4.zip",
+  "sha256": "8abb0491dc0920d04790900e4262b0ec4c17fd70d96d6fd341cf26dd9998dbdc",
+  "size": 913598,
+  "notes": "### New\n- Save your favorite video looks (logo, text, blur, etc.) and apply them to new videos with one click.\n- Added precise controls to move and resize image overlays on your video.\n- A new comparison table in the \"Buy\" dialog helps you choose the right plan for your needs.\n- Videos created during the free trial now include a watermark (Trial).\n### Improved\n- The video preview now shows your logo and text overlays while playing, instead of just the raw video.\n- Finished videos are now automatically removed from the queue to make room for new ones.\n- Batch processing is more resilient, so a problem with one video won't stop the rest of your queue.\n- Translation speed and reliability have been improved when using multiple API keys.",
   "changelog": [
+   {
+    "version": "2.1.4",
+    "date": "2026-09-25",
+    "text": "### New\n- Save your favorite video looks (logo, text, blur, etc.) and apply them to new videos with one click.\n- Added precise controls to move and resize image overlays on your video.\n- A new comparison table in the \"Buy\" dialog helps you choose the right plan for your needs.\n- Videos created during the free trial now include a watermark (Trial).\n### Improved\n- The video preview now shows your logo and text overlays while playing, instead of just the raw video.\n- Finished videos are now automatically removed from the queue to make room for new ones.\n- Batch processing is more resilient, so a problem with one video won't stop the rest of your queue.\n- Translation speed and reliability have been improved when using multiple API keys."
+   },
+   {
+    "version": "2.1.3",
+    "date": "2026-09-25",
+    "text": "### New\n- Save and reuse your favorite video \"looks\" (texts, logo, filters) with the new Favorites tab.\n- Videos processed during the Free Trial now include a watermark (Trial).\n- Finished videos are now automatically removed from your queue to make room for new ones.\n### Improved\n- The Buy dialog now includes a clear comparison table to help you choose the right plan.\n- New \"Fit\" and \"Keep shape\" buttons make placing overlays on your video much easier.\n- Voice detection is smarter when both a man and woman speak in the same line.\n- The video preview now handles playback more smoothly while you edit.\n### Fixed\n- Fixed an issue where the app would incorrectly warn you that there was \"nothing to do.\"\n- Batch processing limits are now correctly applied based on your plan (Standard vs. Professional)."
+   },
    {
     "version": "2.1.3",
     "date": "2026-09-25",
@@ -98,19 +108,9 @@
     "version": "1.4.4",
     "date": "2026-09-24",
     "text": "### New\n- Interactively drag and resize your logo directly on a preview frame of your video (Pro).\n- Flip your video horizontally with the new Mirror Video option without reversing subtitles or logos.\n- Easily reach support via Telegram, phone, or email using the new Contact Admin button.\n- Choose how many videos to process in each run with the new batch size setting (Pro).\n### Improved\n- The video list now clearly notifies you how many videos remain after a batch completes so you can easily run the next set.\n- Convenient contact links and your Machine ID are now shown directly on login and update windows."
-   },
-   {
-    "version": "1.4.3",
-    "date": "2026-09-23",
-    "text": "### Improved\n- Update checks are now more reliable when you click the check buttons."
-   },
-   {
-    "version": "1.4.2",
-    "date": "2026-09-23",
-    "text": "### Improved\n- Settings panel now automatically resizes to prevent any controls from being cut off at the edge.\n- Layout and spacing of audio volume sliders and checkboxes have been streamlined.\n- Scrollbars throughout the app have been given a cleaner, modern look."
    }
   ],
   "date": "2026-09-25"
  },
- "sig": "5ea2bca1924a9c227d21f71be263ff33049f4b6ad2ed172cff530ffa9ac5ec3932738d899baf73484b1912f019dab80b5fe3e1a307d54655227c209acb74c70a"
+ "sig": "ad20c3cb7e1d32fcb6d73bfd132b7dbb50baf300382b42116e8c07d82d79ee108d11e44bba7dacdf9db8784b394a73d48100d978c7f61877bdf87c0949e8890c"
 }
