@@ -1,16 +1,19 @@
 {
  "data": {
-  "revoked": [
-   "3b983b2c759bb24e"
-  ],
+  "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.0.3",
+  "version": "2.1.0",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.0.3/SV_Dubber_update_2.0.3.zip",
-  "sha256": "cc51e347061cf10238ad1f68d461628f3915498129204d2c7a69d114a646e780",
-  "size": 776872,
-  "notes": "### New\n- Added a dedicated window for managing your Gemini API key with step-by-step instructions.\n### Improved\n- Speeded up video translation significantly by optimizing parallel batch processing and AI settings.\n- Updated shortcuts and app names cleanly across updates.\n- Refined API key checking for faster and clearer status feedback.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.0/SV_Dubber_update_2.1.0.zip",
+  "sha256": "2216e39a3c7ecdf46b23fafaffc56b4b4fb8bc1775b772d5d2e26d04cd007979",
+  "size": 891748,
+  "notes": "### New\n- Added a video recap feature to summarize long videos into short highlights [Pro].\n- Added a thumbnail maker with full Khmer text shaping and custom styles [Pro].\n- Added online payments and license renewals using KHQR bank codes.\n### Improved\n- Improved voice detection to automatically split lines when both a man and a woman speak in the same sentence.\n- Added AI voice verification using Gemini to confirm correct male and female voices.\n- Upgraded the default Gemini model to Gemini 3.5 Flash for faster and higher-quality translations.\n- Added settings favorites so you can save and reload your preferred conversion settings.\n### Fixed\n- Fixed an issue where Edge-TTS occasionally failed to generate audio for certain lines.",
   "changelog": [
+   {
+    "version": "2.1.0",
+    "date": "2026-09-25",
+    "text": "### New\n- Added a video recap feature to summarize long videos into short highlights [Pro].\n- Added a thumbnail maker with full Khmer text shaping and custom styles [Pro].\n- Added online payments and license renewals using KHQR bank codes.\n### Improved\n- Improved voice detection to automatically split lines when both a man and a woman speak in the same sentence.\n- Added AI voice verification using Gemini to confirm correct male and female voices.\n- Upgraded the default Gemini model to Gemini 3.5 Flash for faster and higher-quality translations.\n- Added settings favorites so you can save and reload your preferred conversion settings.\n### Fixed\n- Fixed an issue where Edge-TTS occasionally failed to generate audio for certain lines."
+   },
    {
     "version": "2.0.3",
     "date": "2026-09-24",
@@ -102,7 +105,7 @@
     "text": "### New\n- Translate videos from any language into Khmer.\n- Automatic language detection and speech recognition (Whisper).\n- Translation with Google Gemini.\n- Khmer voice-over (Piseth / Sreymom) synced to the original timing.\n- Remove the original voice and keep music and sound effects.\n- Review and edit every line before rendering; export .srt subtitles."
    }
   ],
-  "date": "2026-09-24"
+  "date": "2026-09-25"
  },
- "sig": "76f94a0666f91ce008664c659fdd80513d6461b6eae6bffb40136ecc05d1618b75b4e7e89e67534e2917b46bcd6f66f207569a7f2a0e255f2d02e8b6932caa0f"
+ "sig": "76d00748e0f8aadce0d0ea0630ce35830cc303779160d74c32efe7ef8121d4a726e1a3522b51bef22c597c51dd2185b0624d95e792636d7f62890dd0613ebb00"
 }
