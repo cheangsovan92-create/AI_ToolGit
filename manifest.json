@@ -2,13 +2,28 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.1.2",
+  "version": "2.1.3",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.2/SV_Dubber_update_2.1.2.zip",
-  "sha256": "98ed85cbac5bb7db193311530cfa76a91bf89fcee721ce3bf6cdf0aa2a900d74",
-  "size": 897741,
-  "notes": "### Improved\n- Security checks now run more reliably to ensure license keys are properly validated.\n- The app now correctly handles license status updates even when online payment features are temporarily disabled.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.3/SV_Dubber_update_2.1.3.zip",
+  "sha256": "9209fd2498051a7e87173517018f25c830a3216523ea933a87ca293c6e49bc71",
+  "size": 898186,
+  "notes": "### Improved\n- Improvements and bug fixes.",
   "changelog": [
+   {
+    "version": "2.1.3",
+    "date": "2026-09-25",
+    "text": "### Improved\n- Improvements and bug fixes."
+   },
+   {
+    "version": "2.1.2",
+    "date": "2026-09-25",
+    "text": "### Improved\n- The app interface has been updated with a cleaner and more consistent layout.\n- Spacing within settings panels and groups has been standardized for a more polished look."
+   },
+   {
+    "version": "2.1.2",
+    "date": "2026-09-25",
+    "text": "### Improved\n- Refreshed the layout margins and spacing inside panels for a cleaner look."
+   },
    {
     "version": "2.1.2",
     "date": "2026-09-25",
@@ -93,24 +108,9 @@
     "version": "1.4.2",
     "date": "2026-09-23",
     "text": "### Improved\n- Settings panel now automatically resizes to prevent any controls from being cut off at the edge.\n- Layout and spacing of audio volume sliders and checkboxes have been streamlined.\n- Scrollbars throughout the app have been given a cleaner, modern look."
-   },
-   {
-    "version": "1.4.1",
-    "date": "2026-09-23",
-    "text": "### New\n- 🔄 \"Check for updates\" button in the top bar.\n- The app checks for a new version automatically when it opens and when you import videos.\n### Improved\n- Gemini: when one model or API key reaches its free limit, the app switches to the next one at once\n  (no long waiting), with clearer messages.\n- Clearer messages when the update server cannot be reached."
-   },
-   {
-    "version": "1.4.0",
-    "date": "2026-09-24",
-    "text": "### New\n- License plans with different features:\n  - Standard: 1 Gemini API key (can be replaced), Gemini 3.1 models, one voice for the whole\n    video (male or female), videos up to 2 minutes, 1 video at a time.\n  - Pro: several API keys (switches automatically when one reaches its limit), all Gemini models\n    with \"Auto – best stable model\", custom theme color, automatic male/female voice, video preview,\n    logo on the video, Khmer subtitles on a blurred band over the original text, videos up to\n    5 minutes, import a whole folder, up to 10 videos per run, fast generate, .srt export.\n  - Trial: all Pro features for 3 days.\n- Logo on video: choose image, corner, size and transparency (Pro).\n- Khmer subtitles on a blurred band that hides the original burned-in text (Pro).\n- ⚡ Fast generate: more voice lines in parallel and the fastest video encoding (Pro).\n### Improved\n- Clear messages when a video is too long or a feature needs a Pro license."
-   },
-   {
-    "version": "1.3.0",
-    "date": "2026-09-23",
-    "text": "### New\n- Automatic updates: the app checks for new versions at every start.\n- Pro licenses update with one click (\"Update now\"); the update is verified before it is installed.\n- Trial licenses get updates during the trial; Standard licenses keep the version they bought.\n- \"What's new\" window after each update and a 📝 What's new button for the full history.\n- Separate developer and customer apps (developer data is kept apart).\n### Improved\n- A Trial lasts at most 3 days.\n- Old versions are blocked after an important release, so everyone uses a working version.\n- The app can run offline for up to 7 days between version checks."
    }
   ],
   "date": "2026-09-25"
  },
- "sig": "63ef74701fe120e722bf94fc640dd3df70869d18101b37613f2b835441a4337ee5558e2a55218ae988a645781e500c70d5ee8121eb7d582bb7b85e575d8db40d"
+ "sig": "5ea2bca1924a9c227d21f71be263ff33049f4b6ad2ed172cff530ffa9ac5ec3932738d899baf73484b1912f019dab80b5fe3e1a307d54655227c209acb74c70a"
 }
