@@ -1,16 +1,24 @@
 {
  "data": {
-  "revoked": [
-   "3b983b2c759bb24e"
-  ],
+  "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.1.6",
+  "version": "2.1.7",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.6/SV_Dubber_update_2.1.6.zip",
-  "sha256": "8f8327d1399a69f880f8e6143b7714c4346cb8cb44a2fe013ed9a9a64f75b201",
-  "size": 958289,
-  "notes": "### Improved\n- License updates and plan changes are now applied much faster, checking every minute instead of every five minutes.\n- The application log now displays clear status updates regarding your license checks.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.7/SV_Dubber_update_2.1.7.zip",
+  "sha256": "9af010ed4f7c4eef5e9562987f107501af8ff1a4a8f835c3dcc7d8bbc7b92635",
+  "size": 959766,
+  "notes": "### Improved\n- The app now automatically hides purchase and trial buttons if the online store is temporarily closed.\n- Offline license keys are now protected from being overwritten by the server unless a better plan is available.",
   "changelog": [
+   {
+    "version": "2.1.7",
+    "date": "2026-09-27",
+    "text": "### Improved\n- The app now automatically hides purchase and trial buttons if the online store is temporarily closed.\n- Offline license keys are now protected from being overwritten by the server unless a better plan is available."
+   },
+   {
+    "version": "2.1.6",
+    "date": "2026-09-27",
+    "text": "### Improved\n- The app now checks for license updates and plan changes every minute instead of every five minutes.\n- Offline license keys are now safely preserved and will not be overwritten by the server unless you upgrade to a better plan.\n- Detailed license status and server connection messages are now displayed directly in the app's log.\n- Purchase and trial buttons will now automatically hide if online buying is temporarily paused on the server."
+   },
    {
     "version": "2.1.6",
     "date": "2026-09-27",
@@ -100,19 +108,9 @@
     "version": "2.0.0",
     "date": "2026-09-24",
     "text": "### New\n- Added a full video editor [Pro] to add custom text, blur boxes to hide original text, sponsor images, and overlay frames.\n- Added support for hardware-accelerated video rendering [Pro/Trial] using your graphics chip for much faster export.\n### Improved\n- Improved Khmer speech recognition and translation accuracy by automatically checking both the separated voice track and original audio.\n- Updated Khmer text shaping and hyphenation to ensure subtitles and custom text wrap correctly without breaking words.\n- Desktop and Start Menu shortcuts now automatically keep the correct version number when updated.\n### Fixed\n- Fixed an issue where very quiet separated voice tracks could cause translation or transcription to fail.\n- Fixed a bug with subtitle file encoding so Khmer characters now display correctly across all Windows media players."
-   },
-   {
-    "version": "2.0.0",
-    "date": "2026-09-24",
-    "text": "### New\n- Added a full menu bar (File, Action, Window, Help) for quicker access to all features and settings.\n- Added Settings Dialog to configure all preferences in a dedicated window.\n- Added Khmer Subtitle Preview to view and position subtitles directly on a still video frame [(Pro)].\n- Added support for alternative Khmer subtitle styles including a background box or clean outlined text [(Pro)].\n- Added Developer Tools for turning images into app icons [(Pro)].\n### Improved\n- Completely overhauled Khmer text processing with accurate Unicode character ordering, proper line breaking between words, and HarfBuzz shaping.\n- Updated video rendering to draw subtitles using Qt with custom outlines, shadows, and alignment [(Pro)].\n- Renamed application shortcuts automatically on updates for easier identification.\n### Fixed\n- Fixed Khmer text wrapping so lines never break inside a letter cluster.\n- Fixed subtitle file exporting to include the proper UTF-8 with BOM encoding for Windows video players."
-   },
-   {
-    "version": "1.4.4",
-    "date": "2026-09-24",
-    "text": "### New\n- Mirror video option to flip footage horizontally while keeping subtitles and logos readable.\n- Interactive video preview to visually drag, position, and resize logos and subtitles. (Pro)\n- New subtitle styles allowing you to choose between blur bands, background boxes, or clean outlined text. (Pro)\n- Dedicated contact window with quick links to Telegram, phone, and email for licensing and support.\n- Batch processing control to choose how many queued videos run at the same time. (Pro)\n### Improved\n- Subtitle line wrapping now breaks naturally between Khmer words without splitting letter clusters.\n- Expanded subtitle styling options, including Khmer font selection, alignment, shadows, and outline thickness. (Pro)\n- Streamlined interface featuring a top menu bar and a dedicated settings window.\n- Desktop and Start Menu shortcuts now automatically update with the current app version.\n### Fixed\n- Exported Khmer subtitle (.srt) files now open reliably in Windows media players without character corruption."
    }
   ],
   "date": "2026-09-27"
  },
- "sig": "b744defe216ef85e1edddda3790c913fe5d928009b4b89177e46756204ca5358b2c7ddfaa02eb3e283cb9628dbe57c1fabbe112bc12184f2f6761e14bb56030a"
+ "sig": "99926d02d1fe8a48165030cf3a4430e45be434435cb85adfddd4a8dec890eb4121b620505fb65c3ad550e6c25f170441cdafc65b2bb86212fb5f194986627d00"
 }
