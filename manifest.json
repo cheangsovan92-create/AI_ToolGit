@@ -4,13 +4,33 @@
    "3b983b2c759bb24e"
   ],
   "blocked_api_keys": [],
-  "version": "2.1.1",
+  "version": "2.1.5",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.1/SV_Dubber_update_2.1.1.zip",
-  "sha256": "5566338d2116a19ff167f43004e2a7474b663597163d076e2d6d315906e21b62",
-  "size": 957609,
-  "notes": "### Improved\n- Your license plan now updates automatically right away when changed by an administrator, without needing to restart the app.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.5/SV_Dubber_update_2.1.5.zip",
+  "sha256": "8ba46e09a77cf2518cc81e2630ce608593430e9622b82b9a67b7690beafcf620",
+  "size": 957635,
+  "notes": "### Improved\n- Improvements and bug fixes.",
   "changelog": [
+   {
+    "version": "2.1.5",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Improvements and bug fixes."
+   },
+   {
+    "version": "2.1.4",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Improvements and bug fixes."
+   },
+   {
+    "version": "2.1.3",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Improvements and bug fixes."
+   },
+   {
+    "version": "2.1.2",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Improvements and bug fixes."
+   },
    {
     "version": "2.1.1",
     "date": "2026-09-27",
@@ -90,29 +110,9 @@
     "version": "1.4.3",
     "date": "2026-09-23",
     "text": "### Improved\n- Update checks are now more reliable when you click the check buttons."
-   },
-   {
-    "version": "1.4.2",
-    "date": "2026-09-23",
-    "text": "### Improved\n- Settings panel now automatically resizes to prevent any controls from being cut off at the edge.\n- Layout and spacing of audio volume sliders and checkboxes have been streamlined.\n- Scrollbars throughout the app have been given a cleaner, modern look."
-   },
-   {
-    "version": "1.4.1",
-    "date": "2026-09-23",
-    "text": "### New\n- 🔄 \"Check for updates\" button in the top bar.\n- The app checks for a new version automatically when it opens and when you import videos.\n### Improved\n- Gemini: when one model or API key reaches its free limit, the app switches to the next one at once\n  (no long waiting), with clearer messages.\n- Clearer messages when the update server cannot be reached."
-   },
-   {
-    "version": "1.4.0",
-    "date": "2026-09-24",
-    "text": "### New\n- License plans with different features:\n  - Standard: 1 Gemini API key (can be replaced), Gemini 3.1 models, one voice for the whole\n    video (male or female), videos up to 2 minutes, 1 video at a time.\n  - Pro: several API keys (switches automatically when one reaches its limit), all Gemini models\n    with \"Auto – best stable model\", custom theme color, automatic male/female voice, video preview,\n    logo on the video, Khmer subtitles on a blurred band over the original text, videos up to\n    5 minutes, import a whole folder, up to 10 videos per run, fast generate, .srt export.\n  - Trial: all Pro features for 3 days.\n- Logo on video: choose image, corner, size and transparency (Pro).\n- Khmer subtitles on a blurred band that hides the original burned-in text (Pro).\n- ⚡ Fast generate: more voice lines in parallel and the fastest video encoding (Pro).\n### Improved\n- Clear messages when a video is too long or a feature needs a Pro license."
-   },
-   {
-    "version": "1.3.0",
-    "date": "2026-09-23",
-    "text": "### New\n- Automatic updates: the app checks for new versions at every start.\n- Pro licenses update with one click (\"Update now\"); the update is verified before it is installed.\n- Trial licenses get updates during the trial; Standard licenses keep the version they bought.\n- \"What's new\" window after each update and a 📝 What's new button for the full history.\n- Separate developer and customer apps (developer data is kept apart).\n### Improved\n- A Trial lasts at most 3 days.\n- Old versions are blocked after an important release, so everyone uses a working version.\n- The app can run offline for up to 7 days between version checks."
    }
   ],
   "date": "2026-09-27"
  },
- "sig": "af6fc118db7946743c52d1472d63f00c15576bddbe772324a0f1b020c460f08c3e7f588793c8ed64ad7b7e5a42eb79a1004cf8181f3e6931b0b4948bebe1c407"
+ "sig": "17b9104b3988702f92a5276bed2366f7b4d1ef75342c39e8fdaa8bb119f47733ea91c5948f1c66bfd4e225177c0a792b73406ee19523af03c3ab1eb163f5800a"
 }
