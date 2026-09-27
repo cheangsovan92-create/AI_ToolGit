@@ -2,13 +2,23 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.1.9",
+  "version": "2.1.10",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.9/SV_Dubber_update_2.1.9.zip",
-  "sha256": "a107234f862456232a0440edc313dc3f1efd0406eaf81699ff65f10356249f63",
-  "size": 961221,
-  "notes": "### Improved\n- Updated our licensing system to support new license keys and ensure smoother activation.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.10/SV_Dubber_update_2.1.10.zip",
+  "sha256": "1f6b638f05b7cf02685774c3f23d2de35b86b2b0415fd5ff663ffbc643d4d345",
+  "size": 961248,
+  "notes": "### Improved\n- Improvements and bug fixes.",
   "changelog": [
+   {
+    "version": "2.1.10",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Improvements and bug fixes."
+   },
+   {
+    "version": "2.1.9",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Improved the license activation system to support newly issued license keys."
+   },
    {
     "version": "2.1.9",
     "date": "2026-09-27",
@@ -98,19 +108,9 @@
     "version": "2.0.3",
     "date": "2026-09-24",
     "text": "### New\n- Added a dedicated window for managing your Gemini API key with step-by-step instructions.\n### Improved\n- Speeded up video translation significantly by optimizing parallel batch processing and AI settings.\n- Updated shortcuts and app names cleanly across updates.\n- Refined API key checking for faster and clearer status feedback."
-   },
-   {
-    "version": "2.0.3",
-    "date": "2026-09-24",
-    "text": "### New\n- Added a dedicated window for managing your Gemini API key with step-by-step setup instructions.\n- Added support for entering multiple API keys (Pro).\n### Improved\n- Speed up video translation significantly by running multiple batches in parallel across available API keys.\n- Speed up key validation checks by optimizing Google AI communication.\n- Refreshed desktop shortcuts and icons automatically during updates.\n### Fixed\n- Fixed an issue where expired or blocked admin API keys were not cleared correctly."
-   },
-   {
-    "version": "2.0.2",
-    "date": "2026-09-24",
-    "text": "### New\n- Added a dedicated window for managing Gemini API keys with step-by-step instructions and secure key masking.\n- Added an option to automatically open the output folder when a conversion is finished.\n### Improved\n- Speeded up translation by sending multiple batches in parallel across all your configured API keys.\n- Improved automatic speaker gender and voice detection using advanced pitch and timbre analysis.\n- Optimized Gemini translation settings to respond faster without reducing quality.\n- Updated the API key check to test multiple keys at once and reject invalid keys immediately.\n### Fixed\n- Fixed an issue where the app could crash or fail if program files were modified or damaged."
    }
   ],
   "date": "2026-09-27"
  },
- "sig": "9bc71456b59f4dbdc352a96191ad4d896d062df01722370e638913875c6132b12cf4f33c737bc223a020238c2f9b86ae0d44e34447bb42879fa268c60e1a870e"
+ "sig": "6f1ccd3e85f7cb7f164fa9eac5483eed2b8879d9723ca9012f641590c90ae880b89c818541ce3fdb3eccecfa0079e3e9eb1660b550bcb591f9763252e893ee06"
 }
