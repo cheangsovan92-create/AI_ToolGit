@@ -4,13 +4,23 @@
    "3b983b2c759bb24e"
   ],
   "blocked_api_keys": [],
-  "version": "2.1.5",
+  "version": "2.1.6",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.5/SV_Dubber_update_2.1.5.zip",
-  "sha256": "8ba46e09a77cf2518cc81e2630ce608593430e9622b82b9a67b7690beafcf620",
-  "size": 957635,
-  "notes": "### Improved\n- Improvements and bug fixes.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.6/SV_Dubber_update_2.1.6.zip",
+  "sha256": "8f8327d1399a69f880f8e6143b7714c4346cb8cb44a2fe013ed9a9a64f75b201",
+  "size": 958289,
+  "notes": "### Improved\n- License updates and plan changes are now applied much faster, checking every minute instead of every five minutes.\n- The application log now displays clear status updates regarding your license checks.",
   "changelog": [
+   {
+    "version": "2.1.6",
+    "date": "2026-09-27",
+    "text": "### Improved\n- License updates and plan changes are now applied much faster, checking every minute instead of every five minutes.\n- The application log now displays clear status updates regarding your license checks."
+   },
+   {
+    "version": "2.1.5",
+    "date": "2026-09-27",
+    "text": "### Improved\n- License updates and plan changes are now detected much faster, checking every minute instead of every five minutes.\n- The application log now displays clear status messages regarding your license checks and plan updates."
+   },
    {
     "version": "2.1.5",
     "date": "2026-09-27",
@@ -100,19 +110,9 @@
     "version": "1.4.4",
     "date": "2026-09-24",
     "text": "### New\n- Mirror video option to flip footage horizontally while keeping subtitles and logos readable.\n- Interactive video preview to visually drag, position, and resize logos and subtitles. (Pro)\n- New subtitle styles allowing you to choose between blur bands, background boxes, or clean outlined text. (Pro)\n- Dedicated contact window with quick links to Telegram, phone, and email for licensing and support.\n- Batch processing control to choose how many queued videos run at the same time. (Pro)\n### Improved\n- Subtitle line wrapping now breaks naturally between Khmer words without splitting letter clusters.\n- Expanded subtitle styling options, including Khmer font selection, alignment, shadows, and outline thickness. (Pro)\n- Streamlined interface featuring a top menu bar and a dedicated settings window.\n- Desktop and Start Menu shortcuts now automatically update with the current app version.\n### Fixed\n- Exported Khmer subtitle (.srt) files now open reliably in Windows media players without character corruption."
-   },
-   {
-    "version": "1.4.4",
-    "date": "2026-09-24",
-    "text": "### New\n- Interactively drag and resize your logo directly on a preview frame of your video (Pro).\n- Flip your video horizontally with the new Mirror Video option without reversing subtitles or logos.\n- Easily reach support via Telegram, phone, or email using the new Contact Admin button.\n- Choose how many videos to process in each run with the new batch size setting (Pro).\n### Improved\n- The video list now clearly notifies you how many videos remain after a batch completes so you can easily run the next set.\n- Convenient contact links and your Machine ID are now shown directly on login and update windows."
-   },
-   {
-    "version": "1.4.3",
-    "date": "2026-09-23",
-    "text": "### Improved\n- Update checks are now more reliable when you click the check buttons."
    }
   ],
   "date": "2026-09-27"
  },
- "sig": "17b9104b3988702f92a5276bed2366f7b4d1ef75342c39e8fdaa8bb119f47733ea91c5948f1c66bfd4e225177c0a792b73406ee19523af03c3ab1eb163f5800a"
+ "sig": "b744defe216ef85e1edddda3790c913fe5d928009b4b89177e46756204ca5358b2c7ddfaa02eb3e283cb9628dbe57c1fabbe112bc12184f2f6761e14bb56030a"
 }
