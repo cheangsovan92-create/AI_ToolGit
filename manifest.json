@@ -2,13 +2,33 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.1.7",
+  "version": "2.1.9",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.7/SV_Dubber_update_2.1.7.zip",
-  "sha256": "9af010ed4f7c4eef5e9562987f107501af8ff1a4a8f835c3dcc7d8bbc7b92635",
-  "size": 959766,
-  "notes": "### Improved\n- The app now automatically hides purchase and trial buttons if the online store is temporarily closed.\n- Offline license keys are now protected from being overwritten by the server unless a better plan is available.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.9/SV_Dubber_update_2.1.9.zip",
+  "sha256": "a107234f862456232a0440edc313dc3f1efd0406eaf81699ff65f10356249f63",
+  "size": 961221,
+  "notes": "### Improved\n- Updated our licensing system to support new license keys and ensure smoother activation.",
   "changelog": [
+   {
+    "version": "2.1.9",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Updated our licensing system to support new license keys and ensure smoother activation."
+   },
+   {
+    "version": "2.1.8",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Faster and more reliable license server connection on networks with slow IPv6 routing.\n- License verification timeouts and error messages have been improved for better stability."
+   },
+   {
+    "version": "2.1.8",
+    "date": "2026-09-27",
+    "text": "### Improved\n- License activation and verification are now much faster and more reliable, especially on internet connections with IPv6 issues.\n- Connection timeouts have been increased to prevent license sync failures on slower internet connections.\n- The system log now provides clearer error details if the license server cannot be reached."
+   },
+   {
+    "version": "2.1.7",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Increased the connection timeout when syncing licenses to prevent errors on slower internet connections.\n- Offline-generated license keys are now protected from being automatically overwritten by lower-tier plans.\n- License connection errors are now displayed in the main app log to make troubleshooting easier.\n### Fixed\n- Fixed connection timeouts during license activation on network routers with broken IPv6 configurations."
+   },
    {
     "version": "2.1.7",
     "date": "2026-09-27",
@@ -88,29 +108,9 @@
     "version": "2.0.2",
     "date": "2026-09-24",
     "text": "### New\n- Added a dedicated window for managing Gemini API keys with step-by-step instructions and secure key masking.\n- Added an option to automatically open the output folder when a conversion is finished.\n### Improved\n- Speeded up translation by sending multiple batches in parallel across all your configured API keys.\n- Improved automatic speaker gender and voice detection using advanced pitch and timbre analysis.\n- Optimized Gemini translation settings to respond faster without reducing quality.\n- Updated the API key check to test multiple keys at once and reject invalid keys immediately.\n### Fixed\n- Fixed an issue where the app could crash or fail if program files were modified or damaged."
-   },
-   {
-    "version": "2.0.2",
-    "date": "2026-09-24",
-    "text": "### New\n- Added a setting to automatically open the output folder when a video translation is finished [Standard, Pro, Trial].\n### Improved\n- Upgraded speaker gender detection for much higher accuracy, better handling of overlapping voices, and smarter grouping of speakers by pitch and voice color.\n- Redesigned the editor tabs to fit nicely and share the full window width.\n### Fixed\n- Fixed an issue where minor pitch fluctuations could occasionally misidentify speaker genders in challenging audio."
-   },
-   {
-    "version": "1.5.0",
-    "date": "2026-09-24",
-    "text": "### New\n- Added a full video editor to customize your videos with text layers, blur boxes, color filters, image overlays, and sponsors (Pro).\n- Added support for hardware-accelerated video rendering using NVIDIA, Intel, and AMD graphics chips for much faster export speeds.\n- Added live preview support for dragging and positioning subtitles, logos, and custom text layers directly on the video.\n- Added automatic detection to fall back to the original audio track if separated voice tracks are too quiet.\n### Improved\n- Improved Khmer speech recognition and translation accuracy by using all available CPU threads and better handling of silent audio tracks.\n- Updated Khmer subtitle formatting with support for rounded background boxes, custom outlines, shadows, and precise line breaking.\n- Updated app shortcuts on your Desktop and Start menu to automatically display the current version number.\n- Updated license and update checking to support remote key revocations and enhanced security integrity checks.\n### Fixed\n- Fixed an issue where Windows text players would sometimes fail to display Khmer Unicode characters correctly in exported subtitle files.\n- Fixed character order and word spacing issues for Khmer text layers and subtitles."
-   },
-   {
-    "version": "2.0.1",
-    "date": "2026-09-24",
-    "text": "### New\n- Added a full video editor right below the preview to add custom text layers, blur sensitive areas, sponsor pictures, frames, and colour filters.\n- Added support for Facebook Reel, 1:1 square, and custom preview shapes from the window menu.\n### Improved\n- Speeded up video transcription and rendering by automatically utilizing all CPU cores and graphics card hardware acceleration.\n- Made vocal removal smarter by automatically rechecking the original audio if the separated voice track is too quiet.\n- Refreshed the user interface with a cleaner menu layout and improved tab styling.\n### Fixed\n- Fixed an issue where videos with very quiet or missing vocal separation tracks failed to transcribe speech properly."
-   },
-   {
-    "version": "2.0.0",
-    "date": "2026-09-24",
-    "text": "### New\n- Added a full video editor [Pro] to add custom text, blur boxes to hide original text, sponsor images, and overlay frames.\n- Added support for hardware-accelerated video rendering [Pro/Trial] using your graphics chip for much faster export.\n### Improved\n- Improved Khmer speech recognition and translation accuracy by automatically checking both the separated voice track and original audio.\n- Updated Khmer text shaping and hyphenation to ensure subtitles and custom text wrap correctly without breaking words.\n- Desktop and Start Menu shortcuts now automatically keep the correct version number when updated.\n### Fixed\n- Fixed an issue where very quiet separated voice tracks could cause translation or transcription to fail.\n- Fixed a bug with subtitle file encoding so Khmer characters now display correctly across all Windows media players."
    }
   ],
   "date": "2026-09-27"
  },
- "sig": "99926d02d1fe8a48165030cf3a4430e45be434435cb85adfddd4a8dec890eb4121b620505fb65c3ad550e6c25f170441cdafc65b2bb86212fb5f194986627d00"
+ "sig": "9bc71456b59f4dbdc352a96191ad4d896d062df01722370e638913875c6132b12cf4f33c737bc223a020238c2f9b86ae0d44e34447bb42879fa268c60e1a870e"
 }
