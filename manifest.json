@@ -2,13 +2,23 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.1.10",
+  "version": "2.1.11",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.10/SV_Dubber_update_2.1.10.zip",
-  "sha256": "1f6b638f05b7cf02685774c3f23d2de35b86b2b0415fd5ff663ffbc643d4d345",
-  "size": 961248,
-  "notes": "### Improved\n- Improvements and bug fixes.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.11/SvCamTool_update_2.1.11.zip",
+  "sha256": "55654b55c56ce9f09acbeeae70ca4b90b99949550a9817b72db342903b18f7ad",
+  "size": 1139594,
+  "notes": "### New\n- Added a manual payment option with the admin's KHQR codes (ABA and ACLEDA) for customers who prefer to pay manually.\n- Added a \"Contact admin\" button directly on the plan selection screen to easily get help or pay by cash/bank transfer.\n### Improved\n- Renamed the application from \"SV Dubber\" to \"SvCamTool\" across all windows, shortcuts, and watermarks.\n- Redesigned the contact and payment screens to be cleaner, removing icons and standardizing button sizes.\n- Replaced various icon buttons (like trash bins and reset arrows) with clear text buttons like \"Delete\" and \"Reset\".\n- Moved license status updates and offline warnings to the status bar to keep the main job log clean.\n- Improved license management so that if an active license key is removed by the admin, the app lets you enter a new key or choose a plan instead of immediately closing.\n### Fixed\n- Fixed shortcut renaming and launching issues for users upgrading from older versions (including \"Khmer Dub Studio\" and \"SV Dubber\").",
   "changelog": [
+   {
+    "version": "2.1.11",
+    "date": "2026-09-27",
+    "text": "### New\n- Added a manual payment option with the admin's KHQR codes (ABA and ACLEDA) for customers who prefer to pay manually.\n- Added a \"Contact admin\" button directly on the plan selection screen to easily get help or pay by cash/bank transfer.\n### Improved\n- Renamed the application from \"SV Dubber\" to \"SvCamTool\" across all windows, shortcuts, and watermarks.\n- Redesigned the contact and payment screens to be cleaner, removing icons and standardizing button sizes.\n- Replaced various icon buttons (like trash bins and reset arrows) with clear text buttons like \"Delete\" and \"Reset\".\n- Moved license status updates and offline warnings to the status bar to keep the main job log clean.\n- Improved license management so that if an active license key is removed by the admin, the app lets you enter a new key or choose a plan instead of immediately closing.\n### Fixed\n- Fixed shortcut renaming and launching issues for users upgrading from older versions (including \"Khmer Dub Studio\" and \"SV Dubber\")."
+   },
+   {
+    "version": "2.1.10",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Renamed the application from \"SV Dubber\" to \"SvCamTool\" across all shortcuts, windows, and menus.\n- Added a manual payment option using the admin's KHQR code (ABA or ACLEDA Bank) for cash or bank transfers.\n- Improved the layout on smaller screens to prevent the video preview from covering the playback buttons.\n- Simplified the user interface by removing several icons from buttons and contact details.\n- Moved license status updates and offline warnings to the status bar to keep the main job log clean.\n### Fixed\n- Fixed an issue where a blocked or deleted license key would prevent the app from opening; it now correctly redirects to the plan selection screen."
+   },
    {
     "version": "2.1.10",
     "date": "2026-09-27",
@@ -98,19 +108,9 @@
     "version": "2.1.0",
     "date": "2026-09-27",
     "text": "### New\n- Added AI-powered voice checking where Gemini listens to each line to confirm male or female speakers.\n- Added a professional thumbnail maker with support for Khmer text styles and layout options [Pro].\n- Added video recap creation to turn long videos into shorter summaries [Pro].\n- Added online subscription support with KHQR payments and license restoration.\n- Added support for RunPod voice servers to automatically start and stop during video conversion.\n### Improved\n- Updated the speech recognition and speaker detection to automatically split lines when both a man and a woman speak.\n- Improved the video player and overlay positioning with flexible scaling controls.\n- Optimized app settings to remember your API keys and window preferences between starts.\n- Added real-time CPU, RAM, and GPU usage monitoring in the status bar.\n### Fixed\n- Fixed an issue where very quiet audio tracks caused vocal removal to fail.\n- Fixed a bug where empty subtitle lines could remain untranslated before voice-over generation."
-   },
-   {
-    "version": "2.0.3",
-    "date": "2026-09-27",
-    "text": "### New\n- Added a video recap feature to automatically summarize long videos [Pro].\n- Added AI voice detection to accurately identify male and female speakers using Gemini.\n- Added a thumbnail maker to create custom thumbnails with Khmer text styling [Pro].\n### Improved\n- Improved vocal removal speed and added automatic fallback to original audio if needed.\n- Updated the default app theme to a clean Dark style.\n- Enhanced gender voice separation to handle lines with both male and female speakers better.\n### Fixed\n- Fixed an issue with shortcut updates and icon refreshes after installing updates.\n- Fixed handling of video length limits for different license plans."
-   },
-   {
-    "version": "2.0.3",
-    "date": "2026-09-24",
-    "text": "### New\n- Added a dedicated window for managing your Gemini API key with step-by-step instructions.\n### Improved\n- Speeded up video translation significantly by optimizing parallel batch processing and AI settings.\n- Updated shortcuts and app names cleanly across updates.\n- Refined API key checking for faster and clearer status feedback."
    }
   ],
   "date": "2026-09-27"
  },
- "sig": "6f1ccd3e85f7cb7f164fa9eac5483eed2b8879d9723ca9012f641590c90ae880b89c818541ce3fdb3eccecfa0079e3e9eb1660b550bcb591f9763252e893ee06"
+ "sig": "62bf68cbd2e06ebdd90f156dc5a5701ec270b5aaef1e83ec166767d558441dcf2866959d556288b5eb4223253f740a3de0cab61daf796b2baed8690a965dfb0a"
 }
