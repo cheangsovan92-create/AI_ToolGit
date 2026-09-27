@@ -2,13 +2,23 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.2.0",
+  "version": "2.2.1",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.2.0/SvCamTool_update_2.2.0.zip",
-  "sha256": "99e891c2fcd406ace2710620e9790cbd36212f622739d18915a885b8ecc01565",
-  "size": 1187162,
-  "notes": "### New\n- Added support for translating and creating voice-overs in English, Thai, and Vietnamese in addition to Khmer.\n- Added a display language option in the View menu to switch the app interface between English, Khmer, Thai, and Vietnamese.\n- Added Payment Terms and Conditions which must be agreed to when purchasing a license.\n### Improved\n- Updated font handling and fallbacks for better display of Khmer, Thai, and Vietnamese text across the app.\n- Improved dubbing translation prompts to ensure natural phrasing and correct pronouns for each supported target language.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.2.1/SvCamTool_update_2.2.1.zip",
+  "sha256": "ad749a64af31b1a6836066d1f67808d6daf1d0d9196dd7225e8550dd7379e8a8",
+  "size": 1339853,
+  "notes": "### New\n- Added support for creating narrated recap videos with AI hooks and custom lengths (Pro).\n### Improved\n- Made speech recognition faster by listening to audio in parallel parts.\n- Automatically transliterates and spells any remaining foreign letters into the target language.\n### Fixed\n- Fixed text translation issues for foreign character sets.",
   "changelog": [
+   {
+    "version": "2.2.1",
+    "date": "2026-09-27",
+    "text": "### New\n- Added support for creating narrated recap videos with AI hooks and custom lengths (Pro).\n### Improved\n- Made speech recognition faster by listening to audio in parallel parts.\n- Automatically transliterates and spells any remaining foreign letters into the target language.\n### Fixed\n- Fixed text translation issues for foreign character sets."
+   },
+   {
+    "version": "2.2.0",
+    "date": "2026-09-27",
+    "text": "### New\n- Added support for translating and dubbing videos into English, Thai, and Vietnamese in addition to Khmer.\n- Added a new professional narrated recap video feature with AI hooks and custom lengths (Pro).\n### Improved\n- Improved line breaking and word handling for non-Khmer target languages.\n- Updated default subtitle font settings for better compatibility.\n### Fixed\n- Fixed an issue with spelling foreign names during translation."
+   },
    {
     "version": "2.2.0",
     "date": "2026-09-27",
@@ -98,19 +108,317 @@
     "version": "2.1.2",
     "date": "2026-09-27",
     "text": "### Improved\n- Improvements and bug fixes."
-   },
-   {
-    "version": "2.1.1",
-    "date": "2026-09-27",
-    "text": "### Improved\n- Your license plan now updates automatically right away when changed by an administrator, without needing to restart the app."
-   },
-   {
-    "version": "2.1.0",
-    "date": "2026-09-27",
-    "text": "### New\n- AI Voice Check (Pro): Gemini listens to each line to automatically confirm and correct male and female voices.\n- Video Recap (Pro): Automatically creates a short 10 to 20 minute summary video from long recordings.\n- Thumbnail Maker (Pro): Design custom video thumbnails with proper Khmer text shaping and ready-to-use styles.\n- Voice Cloning (Pro): Connect your own RunPod voice server to generate custom Khmer voice-overs.\n- Free Trial Watermark: Trial videos now include a watermark on every processed file.\n### Improved\n- Live System Monitor: The status bar now displays real-time CPU, RAM, and GPU usage.\n- Settings Favorites: Save your preferred conversion settings and reload them anytime.\n- Video Length Limits: Professional licenses now support videos up to 10 minutes long.\n- UI Theme: Updated to a clean dark theme with dark title bars across all windows.\n### Fixed\n- License Activation: Improved online subscription support and license key verification.\n- Speaker Split: Better detection and separation when a man and a woman speak within the same line."
    }
   ],
+  "changelog_i18n": {
+   "km": [
+    {
+     "version": "2.2.1",
+     "date": "2026-09-27",
+     "text": "### ថ្មី\n- បានបន្ថែមការគាំទ្រសម្រាប់បង្កើតវីដេអូសង្ខេបនិទានរឿង ជាមួយ AI hooks និងប្រវែងតាមបំណង (Pro)។\n### បានកែលម្អ\n- ធ្វើឱ្យការសម្គាល់សំឡេងកាន់តែលឿនដោយស្តាប់អូឌីយ៉ូជាផ្នែកស្របគ្នា។\n- បំលែងអក្សរ និងสะกดពាក្យបរទេសដែលនៅសល់ដោយស្វ័យប្រវត្តិទៅជាភាសាគោលដៅ។\n### បានជួសជុល\n- បានជួសជុលបញ្ហាបកប្រែអត្ថបទសម្រាប់ชุดតួអក្សរបរទេស។"
+    },
+    {
+     "version": "2.2.0",
+     "date": "2026-09-27",
+     "text": "### អ្វីដែលថ្មី\n- បន្ថែមការគាំទ្រសម្រាប់ការបកប្រែ និងការបង្កើតសំឡេងបញ្ចូលជាភាសា English, Thai, និង Vietnamese បន្ថែមលើភាសា Khmer។\n- បន្ថែមជម្រើសភាសាបង្ហាញនៅក្នុងម៉ឺនុយ View ដើម្បីផ្លាស់ប្តូរចំណុចប្រទាក់កម្មវិធីរវាង English, Khmer, Thai, និង Vietnamese។\n- បន្ថែមលក្ខខណ្ឌនៃការទូទាត់ប្រាក់ (Payment Terms and Conditions) ដែលត្រូវតែយល់ព្រមនៅពេលទិញ license។\n### ការកែលម្អ\n- បានធ្វើបច្ចុប្បន្នភាពការគ្រប់គ្រង font និង fallbacks ដើម្បីបង្ហាញអក្សរ Khmer, Thai, និង Vietnamese កាន់តែប្រសើរឡើងនៅក្នុងកម្មវិធីទាំងមូល។\n- បានកែលម្អ prompts សម្រាប់ការបកប្រែ dubbing ដើម្បីធានាបាននូវឃ្លាប្រយោគធម្មជាតិ និងការប្រើប្រាស់សព្វនាមត្រឹមត្រូវសម្រាប់ភាសាគោលដៅនីមួយៗដែលបានគាំទ្រ។"
+    },
+    {
+     "version": "2.1.11",
+     "date": "2026-09-27",
+     "text": "### ថ្មី\n- បានបន្ថែមមុខងារបកប្រែ និងបញ្ចូលសំឡេងវីដេអូជាភាសាអង់គ្លេស ថៃ និងវៀតណាម បន្ថែមពីលើភាសាខ្មែរ។\n- បានបន្ថែមជម្រើសភាសាបង្ហាញក្នុងកម្មវិធីសម្រាប់ភាសាអង់គ្លេស ខ្មែរ ថៃ និងវៀតណាម។\n- បានបន្ថែមជម្រើសបង់ប្រាក់តាម KHQR ដោយដៃ សម្រាប់ការទិញ និងបន្តអាជ្ញាប័ណ្ណ។\n### បានកែលម្អ\n- បានអាប់ដេតការជ្រើសរើសពុម្ពអក្សរ ដើម្បីបង្ហាញតែពុម្ពអក្សរដែលមានអក្សរនៃភាសាគោលដៅដែលបានជ្រើសរើសដោយស្វ័យប្រវត្តិ។\n- បានកែលម្អការជូនដំណឹង និងការគ្រប់គ្រងការពិនិត្យអាជ្ញាប័ណ្ណ នៅពេលដែលគ្រាប់ចុចអាជ្ញាប័ណ្ណត្រូវបានលុបដោយអ្នកគ្រប់គ្រង។\n- បានអាប់ដេតផ្លូវកាត់ និងឯកសារយោងម៉ាកយីហោពី SV Dubber ទៅជា SvCamTool។\n### បានកែសម្រួល\n- បានកែសម្រួលគម្លាតអត្ថបទ និងច្បាប់កាត់បន្ទាត់សម្រាប់ភាសាគោលដៅដែលមិនមែនជាភាសាខ្មែរ។"
+    },
+    {
+     "version": "2.1.10",
+     "date": "2026-09-27",
+     "text": "### បានកែលម្អ\n- បានប្តូរឈ្មោះកម្មវិធីពី \"SV Dubber\" ទៅជា \"SvCamTool\" នៅលើផ្លូវកាត់ (shortcuts) បង្អួច និងម៉ឺនុយទាំងអស់។\n- បានបន្ថែមជម្រើសបង់ប្រាក់ដោយដៃ ដោយប្រើកូដ KHQR របស់អដ្ដមិក (ធនាគារ ABA ឬ ACLEDA) សម្រាប់ការទូទាត់ប្រាក់សុទ្ធ ឬផ្ទេរប្រាក់តាមធនាគារ។\n- បានកែលម្អប្លង់នៅលើអេក្រង់តូចជាងមុន ដើម្បីការពារកុំឱ្យការមើលវីដេអូជាមុនបាំងប៊ូតុងបញ្ជាចាក់វីដេអូ។\n- បានសម្រួលចំណុចប្រទាក់អ្នកប្រើប្រាស់ ដោយលុបចេញរូបតំណាង (icons) មួយចំនួននៅលើប៊ូតុង និងព័ត៌មានទំនាក់ទំនង។\n- បានផ្លាស់ប្តូរការអាប់ដេតស្ថានភាពអាជ្ញាប័ណ្ណ និងការព្រមានក្រៅបណ្ដាញទៅកាន់របារស្ថានភាព (status bar) ដើម្បីរក្សាកំណត់ហេតុការងារមេឱ្យស្អាត។\n### បានកែសម្រួល\n- បានកែសម្រួលបញ្ហាដែលគ្រាប់ចុចអាជ្ញាប័ណ្ណ (license key) ត្រូវបានបិទ ឬលុប ដែលធ្លាប់ធ្វើឱ្យកម្មវិធីមិនអាចបើកបាន ឥឡូវនេះវាបញ្ជូនទៅកាន់អេក្រង់ជ្រើសរើសគម្រោងវិញបានត្រឹមត្រូវហើយ។"
+    },
+    {
+     "version": "2.1.9",
+     "date": "2026-09-27",
+     "text": "### បានកែលម្អ\n- បានកែលម្អប្រព័ន្ធដំណើរការអាជ្ញាប័ណ្ណ ដើម្បីគាំទ្រដល់សោអាជ្ញាប័ណ្ណដែលបានចេញថ្មី។"
+    },
+    {
+     "version": "2.1.8",
+     "date": "2026-09-27",
+     "text": "### បានកែលម្អ\n- ការតភ្ជាប់ទៅម៉ាស៊ីនបម្រើអាជ្ញាប័ណ្ណមានល្បឿនលឿន និងមានស្ថេរភាពជាងមុននៅលើបណ្តាញដែលមានការកំណត់ផ្លូវ IPv6 យឺត។\n- ការអស់ពេលនៃការផ្ទៀងផ្ទាត់អាជ្ញាប័ណ្ណ និងសារកំហុសត្រូវបានកែលម្អ ដើម្បីធានាបាននូវស្ថេរភាពកាន់តែប្រសើរ។"
+    },
+    {
+     "version": "2.1.7",
+     "date": "2026-09-27",
+     "text": "### Improved\n- បានបង្កើនពេលវេលារង់ចាំការតភ្ជាប់ (Connection timeout) នៅពេលធ្វើសមកាលកម្ម உரிស័យប័ត្រ (License) ដើម្បីការពារកំហុសនៅលើប្រព័ន្ធអ៊ីនធឺណិតយឺត។\n- កូនសោ உரிស័យប័ត្រ (License key) ដែលបង្កើតដោយមិនប្រើអ៊ីនធឺណិត ឥឡូវត្រូវបានការពារមិនឱ្យត្រូវជំនួសដោយស្វ័យប្រវត្តិដោយកញ្ចប់សេវាកម្មទាបជាង។\n- កំហុសនៃការតភ្ជាប់ உரிស័យប័ត្រ ឥឡូវត្រូវបានបង្ហាញនៅក្នុងកំណត់ហេតុ (Log) មេរបស់កម្មវិធី ដើម្បីធ្វើឱ្យការដោះស្រាយបញ្ហាកាន់តែងាយស្រួល។\n### Fixed\n- បានជួសជុលបញ្ហាអស់ពេលតភ្ជាប់ (Connection timeouts) ក្នុងអំឡុងពេលធ្វើឱ្យសកម្ម உரிស័យប័ត្រ នៅលើរ៉ោតទ័របណ្តាញដែលមានការកំណត់រចនាសម្ព័ន្ធ IPv6 ខូច។"
+    },
+    {
+     "version": "2.1.6",
+     "date": "2026-09-27",
+     "text": "### បានកែលម្អ\n- កម្មវិធីឥឡូវនេះពិនិត្យមើលការអាប់ដេត බලសញ្ញាប័ត្រ (license) និងការផ្លាស់ប្តូរគម្រោងរៀងរាល់មួយនាទីម្តង ជំនួសឱ្យរៀងរាល់ប្រាំនាទីម្តង។\n- លេខសម្ងាត់ බලសញ្ញាប័ត្រ (license key) ក្រៅបណ្តាញឥឡូវនេះត្រូវបានរក្សាទុកដោយសុវត្ថិភាព ហើយនឹងមិនត្រូវសរសេរជាន់ពីលើដោយម៉ាស៊ីនមេ (server) នោះទេ លើកលែងតែអ្នកដំឡើងកំណែទៅគម្រោងដែលល្អជាងមុន។\n- ស្ថានភាព බලសញ្ញាប័ត្រ (license status) លម្អិត និងសារនៃការតភ្ជាប់ម៉ាស៊ីនមេ (server) ឥឡូវនេះត្រូវបានបង្ហាញដោយផ្ទាល់នៅក្នុងកំណត់ហេតុ (log) របស់កម្មវិធី។\n- ប៊ូតុងទិញ និងសាកល្បង (trial) ឥឡូវនេះនឹងលាក់ដោយស្វ័យប្រវត្ត ប្រសិនបើការទិញតាមអនបណ្តាញត្រូវបានផ្អាកជាបណ្តោះអាសន្ននៅលើម៉ាស៊ីនមេ (server)។"
+    },
+    {
+     "version": "2.1.5",
+     "date": "2026-09-27",
+     "text": "### Improved\n- ការអាប់ដេត බලសញ្ញាប័ត្រ និងការផ្លាស់ប្តូរកញ្ចប់សេវាកម្មឥឡូវនេះត្រូវបានរកឃើញលឿនជាងមុន ដោយពិនិត្យរៀងរាល់មួយនាទីម្តងជំនួសឱ្យរៀងរាល់ប្រាំនាទីម្តង។\n- កំណត់ហេតុកម្មវិធីឥឡូវនេះបង្ហាញសារស្ថានភាពច្បាស់លាស់ទាក់ទងនឹងការពិនិត្យ බලសញ្ញាប័ត្រ និងការអាប់ដេតកញ្ចប់សេវាកម្មរបស់អ្នក។"
+    },
+    {
+     "version": "2.1.4",
+     "date": "2026-09-27",
+     "text": "### Improved\n- ការកែលម្អ និងការជួសជុលកំហុសផ្សេងៗ។"
+    },
+    {
+     "version": "2.1.3",
+     "date": "2026-09-27",
+     "text": "### Improved\n- ការកែលម្អ និងការជួសជុលកំហុសផ្សេងៗ។"
+    },
+    {
+     "version": "2.1.2",
+     "date": "2026-09-27",
+     "text": "### Improved\n- ការកែលម្អ និងការជួសជុលកំហុសផ្សេងៗ។"
+    },
+    {
+     "version": "2.1.1",
+     "date": "2026-09-27",
+     "text": "### Improved\n- កញ្ចប់ බලសញ្ញាប័ត្រ របស់អ្នកឥឡូវនេះអាប់ដេតដោយស្វ័យប្រវត្តិភ្លាមៗ នៅពេលដែលត្រូវបានផ្លាស់ប្តូរដោយអ្នកគ្រប់គ្រង ដោយមិនចាំបាច់ចាប់ផ្តើមកម្មវិធីឡើងវិញទេ។"
+    },
+    {
+     "version": "2.1.0",
+     "date": "2026-09-27",
+     "text": "### New\n- AI Voice Check (Pro): Gemini ស្តាប់បន្ទាត់នីមួយៗដើម្បីបញ្ជាក់ និងកែតម្រូវសំឡេងប្រុស និងស្រីដោយស្វ័យប្រវត្តិ។\n- Video Recap (Pro): បង្កើតវីដេអូសង្ខេបខ្លី ១០ ដល់ ២០ នាទីដោយស្វ័យប្រវត្តិពីការថត់ទុកយូរៗ។\n- Thumbnail Maker (Pro): រចនារូបភាពតូចវីដេអូផ្ទាល់ខ្លួនជាមួយទម្រង់អក្សរខ្មែរត្រឹមត្រូវ និងស្ទីល έτοιមប្រើ។\n- Voice Cloning (Pro): ភ្ជាប់ស៊ឺវើរសំឡេង RunPod ផ្ទាល់ខ្លួនរបស់អ្នកដើម្បីបង្កើតសំឡេងអានខ្មែរតាមតម្រូវការ។\n- Free Trial Watermark: វីដេអូសាកល្បងឥឡូវនេះមានដាក់ watermark លើរាល់ឯកសារដែលបានកែច្នៃ។\n### Improved\n- Live System Monitor: បន្ទះស្ថានភាពឥឡូវនេះបង្ហាញការប្រើប្រាស់ CPU, RAM និង GPU ពេលវេលាពិត។\n- Settings Favorites: រក្សាទុកការកំណត់ការបម្លែងដែលអ្នកចូលចិត្ត និងផ្ទុកឡើងវិញគ្រប់ពេល។\n- Video Length Limits: កញ្ចប់ Professional ឥឡូវនេះគាំទ្រវីដេអូរហូតដល់ ១០ នាទី។\n- UI Theme: បានអាប់ដេតទៅជាស្ទីលពណ៌ងងឹតស្អាត ជាមួយរបារចំណងជើងងងឹតលើគ្រប់បង្អួចទាំងអស់។\n### Fixed\n- License Activation: បានកែលម្អការគាំទ្រការជាវអនឡាញ និងការផ្ទៀងផ្ទាត់សោ බලសញ្ញាប័ត្រ។\n- Speaker Split: ការរកឃើញ និងការបែងចែកកាន់តែប្រសើរ នៅពេលដែលបុរស និងស្ត្រីនិយាយក្នុងបន្ទាត់តែមួយ។"
+    },
+    {
+     "version": "2.0.3",
+     "date": "2026-09-27",
+     "text": "### New\n- បានបន្ថែមមុខងារសង្ខេបវីដេអូ ដើម្បីសង្ខេបវីដេអូវែងៗដោយស្វ័យប្រវត្តិ [Pro]។\n- បានបន្ថែមការរកឃើញសំឡេង AI ដើម្បីកំណត់អត្តសញ្ញាណអ្នកនិយាយប្រុស និងស្រីឱ្យបានត្រឹមត្រូវដោយប្រើ Gemini។\n- បានបន្ថែមកម្មវិធីបង្កើតរូបភាពតូច ដើម្បីបង្កើតរូបភាពតូចផ្ទាល់ខ្លួនជាមួយស្ទីលអក្សរខ្មែរ [Pro]។\n### Improved\n- បានកែលម្អល្បឿនដកសំឡេងច្រៀងចេញ និងបានបន្ថែមការប្តូរទៅសំឡេងដើមដោយស្វ័យប្រវត្តិប្រសិនបើចាំបាច់។\n- បានអាប់ដេតស្ទីលកម្មវិធីលំនាំដើមទៅជាស្ទីល Dark ស្អាត។\n- បានកែលម្អការបែងចែកសំឡេងតាមយេនឌ័រ ដើម្បីគ្រប់គ្រងបន្ទាត់ដែលមានទាំងអ្នកនិយាយប្រុស និងស្រីបានល្អជាងមុន។\n### Fixed\n- បានជួសជុលបញ្ហាជាមួយការអាប់ដេតផ្លូវកាត់ និងការផ្ទុក අයිខនឡើងវិញបន្ទាប់ពីដំឡើងការអាប់ដេត។\n- បានជួសជុលការจัดการដែនកំណត់ប្រវែងវីដេអូសម្រាប់កញ្ចប់ බලសញ្ញាប័ត្រផ្សេងៗគ្នា។"
+    },
+    {
+     "version": "2.0.2",
+     "date": "2026-09-24",
+     "text": "### New\n- បានបន្ថែមបង្អួចដាច់ដោយឡែកសម្រាប់គ្រប់គ្រងសោ Gemini API ជាមួយការណែនាំជាជំហានៗ និងការបិទបាំងសោដែលមានសុវត្ថិភាព។\n- បានបន្ថែមជម្រើសដើម្បីបើកថតឯកសារលទ្ធផលដោយស្វ័យប្រវត្តិនៅពេលការបម្លែងបានបញ្ចប់។\n### Improved\n- បានបង្កើនល្បឿនបកប្រែដោយផ្ញើชุดជាច្រើនស្របគ្នាឆ្លងកាត់សោ API ដែលបានកំណត់រចនាសម្ព័ន្ធរបស់អ្នកទាំងអស់។\n- បានកែលម្អការរកឃើញយេនឌ័រអ្នកនិយាយ និងសំឡេងដោយស្វ័យប្រវត្តិ ដោយប្រើការវិភាគកម្រិតសំឡេង និង timbre កម្រិតខ្ពស់។\n- បានធ្វើឱ្យការកំណត់ការបកប្រែរបស់ Gemini ប្រសើរឡើងដើម្បីឆ្លើយតបលឿនជាងមុនដោយមិនកាត់បន្ថយគុណភាព។\n- បានអាប់ដេតការពិនិត្យសោ API ដើម្បីសាកល្បងសោច្រើនក្នុងពេលតែមួយ និងបដិសេធសោដែលមិនត្រឹមត្រូវភ្លាមៗ។\n### Fixed\n- បានជួសជុលបញ្ហាដែលកម្មវិធីអាចគាំង ឬបរាជ័យប្រសិនបើឯកសារកម្មវិធីត្រូវបានកែប្រែ ឬខូចខាត។"
+    },
+    {
+     "version": "2.0.1",
+     "date": "2026-09-24",
+     "text": "### ថ្មី\n- បានបន្ថែមកម្មវិធីកែសម្រួលវីដេអូពេញលេញនៅខាងក្រោមការមើលជាមុន ដើម្បីបន្ថែមស្រទាប់អត្ថបទផ្ទាល់ខ្លួន ព្រិលតំបន់រសើប រូបភាពស្ពនស័រ ស៊ុម និងតម្រងពណ៌។\n- បានបន្ថែមការគាំទ្រសម្រាប់ Facebook Reel, ការចុចការេ 1:1 និងរូបរាងមើលជាមុនផ្ទាល់ខ្លួនពីម៉ឺនុយបង្អួច។\n### បានកែលម្អ\n- បានបង្កើនល្បឿននៃការបំលែងវីដេអូជាអត្ថបទ និងការ റെនឌ័រដោយស្វ័យប្រវត្តិប្រើប្រាស់ CPU cores ទាំងអស់ និងការបង្កើនល្បឿនផ្នែករឹងកាតក្រាហ្វិក។\n- បានធ្វើឱ្យការលុបសំឡេងច្រៀងកាន់តែឆ្លាតវៃដោយការពិនិត្យឡើងវិញដោយស្វ័យប្រវត្តិនូវអូឌីយ៉ូដើម ប្រសិនបើបទសំឡេងដាច់ដោយឡែកស្ងាត់ពេក។\n- បានធ្វើឱ្យចំណុចប្រទាក់អ្នកប្រើប្រាស់ស្រស់ស្រាយជាមួយប្លង់ម៉ឺនុយស្អាតជាងមុន និងរចនាប័ទ្មផ្ទាំងដែលប្រសើរឡើង។\n### បានកែសម្រួល\n- បានកែសម្រួលបញ្ហាដែលវីដេអូដែលមានបទបំបែកសំឡេងស្ងាត់ខ្លាំង ឬបាត់មិនអាចបំលែងសំឡេងជាអត្ថបទបានត្រឹមត្រូវ។"
+    },
+    {
+     "version": "2.0.0",
+     "date": "2026-09-24",
+     "text": "### ថ្មី\n- បានបន្ថែមកម្មវិធីកែសម្រួលវីដេអូ [Pro] ដើម្បីបន្ថែមអត្ថបទផ្ទាល់ខ្លួន ប្រអប់ព្រិលដើម្បីលាក់អត្ថបទដើម រូបភាពស្ពនស័រ និងស៊ុមត្រួតគ្នា។\n- បានបន្ថែមការគាំទ្រសម្រាប់ការ റെនឌ័រវីដេអូ [Pro/Trial] ដោយប្រើប្រាស់បន្ទះឈីបក្រាហ្វិករបស់អ្នកសម្រាប់ការនាំចេញលឿនជាងមុន។\n### បានកែលម្អ\n- បានកែលម្អការសម្គាល់សំឡេងភាសាខ្មែរ និងភាពត្រឹមត្រូវនៃការបកប្រែដោយពិនិត្យដោយស្វ័យប្រវត្តិនូវទាំងបទសំឡេងដាច់ដោយឡែក និងអូឌីយ៉ូដើម។\n- បានធ្វើបច្ចុប្បន្នភាពការបង្កើតរាងអត្ថបទ និងការគូសបន្ទាត់ភាសាខ្មែរ ដើម្បីធានាថាចំណងជើងរង និងអត្ថបទផ្ទាល់ខ្លួនរុំព័ទ្ធបានត្រឹមត្រូវដោយមិនបំបែកពាក្យ។\n- ផ្លូវកាត់ Desktop និង Start Menu ឥឡូវនេះរក្សាលេខកំណែដែលត្រឹមត្រូវដោយស្វ័យប្រវត្តិនៅពេលធ្វើបច្ចុប្បន្នភាព។\n### បានកែសម្រួល\n- បានកែសម្រួលបញ្ហាដែលបទសំឡេងដាច់ដោយឡែកស្ងាត់ខ្លាំងអាចបណ្តាលឱ្យការបកប្រែ ឬការបំលែងជាអត្ថបទបរាជ័យ។\n- បានកែសម្រួលកំហុសជាមួយការអ៊ិនកូដឯកសារចំណងជើងរង ដូច្នេះតួអក្សរខ្មែរឥឡូវនេះបង្ហាញបានត្រឹមត្រូវនៅទូទាំងកម្មវិធីចាក់មេឌៀ Windows ទាំងអស់។"
+    },
+    {
+     "version": "1.5.0",
+     "date": "2026-09-24",
+     "text": "### ថ្មី\n- បានបន្ថែមកម្មវិធីកែសម្រួលវីដេអូពេញលេញ ដើម្បីកែច្នៃវីដេអូរបស់អ្នកជាមួយស្រទាប់អត្ថបទ ប្រអប់ព្រិល តម្រងពណ៌ រូបភាពត្រួតគ្នា និងស្ពនស័រ (Pro)។\n- បានបន្ថែមការគាំទ្រសម្រាប់ការ റെនឌ័រវីដេអូដោយប្រើប្រាស់បន្ទះឈីបក្រាហ្វិក NVIDIA, Intel និង AMD សម្រាប់ល្បឿននាំចេញលឿនជាងមុន។\n- បានបន្ថែមការមើលជាមុនផ្ទាល់សម្រាប់ការអូស និងកំណត់ទីតាំងចំណងជើងរង រូបសញ្ញា និងស្រទាប់អត្ថបទផ្ទាល់ខ្លួននៅលើវីដេអូ។\n- បានបន្ថែមការរកឃើញស្វ័យប្រវត្តិដើម្បីត្រឡប់ទៅបទអូឌីយ៉ូដើមវិញ ប្រសិនបើបទសំឡេងដាច់ដោយឡែកស្ងាត់ពេក។\n### បានកែលម្អ\n- បានកែលម្អការសម្គាល់សំឡេងភាសាខ្មែរ និងភាពត្រឹមត្រូវនៃការបកប្រែដោយប្រើប្រាស់ CPU threads ទាំងអស់ដែលមាន និងការจัดการបទអូឌីយ៉ូស្ងាត់បានល្អជាងមុន។\n- បានធ្វើបច្ចុប្បន្នភាពទ្រង់ទ្រាយចំណងជើងរងភាសាខ្មែរជាមួយការគាំទ្រសម្រាប់ប្រអប់ផ្ទៃខាងក្រោយមូល គែមផ្ទាល់ខ្លួន ស្រមោល និងការកាត់បន្ទាត់ច្បាស់លាស់។\n- បានធ្វើបច្ចុប្បន្នភាពផ្លូវកាត់កម្មវិធីនៅលើ Desktop និង Start menu ដើម្បីបង្ហាញលេខកំណែបច្ចុប្បន្នដោយស្វ័យប្រវត្តិ។\n- បានធ្វើបច្ចុប្បន្នភាពការពិនិត្យអាជ្ញាប័ណ្ណ និងបច្ចុប្បន្នភាពដើម្បីគាំទ្រដល់ការលុបចោលគន្លឹះពីចម្ងាយ និងការត្រួតពិនិត្យសុវត្ថិភាពដែលប្រសើរឡើង។\n### បានកែសម្រួល\n- បានកែសម្រួលបញ្ហាដែលកម្មវិធីចាក់អត្ថបទ Windows  ಕೆಲครั้งមិនអាចបង្ហាញតួអក្សរ Unicode ខ្មែរបានត្រឹមត្រូវនៅក្នុងឯកសារចំណងជើងរងដែលបាននាំចេញ។\n- បានកែសម្រួលលំដាប់តួអក្សរ និងចន្លោះពាក្យសម្រាប់ស្រទាប់អត្ថបទ និងចំណងជើងរងភាសាខ្មែរ។"
+    },
+    {
+     "version": "1.4.4",
+     "date": "2026-09-24",
+     "text": "### ថ្មី\n- ជម្រើសបម្លែងវីដេអូដើម្បីត្រឡប់កាមេរ៉ាផ្ដេកខណៈពេលដែលរក្សាទុកចំណងជើងរង និងរូបសញ្ញាឱ្យអាចអានបាន។\n- ការមើលវីដេអូជាមុនអន្តរកម្មដើម្បីអូស កំណត់ទីតាំង និងប្ដូរទំហំរូបសញ្ញា និងចំណងជើងរងដោយមើលឃើញ។ (Pro)\n- រចនាប័ទ្មចំណងជើងរងថ្មីអនុញ្ញាតឱ្យអ្នកជ្រើសរើសរหว่างក្រុមព្រិល ប្រអប់ផ្ទៃខាងក្រោយ ឬអត្ថបទគូសបន្ទាត់ច្បាស់។ (Pro)\n- បង្អួចទំនាក់ទំនងខិតខំប្រឹងប្រែងជាមួយនឹងតំណភ្ជាប់រហ័សទៅកាន់ Telegram ទូរស័ព្ទ និងអ៊ីមែលសម្រាប់ការផ្តល់អាជ្ញាប័ណ្ណ និងការគាំទ្រ។\n- ការគ្រប់គ្រងដំណើរការជាបណ្តុំដើម្បីជ្រើសរើសចំនួនវីដេអូក្នុងជួរដែលដំណើរការក្នុងពេលតែមួយ។ (Pro)\n### បានកែលម្អ\n- ការរុំបន្ទាត់ចំណងជើងរងឥឡូវនេះបំបែកធម្មជាតិរវាងពាក្យខ្មែរដោយមិនបំបែកក្រុមអក្សរ។\n- ពង្រីកជម្រើសរចនាប័ទ្មចំណងជើងរង រួមទាំងការជ្រើសរើសពុម្ពអក្សរខ្មែរ ការจัดតម្រៀប ស្រមោល និងកម្រាស់គែម។ (Pro)\n- ចំណុចប្រទាក់ដែលបានសម្រួលមានរបារម៉ឺនុយខាងលើ និងបង្អួចកំណត់រចនាសម្ព័ន្ធខិតខំប្រឹងប្រែង។\n- ផ្លូវកាត់ Desktop និង Start Menu ឥឡូវនេះធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិជាមួយកំណែកម្មវិធីបច្ចុប្បន្ន។\n### បានកែសម្រួល\n- ឯកសារចំណងជើងរងភាសាខ្មែរដែលបាននាំចេញ (.srt) ឥឡូវនេះបើកបានគួរឱ្យទុកចិត្តនៅក្នុងកម្មវិធីចាក់មេឌៀ Windows ដោយគ្មានអំពុករលួយតួអក្សរ។"
+    }
+   ],
+   "th": [
+    {
+     "version": "2.2.1",
+     "date": "2026-09-27",
+     "text": "### ใหม่\n- เพิ่มรองรับการสร้างวิดีโอสรุปพร้อมเสียงบรรยายด้วย AI hook และกำหนดความยาวได้เอง (Pro)\n### ปรับปรุง\n- ทำให้การจดจำเสียงพูดเร็วขึ้นด้วยการประมวลผลเสียงแบบขนาน\n- แปลและสะกดตัวอักษรต่างประเทศที่เหลือเป็นภาษาเป้าหมายโดยอัตโนมัติ\n### แก้ไข\n- แก้ไขปัญหาการแปลข้อความสำหรับชุดตัวอักษรต่างประเทศ"
+    },
+    {
+     "version": "2.2.0",
+     "date": "2026-09-27",
+     "text": "### ใหม่\n- เพิ่มการรองรับการแปลและสร้างเสียงพากย์เป็นภาษาอังกฤษ ไทย และเวียดนาม นอกเหนือจากภาษาเขมร\n- เพิ่มตัวเลือกภาษาในการแสดงผลที่เมนู View เพื่อสลับอินเทอร์เฟซแอปเป็นภาษาอังกฤษ เขมร ไทย และเวียดนาม\n- เพิ่มข้อกำหนดและเงื่อนไขการชำระเงิน ซึ่งจะต้องกดยอมรับเมื่อซื้อไลเซนส์\n### ปรับปรุง\n- อัปเดตการจัดการฟอนต์และการสำรอง เพื่อการแสดงผลข้อความภาษาเขมร ไทย และเวียดนามที่ดีขึ้นทั่วทั้งแอป\n- ปรับปรุงพรอมต์การแปลเสียงพากย์เพื่อให้สำนวนเป็นธรรมชาติและใช้สรรพนามที่ถูกต้องสำหรับแต่ละภาษาเป้าหมายที่รองรับ"
+    },
+    {
+     "version": "2.1.11",
+     "date": "2026-09-27",
+     "text": "### ใหม่\n- เพิ่มการรองรับการแปลและพากย์วิดีโอเป็นภาษาอังกฤษ ไทย และเวียดนาม นอกเหนือจากภาษาเขมร\n- เพิ่มตัวเลือกภาษาการแสดงผลแอปสำหรับภาษาอังกฤษ เขมร ไทย และเวียดนาม\n- เพิ่มตัวเลือกการชำระเงินผ่าน KHQR แบบ manual สำหรับการซื้อและต่ออายุไลเซนส์\n### ปรับปรุง\n- อัปเดตการเลือกฟอนต์ให้แสดงเฉพาะฟอนต์ที่มีตัวอักษรของภาษาเป้าหมายที่คุณเลือกโดยอัตโนมัติ\n- ปรับปรุงการแจ้งเตือนและการจัดการการตรวจสอบไลเซนส์เมื่อคีย์ไลเซนส์ถูกลบโดยผู้ดูแลระบบ\n- อัปเดตทางลัดและการอ้างอิงแบรนด์จาก SV Dubber เป็น SvCamTool\n### แก้ไข\n- แก้ไขการเว้นวรรคข้อความและกฎการตัดบรรทัดสำหรับภาษาเป้าหมายที่ไม่ใช่ภาษาเขมร"
+    },
+    {
+     "version": "2.1.10",
+     "date": "2026-09-27",
+     "text": "### ปรับปรุง\n- เปลี่ยนชื่อแอปพลิเคชันจาก \"SV Dubber\" เป็น \"SvCamTool\" ในทางลัด หน้าต่าง และเมนูทั้งหมด\n- เพิ่มตัวเลือกการชำระเงินแบบ manual โดยใช้โค้ด KHQR ของผู้ดูแลระบบ (ธนาคาร ABA หรือ ACLEDA) สำหรับเงินสดหรือการโอนผ่านธนาคาร\n- ปรับปรุงเลย์เอาต์บนหน้าจอขนาดเล็กเพื่อป้องกันไม่ให้ตัวอย่างวิดีโอบังปุ่มเล่น\n- ทำให้ส่วนติดต่อผู้ใช้องค์ประกอบง่ายขึ้นโดยการลบไอคอนหลายตัวออกจากปุ่มและรายละเอียดการติดต่อ\n- ย้ายการอัปเดตสถานะไลเซนส์และคำเตือนออฟไลน์ไปที่แถบสถานะเพื่อให้บันทึกงานหลักสะอาดตา\n### แก้ไข\n- แก้ไขปัญหาที่คีย์ไลเซนส์ถูกบล็อกหรือถูกลบทำให้ไม่สามารถเปิดแอปได้ ตอนนี้จะเปลี่ยนเส้นทางไปยังหน้าจอเลือกแผนได้อย่างถูกต้อง"
+    },
+    {
+     "version": "2.1.9",
+     "date": "2026-09-27",
+     "text": "### ปรับปรุง\n- ปรับปรุงระบบเปิดใช้งานไลเซนส์เพื่อรองรับคีย์ไลเซนส์ที่ออกใหม่"
+    },
+    {
+     "version": "2.1.8",
+     "date": "2026-09-27",
+     "text": "### ปรับปรุง\n- การเชื่อมต่อเซิร์ฟเวอร์ไลเซนส์เร็วและเสถียรยิ่งขึ้นบนเครือข่ายที่มีการกำหนดเส้นทาง IPv6 ช้า\n- ปรับปรุงเวลาหมดเวลาในการตรวจสอบไลเซนส์และข้อความแสดงข้อผิดพลาดเพื่อความเสถียรที่ดีขึ้น"
+    },
+    {
+     "version": "2.1.7",
+     "date": "2026-09-27",
+     "text": "### ปรับปรุง\n- เพิ่มเวลาหมดเวลาในการเชื่อมต่อเมื่อซิงค์ไลเซนส์เพื่อป้องกันข้อผิดพลาดในการเชื่อมต่ออินเทอร์เน็ตที่ช้าลง\n- คีย์ไลเซนส์ที่สร้างแบบออฟไลน์ได้รับการปกป้องจากการถูกเขียนทับโดยอัตโนมัติจากแผนระดับต่ำกว่า\n- ตอนนี้ข้อผิดพลาดการเชื่อมต่อไลเซนส์จะแสดงในบันทึกหลักของแอปเพื่อให้แก้ไขปัญหาได้ง่ายขึ้น\n### แก้ไข\n- แก้ไขปัญหาหมดเวลาการเชื่อมต่อระหว่างการเปิดใช้งานไลเซนส์บนเรอเตอร์เครือข่ายที่มีการกำหนดค่า IPv6 เสียหาย"
+    },
+    {
+     "version": "2.1.6",
+     "date": "2026-09-27",
+     "text": "### ปรับปรุง\n- ตอนนี้แอปจะตรวจสอบการอัปเดตไลเซนส์และการเปลี่ยนแปลงแผนทุกๆ หนึ่งนาทีแทนที่จะเป็นทุกๆ ห้านาที\n- คีย์ไลเซนส์ออฟไลน์จะถูกเก็บรักษาไว้อย่างปลอดภัยและจะไม่ถูกเขียนทับโดยเซิร์ฟเวอร์เว้นแต่คุณจะอัปเกรดเป็นแผนที่ดีขึ้น\n- สถานะไลเซนส์โดยละเอียดและข้อความการเชื่อมต่อเซิร์ฟเวอร์จะแสดงโดยตรงในบันทึกของแอป\n- ปุ่มซื้อและทดลองใช้งานจะซ่อนโดยอัตโนมัติหากการซื้อออนไลน์หยุดชั่วคราวบนเซิร์ฟเวอร์ชั่วคราว"
+    },
+    {
+     "version": "2.1.5",
+     "date": "2026-09-27",
+     "text": "### ปรับปรุง\n- ตอนนี้ตรวจพบการอัปเดตไลเซนส์และการเปลี่ยนแปลงแผนได้เร็วขึ้นมาก โดยตรวจสอบทุกๆ หนึ่งนาทีแทนที่จะเป็นทุกๆ ห้านาที\n- บันทึกแอปพลิเคชันจะแสดงข้อความสถานะที่ชัดเจนเกี่ยวกับการตรวจสอบไลเซนส์และการอัปเดตแผนของคุณ"
+    },
+    {
+     "version": "2.1.4",
+     "date": "2026-09-27",
+     "text": "### Improved\n- การปรับปรุงประสิทธิภาพและแก้ไขข้อผิดพลาด"
+    },
+    {
+     "version": "2.1.3",
+     "date": "2026-09-27",
+     "text": "### Improved\n- การปรับปรุงประสิทธิภาพและแก้ไขข้อผิดพลาด"
+    },
+    {
+     "version": "2.1.2",
+     "date": "2026-09-27",
+     "text": "### Improved\n- การปรับปรุงประสิทธิภาพและแก้ไขข้อผิดพลาด"
+    },
+    {
+     "version": "2.1.1",
+     "date": "2026-09-27",
+     "text": "### Improved\n- แผนการใช้งานของคุณจะได้รับการอัปเดตใหม่อัตโนมัติทันทีเมื่อมีการเปลี่ยนแปลงโดยผู้ดูแลระบบ โดยไม่ต้องรีสตาร์ทแอปพลิเคชัน"
+    },
+    {
+     "version": "2.1.0",
+     "date": "2026-09-27",
+     "text": "### New\n- ตรวจสอบเสียง AI (Pro): Gemini ช่วยฟังแต่ละบรรทัดเพื่อยืนยันและแก้ไขเสียงผู้ชายและผู้หญิงโดยอัตโนมัติ\n- สรุปวิดีโอ (Pro): สร้างวิดีโอสรุปสั้นๆ ความยาว 10 ถึง 20 นาทีจากวิดีโอยาวโดยอัตโนมัติ\n- เครื่องมือสร้างภาพย่อ (Pro): ออกแบบภาพย่อวิดีโอแบบกำหนดเอง พร้อมการจัดรูปทรงข้อความภาษาเขมรที่ถูกต้องและสไตล์ที่พร้อมใช้งาน\n- โคลนเสียง (Pro): เชื่อมต่อเซิร์ฟเวอร์เสียง RunPod ของคุณเองเพื่อสร้างเสียงพากย์ภาษาเขมรแบบกำหนดเอง\n- ลายน้ำทดลองใช้ฟรี: วิดีโอทดลองใช้จะ ีลายน้ำในทุกไฟล์ที่ประมวลผล\n### Improved\n- ระบบติดตามสถานะแบบสด: แถบสถานะแสดงการใช้งาน CPU, RAM และ GPU แบบเรียลไทม์\n- รายการโปรดในการตั้งค่า: บันทึกการตั้งค่าการแปลงที่คุณชื่นชอบและโหลดซ้ำได้ตลอดเวลา\n- ขีดจำกัดความยาววิดีโอ: License แบบ Professional รองรับวิดีโอยาวสูงสุด 10 นาที\n- ธีม UI: อัปเดตเป็นธีมมืดสะอาดตาพร้อมแถบชื่อเรื่องสีเข้มในทุกหน้าต่าง\n### Fixed\n- การเปิดใช้งาน License: ปรับปรุงการรองรับการสมัครสมาชิกออนไลน์และการตรวจสอบคีย์ License\n- แยกผู้พูด: การตรวจจับและการแยกเสียงที่ดีขึ้นเมื่อมีผู้ชายและผู้หญิงพูดในบรรทัดเดียวกัน"
+    },
+    {
+     "version": "2.0.3",
+     "date": "2026-09-27",
+     "text": "### New\n- เพิ่มฟีเจอร์สรุปวิดีโอเพื่อสรุปวิดีโอยาวโดยอัตโนมัติ [Pro]\n- เพิ่มการตรวจจับเสียงด้วย AI เพื่อระบุผู้พูดชายและหญิงได้อย่างแม่นยำโดยใช้ Gemini\n- เพิ่มเครื่องมือสร้างภาพย่อเพื่อสร้างภาพย่อแบบกำหนดเองด้วยสไตล์ข้อความภาษาเขมร [Pro]\n### Improved\n- ปรับปรุงความเร็วในการลบเสียงร้องและเพิ่มระบบสำรองข้อมูลอัตโนมัติไปยังเสียงต้นฉบับหากจำเป็น\n- อัปเดตธีมเริ่มต้นของแอปเป็นสไตล์ Dark ที่สะอาดตา\n- ปรับปรุงการแยกเสียงตามเพศเพื่อจัดการกับบรรทัดที่มีทั้งผู้พูดชายและหญิงได้ดีขึ้น\n### Fixed\n- แก้ไขปัญหาเกี่ยวกับการอัปเดตทางลัดและการรีเฟรชไอคอนหลังจากการติดตั้งอัปเดต\n- แก้ไขการจัดการขีดจำกัดความยาววิดีโอสำหรับแผน License ต่างๆ"
+    },
+    {
+     "version": "2.0.2",
+     "date": "2026-09-24",
+     "text": "### New\n- เพิ่มหน้าต่างเฉพาะสำหรับการจัดการ API key ของ Gemini พร้อมคำแนะนำทีละขั้นตอนและการซ่อนคีย์ที่ปลอดภัย\n- เพิ่มตัวเลือกในการเปิดโฟลเดอร์ผลลัพธ์โดยอัตโนมัติเมื่อการแปลงเสร็จสิ้น\n### Improved\n- เร่งความเร็วในการแปลด้วยการส่งหลายชุดพร้อมกันในทุก API key ที่คุณกำหนดค่าไว้\n- ปรับปรุงการตรวจจับเพศและเสียงของผู้พูดอัตโนมัติโดยใช้การวิเคราะห์ระดับเสียงและโทนเสียงขั้นสูง\n- ปรับแต่งการตั้งค่าการแปลของ Gemini ให้ตอบสนองเร็วขึ้นโดยไม่ลดทอนคุณภาพ\n- อัปเดตการตรวจสอบ API key เพื่อทดสอบหลายคีย์พร้อมกันและปฏิเสธคีย์ที่ไม่ถูกต้องทันที\n### Fixed\n- แก้ไขปัญหาที่แอปอาจขัดข้องหรือล้มเหลวหากไฟล์โปรแกรมถูกแก้ไขหรือเสียหาย"
+    },
+    {
+     "version": "2.0.1",
+     "date": "2026-09-24",
+     "text": "### ใหม่\n- เพิ่มโปรแกรมตัดต่อวิดีโอแบบเต็มรูปแบบใต้หน้าจอพรีวิว เพื่อเพิ่มเลเยอร์ข้อความกำหนดเอง เบลอส่วนที่ละเอียดอ่อน รูปภาพผู้สนับสนุน เฟรม และฟิลเตอร์สี\n- เพิ่มการรองรับ Facebook Reel, สี่เหลี่ยม 1:1 และรูปทรงพรีวิวแบบกำหนดเองจากเมนูหน้าต่าง\n### ปรับปรุง\n- เร่งความเร็วในการถอดเสียงและเรนเดอร์วิดีโอให้เร็วขึ้น โดยใช้ประโยชน์จากทุกคอร์ CPU และการเร่งฮาร์ดแวร์การ์ดจอโดยอัตโนมัติ\n- ทำให้การลบเสียงร้องฉลาดขึ้น โดยตรวจสอบเสียงต้นฉบับใหม่อัตโนมัติหากแทร็กเสียงที่แยกออกมาเบาเกินไป\n- ปรับปรุงอินเทอร์เฟซผู้ใช้ใหม่ด้วยเลย์เอาต์เมนูที่สะอาดตาขึ้นและสไตล์แท็บที่ดีขึ้น\n### แก้ไขข้อบกพร่อง\n- แก้ไขปัญหาที่วิดีโอซึ่งมีแทร็กแยกเสียงร้องที่เบามากหรือขาดหายไป ไม่สามารถถอดเสียงพูดได้อย่างถูกต้อง"
+    },
+    {
+     "version": "2.0.0",
+     "date": "2026-09-24",
+     "text": "### ใหม่\n- เพิ่มโปรแกรมตัดต่อวิดีโอแบบเต็มรูปแบบ [Pro] เพื่อเพิ่มข้อความกำหนดเอง กล่องเบลอเพื่อซ่อนข้อความต้นฉบับ รูปภาพผู้สนับสนุน และเฟรมซ้อนทับ\n- เพิ่มการรองรับการเรนเดอร์วิดีโอเร่งด้วยฮาร์ดแวร์ [Pro/Trial] โดยใช้ชิปการ์ดจอของคุณเพื่อการส่งออกที่เร็วขึ้นมาก\n### ปรับปรุง\n- ปรับปรุงความแม่นยำในการจดจำเสียงและการแปลภาษาเขมร โดยตรวจสอบทั้งแทร็กเสียงที่แยกและเสียงต้นฉบับโดยอัตโนมัติ\n- อัปเดตการจัดรูปทรงและการตัดคำภาษาเขมรเพื่อให้แน่ใจว่าซับไตเติลและข้อความกำหนดเองตัดบรรทัดได้อย่างถูกต้องโดยไม่คำขาด\n- ทางลัดบนเดสก์ท็อปและ Start Menu จะอัปเดตหมายเลขเวอร์ชันที่ถูกต้องให้อัตโนมัติเมื่อมีการอัปเดต\n### แก้ไขข้อบกพร่อง\n- แก้ไขปัญหาที่แทร็กเสียงแยกซึ่งเบามากอาจทำให้การแปลหรือการถอดเสียงล้มเหลว\n- แก้ไขข้อบกพร่องเกี่ยวกับการเข้ารหัสไฟล์ซับไตเติล ทำให้ตัวอักษรภาษาเขมรแสดงผลได้อย่างถูกต้องใน Windows media player ทั้งหมด"
+    },
+    {
+     "version": "1.5.0",
+     "date": "2026-09-24",
+     "text": "### New\n- เพิ่มโปรแกรมตัดต่อวิดีโอเต็มรูปแบบเพื่อปรับแต่งวิดีโอของคุณด้วยเลเยอร์ข้อความ, กล่องเบลอ, ฟิลเตอร์สี, ภาพซ้อนทับ และผู้สนับสนุน (Pro)\n- เพิ่มการรองรับการเรนเดอร์วิดีโอด้วย Hardware-accelerated โดยใช้ชิปกราฟิก NVIDIA, Intel และ AMD เพื่อความเร็วในการส่งออกที่สูงขึ้นมาก\n- เพิ่มการรองรับตัวอย่างสดสำหรับการลากและวางตำแหน่งคำบรรยาย, โลโก้ และเลเยอร์ข้อความกำหนดเองบนวิดีโอโดยตรง\n- เพิ่มการตรวจจับอัตโนมัติเพื่อสำรองข้อมูลไปยังแทร็กเสียงดั้งเดิมหากแทร็กเสียงที่แยกออกมาเบาเกินไป\n### Improved\n- ปรับปรุงความแม่นยำในการจดจำเสียงพูดและการแปลภาษาเขมรโดยใช้ CPU threads ทั้งหมดที่มีและการจัดการแทร็กเสียงเงียบที่ดีขึ้น\n- อัปเดตการจัดรูปแบบคำบรรยายภาษาเขมรด้วยการรองรับกล่องพื้นหลังแบบมน, ขอบกำหนดเอง, เงา และการตัดบรรทัดที่แม่นยำ\n- อัปเดตทางลัดของแอปบนเดสก์ท็อปและเมนู Start เพื่อแสดงหมายเลขเวอร์ชันปัจจุบันโดยอัตโนมัติ\n- อัปเดตการตรวจสอบ License และการอัปเดตเพื่อรองรับการเพิกถอนคีย์ระยะไกลและการตรวจสอบความสมบูรณ์ด้านความปลอดภัยที่ 강화ขึ้น\n### Fixed\n- แก้ไขปัญหาที่โปรแกรมเล่นข้อความของ Windows บางครั้งไม่สามารถแสดงอักขระ Unicode ภาษาเขมรได้อย่างถูกต้องในไฟล์คำบรรยายที่ส่งออก\n- แก้ไขปัญหาลำดับตัวอักษรและช่องว่างระหว่างคำสำหรับเลเยอร์ข้อความและคำบรรยายภาษาเขมร"
+    },
+    {
+     "version": "1.4.4",
+     "date": "2026-09-24",
+     "text": "### ใหม่\n- ตัวเลือกกลับด้านวิดีโอเพื่อพลิกฟุตเทจในแนว horizontal พร้อมคงความอ่านง่ายของซับไตเติลและโลโก้\n- พรีวิววิดีโอแบบอินเทอร์แอกทีฟเพื่อลาก จัดตำแหน่ง และปรับขนาดโลโก้และซับไตเติลด้วยสายตา (Pro)\n- สไตล์ซับไตเติลใหม่ให้คุณเลือกได้ระหว่างแถบเบลอ กล่องพื้นหลัง หรือข้อความมีขอบที่สะอาดตา (Pro)\n- หน้าต่างติดต่อเฉพาะพร้อมลิงก์ด่วนไปยัง Telegram, โทรศัพท์ และอีเมลสำหรับการออกใบอนุญาตและการสนับสนุน\n- การควบคุมการประมวลผลเป็นชุดเพื่อเลือกว่าจะให้วิดีโอในคิวทำงานพร้อมกันกี่รายการ (Pro)\n### ปรับปรุง\n- การตัดบรรทัดซับไตเติลตอนนี้จะตัดตามธรรมชาติระหว่างคำภาษาเขมรโดยไม่แยกกลุ่มตัวอักษร\n- ขยายตัวเลือกสไตล์ซับไตเติล รวมถึงการเลือกฟอนต์ภาษาเขมร การจัดแนว เงา และความหนาของขอบ (Pro)\n- อินเทอร์เฟซที่คล่องตัวขึ้นด้วยแถบเมนูด้านบนและหน้าต่างการตั้งค่าเฉพาะ\n- ทางลัดบนเดสก์ท็อปและ Start Menu จะอัปเดตตามเวอร์ชันแอปปัจจุบันโดยอัตโนมัติ\n### แก้ไขข้อบกพร่อง\n- ไฟล์ซับไตเติลภาษาเขมร (.srt) ที่ส่งออกตอนนี้เปิดใช้งานได้อย่างเสถียรใน Windows media player โดยไม่มีปัญหาตัวอักษรเพี้ยน"
+    }
+   ],
+   "vi": [
+    {
+     "version": "2.2.1",
+     "date": "2026-09-27",
+     "text": "### Mới\n- Thêm hỗ trợ tạo video tóm tắt tường thuật bằng AI với các đoạn mở đầu thu hút và độ dài tùy chỉnh (Pro).\n### Cải tiến\n- Giúp nhận dạng giọng nói nhanh hơn bằng cách xử lý âm thanh song song theo từng phần.\n- Tự động phiên âm và chuyển đổi các ký tự tiếng nước ngoài còn sót lại sang ngôn ngữ đích.\n### Đã sửa lỗi\n- Khắc phục sự cố dịch văn bản đối với các bộ ký tự nước ngoài."
+    },
+    {
+     "version": "2.2.0",
+     "date": "2026-09-27",
+     "text": "### Mới\n- Đã thêm hỗ trợ dịch và tạo giọng đọc lồng tiếng bằng tiếng Anh, tiếng Thái và tiếng Việt ngoài tiếng Khmer.\n- Đã thêm tùy chọn ngôn ngữ hiển thị trong menu View để chuyển đổi giao diện ứng dụng giữa tiếng Anh, tiếng Khmer, tiếng Thái và tiếng Việt.\n- Đã thêm Điều khoản và Điều kiện thanh toán mà người dùng phải đồng ý khi mua giấy phép.\n### Cải tiến\n- Đã cập nhật cách xử lý phông chữ và phông chữ dự phòng để hiển thị tốt hơn văn bản tiếng Khmer, tiếng Thái và tiếng Việt trên toàn ứng dụng.\n- Đã cải thiện các câu lệnh nhắc (prompt) dịch thuật lồng tiếng để đảm bảo câu chữ tự nhiên và đúng đại từ nhân xưng cho từng ngôn ngữ đích được hỗ trợ."
+    },
+    {
+     "version": "2.1.11",
+     "date": "2026-09-27",
+     "text": "### Mới\n- Đã thêm hỗ trợ dịch và lồng tiếng video sang tiếng Anh, tiếng Thái và tiếng Việt ngoài tiếng Khmer.\n- Đã thêm tùy chọn ngôn ngữ hiển thị ứng dụng cho tiếng Anh, tiếng Khmer, tiếng Thái và tiếng Việt.\n- Đã thêm tùy chọn thanh toán thủ công KHQR để mua và gia hạn gói giấy phép.\n### Cải tiến\n- Đã cập nhật lựa chọn phông chữ để tự động chỉ hiển thị các phông chữ chứa ký tự của ngôn ngữ đích bạn chọn.\n- Đã cải thiện thông báo và cách xử lý kiểm tra giấy phép khi khóa giấy phép bị quản trị viên gỡ bỏ.\n- Đã cập nhật các phím tắt và tài liệu tham khảo về thương hiệu từ SV Dubber thành SvCamTool.\n### Đã sửa\n- Đã sửa lỗi khoảng cách văn bản và quy tắc ngắt dòng cho các ngôn ngữ đích không phải tiếng Khmer."
+    },
+    {
+     "version": "2.1.10",
+     "date": "2026-09-27",
+     "text": "### Cải tiến\n- Đã đổi tên ứng dụng từ \"SV Dubber\" thành \"SvCamTool\" trên tất cả các phím tắt, cửa sổ và menu.\n- Đã thêm tùy chọn thanh toán thủ công bằng mã KHQR của quản trị viên (Ngân hàng ABA hoặc ACLEDA) cho hình thức trả tiền mặt hoặc chuyển khoản ngân hàng.\n- Đã cải thiện bố cục trên các màn hình nhỏ hơn để ngăn bản xem trước video che các nút phát lại.\n- Đã đơn giản hóa giao diện người dùng bằng cách xóa một số biểu tượng khỏi các nút và thông tin liên hệ.\n- Đã di chuyển các cập nhật trạng thái giấy phép và cảnh báo ngoại tuyến xuống thanh trạng thái để giữ cho nhật ký tác vụ chính được gọn gàng.\n### Đã sửa\n- Đã sửa lỗi khóa giấy phép bị chặn hoặc bị xóa khiến ứng dụng không thể mở; ứng dụng hiện chuyển hướng chính xác đến màn hình chọn gói."
+    },
+    {
+     "version": "2.1.9",
+     "date": "2026-09-27",
+     "text": "### Cải tiến\n- Đã cải thiện hệ thống kích hoạt giấy phép để hỗ trợ các khóa giấy phép mới được cấp."
+    },
+    {
+     "version": "2.1.8",
+     "date": "2026-09-27",
+     "text": "### Cải tiến\n- Kết nối máy chủ giấy phép nhanh hơn và đáng tin cậy hơn trên các mạng có định tuyến IPv6 chậm.\n- Thời gian chờ xác minh giấy phép và thông báo lỗi đã được cải thiện để tăng độ ổn định."
+    },
+    {
+     "version": "2.1.7",
+     "date": "2026-09-27",
+     "text": "### Cải tiến\n- Đã tăng thời gian chờ kết nối khi đồng bộ hóa giấy phép để ngăn lỗi trên các kết nối internet chậm hơn.\n- Các khóa giấy phép được tạo ngoại tuyến giờ đây được bảo vệ khỏi việc bị ghi đè tự động bởi các gói cấp thấp hơn.\n- Lỗi kết nối giấy phép giờ đây được hiển thị trong nhật ký chính của ứng dụng để giúp việc khắc phục sự cố dễ dàng hơn.\n### Đã sửa\n- Đã sửa lỗi thời gian chờ kết nối trong quá trình kích hoạt giấy phép trên các bộ định tuyến mạng có cấu hình IPv6 bị lỗi."
+    },
+    {
+     "version": "2.1.6",
+     "date": "2026-09-27",
+     "text": "### Cải tiến\n- Ứng dụng giờ đây kiểm tra các bản cập nhật giấy phép và thay đổi gói mỗi phút một lần thay vì năm phút một lần.\n- Các khóa giấy phép ngoại tuyến giờ đây được bảo lưu an toàn và sẽ không bị máy chủ ghi đè trừ khi bạn nâng cấp lên gói tốt hơn.\n- Trạng thái giấy phép chi tiết và thông báo kết nối máy chủ giờ đây được hiển thị trực tiếp trong nhật ký của ứng dụng.\n- Các nút mua hàng và dùng thử giờ đây sẽ tự động ẩn nếu việc mua hàng trực tuyến tạm thời bị tạm dừng trên máy chủ."
+    },
+    {
+     "version": "2.1.5",
+     "date": "2026-09-27",
+     "text": "### Cải tiến\n- Các bản cập nhật giấy phép và thay đổi gói hiện được phát hiện nhanh hơn nhiều, kiểm tra mỗi phút một lần thay vì năm phút một lần.\n- Nhật ký ứng dụng giờ đây hiển thị các thông báo trạng thái rõ ràng liên quan đến việc kiểm tra giấy phép và cập nhật gói của bạn."
+    },
+    {
+     "version": "2.1.4",
+     "date": "2026-09-27",
+     "text": "### Improved\n- Cải tiến và sửa lỗi."
+    },
+    {
+     "version": "2.1.3",
+     "date": "2026-09-27",
+     "text": "### Improved\n- Cải tiến và sửa lỗi."
+    },
+    {
+     "version": "2.1.2",
+     "date": "2026-09-27",
+     "text": "### Improved\n- Cải tiến và sửa lỗi."
+    },
+    {
+     "version": "2.1.1",
+     "date": "2026-09-27",
+     "text": "### Improved\n- Gói bản quyền của bạn giờ đây sẽ tự động cập nhật ngay lập tức khi được quản trị viên thay đổi, mà không cần khởi động lại ứng dụng."
+    },
+    {
+     "version": "2.1.0",
+     "date": "2026-09-27",
+     "text": "### New\n- Kiểm tra giọng nói AI (Pro): Gemini nghe từng dòng để tự động xác nhận và sửa lỗi giọng nam và nữ.\n- Tóm tắt video (Pro): Tự động tạo video tóm tắt ngắn từ 10 đến 20 phút từ các bản ghi dài.\n- Tạo hình thu nhỏ (Pro): Thiết kế hình thu nhỏ video tùy chỉnh với định dạng văn bản tiếng Khmer chuẩn và các kiểu mẫu sẵn sàng sử dụng.\n- Nhân bản giọng nói (Pro): Kết nối máy chủ giọng nói RunPod của riêng bạn để tạo lồng tiếng Khmer tùy chỉnh.\n- Hình mờ bản dùng thử: Các video dùng thử giờ đây sẽ bao gồm hình mờ trên mọi tệp được xử lý.\n### Improved\n- Theo dõi hệ thống trực tiếp: Thanh trạng thái giờ đây hiển thị mức sử dụng CPU, RAM và GPU theo thời gian thực.\n- Cài đặt yêu thích: Lưu các cài đặt chuyển đổi ưa thích của bạn và tải lại bất cứ lúc nào.\n- Giới hạn độ dài video: Bản quyền Professional giờ đây hỗ trợ video dài tới 10 phút.\n- Giao diện UI: Đã cập nhật lên giao diện tối gọn gàng với thanh tiêu đề tối trên tất cả các cửa sổ.\n### Fixed\n- Kích hoạt bản quyền: Cải thiện hỗ trợ đăng ký trực tuyến và xác minh mã khóa bản quyền.\n- Tách người nói: Phát hiện và tách biệt tốt hơn khi nam và nữ nói trong cùng một dòng."
+    },
+    {
+     "version": "2.0.3",
+     "date": "2026-09-27",
+     "text": "### New\n- Đã thêm tính năng tóm tắt video để tự động tóm tắt các video dài [Pro].\n- Đã thêm tính năng phát hiện giọng nói AI để xác định chính xác người nói nam và nữ sử dụng Gemini.\n- Đã thêm công cụ tạo hình thu nhỏ để tạo hình thu nhỏ tùy chỉnh với kiểu chữ tiếng Khmer [Pro].\n### Improved\n- Cải thiện tốc độ tách giọng hát và thêm tính năng tự động chuyển về âm thanh gốc nếu cần.\n- Cập nhật giao diện ứng dụng mặc định thành kiểu Dark gọn gàng.\n- Nâng cao tính năng phân tách giọng nói theo giới tính để xử lý tốt hơn các dòng có cả người nói nam và nữ.\n### Fixed\n- Đã sửa lỗi cập nhật phím tắt và làm mới biểu tượng sau khi cài đặt các bản cập nhật.\n- Đã sửa lỗi xử lý giới hạn độ dài video cho các gói bản quyền khác nhau."
+    },
+    {
+     "version": "2.0.2",
+     "date": "2026-09-24",
+     "text": "### New\n- Đã thêm cửa sổ riêng để quản lý các API key Gemini với hướng dẫn từng bước và che giấu khóa bảo mật.\n- Đã thêm tùy chọn tự động mở thư mục đầu ra khi quá trình chuyển đổi hoàn tất.\n### Improved\n- Tăng tốc độ dịch bằng cách gửi nhiều loạt song song trên tất cả các API key đã định cấu hình của bạn.\n- Cải thiện việc phát hiện giới tính người nói và giọng nói tự động bằng phân tích cao độ và âm sắc nâng cao.\n- Tối ưu hóa cài đặt dịch Gemini để phản hồi nhanh hơn mà không làm giảm chất lượng.\n- Cập nhật kiểm tra API key để kiểm tra nhiều khóa cùng lúc và từ chối các khóa không hợp lệ ngay lập tức.\n### Fixed\n- Đã sửa lỗi ứng dụng có thể bị treo hoặc gặp sự cố nếu các tệp chương trình bị chỉnh sửa hoặc hỏng."
+    },
+    {
+     "version": "2.0.1",
+     "date": "2026-09-24",
+     "text": "### Mới\n- Thêm trình chỉnh sửa video đầy đủ ngay bên dưới bản xem trước để thêm các lớp văn bản tùy chỉnh, làm mờ vùng nhạy cảm, hình ảnh nhà tài trợ, khung hình và bộ lọc màu.\n- Thêm hỗ trợ cho Facebook Reel, tỷ lệ vuông 1:1 và các hình dạng xem trước tùy chỉnh từ menu cửa sổ.\n### Cải tiến\n- Tăng tốc độ chuyển đổi giọng nói thành văn bản và kết xuất video bằng cách tự động tận dụng tất cả các nhân CPU và tăng tốc phần cứng card đồ họa.\n- Làm cho tính năng tách giọng hát thông minh hơn bằng cách tự động kiểm tra lại âm thanh gốc nếu bản nhạc giọng nói tách ra quá nhỏ.\n- Làm mới giao diện người dùng với bố cục menu gọn gàng hơn và cải thiện kiểu dáng tab.\n### Sửa lỗi\n- Khắc phục sự cố video có bản nhạc tách giọng hát quá nhỏ hoặc bị thiếu không thể chuyển đổi giọng nói thành văn bản đúng cách."
+    },
+    {
+     "version": "2.0.0",
+     "date": "2026-09-24",
+     "text": "### Mới\n- Thêm trình chỉnh sửa video đầy đủ [Pro] để thêm văn bản tùy chỉnh, hộp làm mờ để ẩn văn bản gốc, hình ảnh nhà tài trợ và khung lớp phủ.\n- Thêm hỗ trợ kết xuất video tăng tốc phần cứng [Pro/Trial] sử dụng chip đồ họa của bạn để xuất video nhanh hơn nhiều.\n### Cải tiến\n- Cải thiện độ chính xác nhận dạng và dịch giọng nói tiếng Khmer bằng cách tự động kiểm tra cả bản nhạc giọng nói đã tách và âm thanh gốc.\n- Cập nhật định dạng và ngắt từ tiếng Khmer để đảm bảo phụ đề và văn bản tùy chỉnh xuống dòng chính xác mà không bị ngắt giữa chừng từ.\n- Lối tắt trên Màn hình nền và Menu Bắt đầu giờ đây tự động giữ đúng số phiên bản khi được cập nhật.\n### Sửa lỗi\n- Khắc phục sự cố bản nhạc giọng nói đã tách quá nhỏ có thể khiến quá trình dịch hoặc chuyển đổi giọng nói thành văn bản thất bại.\n- Khắc phục lỗi mã hóa tệp phụ đề để các ký tự tiếng Khmer hiện hiển thị chính xác trên tất cả các trình phát đa phương tiện trên Windows."
+    },
+    {
+     "version": "1.5.0",
+     "date": "2026-09-24",
+     "text": "### New\n- Đã thêm trình chỉnh sửa video đầy đủ để tùy chỉnh video của bạn với các lớp văn bản, hộp làm mờ, bộ lọc màu, lớp phủ hình ảnh và nhà tài trợ (Pro).\n- Đã thêm hỗ trợ kết xuất video tăng tốc phần cứng bằng chip đồ họa NVIDIA, Intel và AMD để tốc độ xuất nhanh hơn nhiều.\n- Đã thêm hỗ trợ xem trước trực tiếp để kéo và định vị phụ đề, logo và các lớp văn bản tùy chỉnh trực tiếp trên video.\n- Đã thêm tính năng tự động phát hiện để chuyển về bản âm thanh gốc nếu các bản âm thanh được tách quá nhỏ.\n### Improved\n- Cải thiện độ chính xác nhận dạng và dịch giọng nói tiếng Khmer bằng cách sử dụng tất cả các luồng CPU khả dụng và xử lý tốt hơn các bản âm thanh tĩnh lặng.\n- Cập nhật định dạng phụ đề tiếng Khmer với hỗ trợ hộp nền bo tròn, đường viền tùy chỉnh, bóng đổ và ngắt dòng chính xác.\n- Cập nhật phím tắt ứng dụng trên Màn hình nền và menu Start để tự động hiển thị số phiên bản hiện tại.\n- Cập nhật kiểm tra bản quyền và cập nhật để hỗ trợ thu hồi khóa từ xa và tăng cường kiểm tra tính toàn vẹn bảo mật.\n### Fixed\n- Đã sửa lỗi trình phát văn bản Windows đôi khi không hiển thị chính xác các ký tự Unicode tiếng Khmer trong các tệp phụ đề đã xuất.\n- Đã sửa lỗi thứ tự ký tự và khoảng cách từ cho các lớp văn bản và phụ đề tiếng Khmer."
+    },
+    {
+     "version": "1.4.4",
+     "date": "2026-09-24",
+     "text": "### Mới\n- Tùy chọn lật gương video để lật cảnh quay theo chiều ngang trong khi vẫn giữ phụ đề và logo dễ đọc.\n- Xem trước video tương tác để trực quan kéo, định vị và thay đổi kích thước logo và phụ đề. (Pro)\n- Kiểu phụ đề mới cho phép bạn chọn giữa dải làm mờ, hộp nền hoặc văn bản viền sạch sẽ. (Pro)\n- Cửa sổ liên hệ chuyên dụng với các liên kết nhanh đến Telegram, điện thoại và email để cấp phép và hỗ trợ.\n- Điều khiển xử lý hàng loạt để chọn số lượng video trong hàng đợi chạy cùng một lúc. (Pro)\n### Cải tiến\n- Ngắt dòng phụ đề giờ đây ngắt tự nhiên giữa các từ tiếng Khmer mà không làm tách cụm chữ cái.\n- Mở rộng các tùy chọn kiểu dáng phụ đề, bao gồm lựa chọn phông chữ tiếng Khmer, căn chỉnh, bóng đổ và độ dày viền. (Pro)\n- Giao diện được tinh hỉnh có thanh menu trên cùng và cửa sổ cài đặt chuyên dụng.\n- Lối tắt trên Màn hình nền và Menu Bắt đầu giờ đây tự động cập nhật theo phiên bản ứng dụng hiện tại.\n### Sửa lỗi\n- Các tệp phụ đề tiếng Khmer (.srt) đã xuất giờ đây mở ổn định trong các trình phát đa phương tiện trên Windows mà không bị lỗi ký tự."
+    }
+   ]
+  },
   "date": "2026-09-27"
  },
- "sig": "d2738464ed8e43a724e19e58e73024462f139802f6cb00a8a6615adc5af2bea92330f5ef67a8c9bd0c648f4996a880e114352a5469160b8900d6e9d4cba9860c"
+ "sig": "8f0a75c7d03b89d172aa14b5d93a087e1278dfc5d5ac72702f7157702be3b2d13bc2f5f674814a1e0f49912d1364062abfebf03af5a475a55ad677b0d356c50e"
 }
