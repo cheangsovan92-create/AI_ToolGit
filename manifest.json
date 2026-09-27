@@ -4,13 +4,28 @@
    "3b983b2c759bb24e"
   ],
   "blocked_api_keys": [],
-  "version": "2.1.0",
+  "version": "2.1.1",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.0/SV_Dubber_update_2.1.0.zip",
-  "sha256": "b40c53fc40634c85f9c4a2061d18dc2397433b618bee4e4227a210b9571b4704",
-  "size": 955784,
-  "notes": "### New\n- Added AI-powered voice checking where Gemini listens to each line to confirm male or female speakers.\n- Added a professional thumbnail maker with support for Khmer text styles and layout options [Pro].\n- Added video recap creation to turn long videos into shorter summaries [Pro].\n- Added online subscription support with KHQR payments and license restoration.\n- Added support for RunPod voice servers to automatically start and stop during video conversion.\n### Improved\n- Updated the speech recognition and speaker detection to automatically split lines when both a man and a woman speak.\n- Improved the video player and overlay positioning with flexible scaling controls.\n- Optimized app settings to remember your API keys and window preferences between starts.\n- Added real-time CPU, RAM, and GPU usage monitoring in the status bar.\n### Fixed\n- Fixed an issue where very quiet audio tracks caused vocal removal to fail.\n- Fixed a bug where empty subtitle lines could remain untranslated before voice-over generation.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.1.1/SV_Dubber_update_2.1.1.zip",
+  "sha256": "5566338d2116a19ff167f43004e2a7474b663597163d076e2d6d315906e21b62",
+  "size": 957609,
+  "notes": "### Improved\n- Your license plan now updates automatically right away when changed by an administrator, without needing to restart the app.",
   "changelog": [
+   {
+    "version": "2.1.1",
+    "date": "2026-09-27",
+    "text": "### Improved\n- Your license plan now updates automatically right away when changed by an administrator, without needing to restart the app."
+   },
+   {
+    "version": "2.1.0",
+    "date": "2026-09-27",
+    "text": "### New\n- AI Voice Check (Pro): Gemini listens to each line to automatically confirm and correct male and female voices.\n- Video Recap (Pro): Automatically creates a short 10 to 20 minute summary video from long recordings.\n- Thumbnail Maker (Pro): Design custom video thumbnails with proper Khmer text shaping and ready-to-use styles.\n- Voice Cloning (Pro): Connect your own RunPod voice server to generate custom Khmer voice-overs.\n- Free Trial Watermark: Trial videos now include a watermark on every processed file.\n### Improved\n- Live System Monitor: The status bar now displays real-time CPU, RAM, and GPU usage.\n- Settings Favorites: Save your preferred conversion settings and reload them anytime.\n- Video Length Limits: Professional licenses now support videos up to 10 minutes long.\n- UI Theme: Updated to a clean dark theme with dark title bars across all windows.\n### Fixed\n- License Activation: Improved online subscription support and license key verification.\n- Speaker Split: Better detection and separation when a man and a woman speak within the same line."
+   },
+   {
+    "version": "2.1.0",
+    "date": "2026-09-27",
+    "text": "### New\n- Added AI-powered voice checking where Gemini listens to each dialogue line to correctly distinguish male and female voices.\n- Added a video recap maker to automatically turn long videos into shorter summary clips [Professional].\n- Added a thumbnail maker to design video cover images with correctly shaped Khmer text [Professional].\n- Added online subscription support with instant purchase and activation [Trial / Professional].\n### Improved\n- Upgraded the voice-over system to automatically split and dub lines containing both a male and a female speaker.\n- Added real-time CPU, RAM, and GPU usage monitoring in the status bar.\n- Updated the video editor with flexible cropping and watermark support for free trial videos [Trial].\n### Fixed\n- Fixed an issue where very long videos exceeded plan limits by adding clearer length warnings and video caps.\n- Fixed an issue with Khmer text rendering in video subtitles and titles using advanced font shaping."
+   },
    {
     "version": "2.1.0",
     "date": "2026-09-27",
@@ -95,24 +110,9 @@
     "version": "1.3.0",
     "date": "2026-09-23",
     "text": "### New\n- Automatic updates: the app checks for new versions at every start.\n- Pro licenses update with one click (\"Update now\"); the update is verified before it is installed.\n- Trial licenses get updates during the trial; Standard licenses keep the version they bought.\n- \"What's new\" window after each update and a 📝 What's new button for the full history.\n- Separate developer and customer apps (developer data is kept apart).\n### Improved\n- A Trial lasts at most 3 days.\n- Old versions are blocked after an important release, so everyone uses a working version.\n- The app can run offline for up to 7 days between version checks."
-   },
-   {
-    "version": "1.2.0",
-    "date": "2026-09-23",
-    "text": "### New\n- Login with a license key bound to the computer (Machine ID).\n- Responsive screen: works on laptops and large monitors; panels move into tabs on small screens.\n- One-click setup package: installs by itself, adds Desktop and Start-menu shortcuts.\n### Improved\n- Much smaller download and install size (about 600 MB instead of 2–5 GB).\n- New vocal-removal engine (MDX-Net), faster on computers without a graphics card.\n- Temporary audio files are deleted after rendering to save disk space.\n- In-app video preview is optional; videos can open in the normal video player.\n### Fixed\n- The setup window no longer pauses when you click inside it.\n- Clear error message instead of nothing happening when the app cannot start."
-   },
-   {
-    "version": "1.1.0",
-    "date": "2026-09-23",
-    "text": "### New\n- Automatic male / female Khmer voice that matches the original speaker.\n- All Gemini 3 models in the model list, with automatic switching when a model is busy.\n- \"Re-translate Selected\" button and \"Auto shorten long lines\" option.\n- Start without the black console window (KhmerDubStudio.exe).\n### Improved\n- Better translation: the whole video is read first (names and terms stay consistent),\n  more context per line, pronouns match the speaker (បាទ / ចាស).\n- Missing translations are retried automatically – no more silent lines.\n- Quiet speech is recognised better; the language is detected from several parts of the video.\n- Subtitles are no longer burned into the video; the picture is kept in original quality.\n### Fixed\n- Khmer voice was cut off at the end of long lines.\n- \"Cannot send a request\" error when checking the Gemini API key."
-   },
-   {
-    "version": "1.0.0",
-    "date": "2026-09-23",
-    "text": "### New\n- Translate videos from any language into Khmer.\n- Automatic language detection and speech recognition (Whisper).\n- Translation with Google Gemini.\n- Khmer voice-over (Piseth / Sreymom) synced to the original timing.\n- Remove the original voice and keep music and sound effects.\n- Review and edit every line before rendering; export .srt subtitles."
    }
   ],
   "date": "2026-09-27"
  },
- "sig": "53ea82aa2b19fc07166847c09eaa26dfdd0664ecc2b78e544b7ecfd02d0f528e7665924cf7a7c659fa7e9eb5bb22e028b75c89a418b25f8f45609eb17c32e100"
+ "sig": "af6fc118db7946743c52d1472d63f00c15576bddbe772324a0f1b020c460f08c3e7f588793c8ed64ad7b7e5a42eb79a1004cf8181f3e6931b0b4948bebe1c407"
 }
