@@ -2,13 +2,18 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.2.1",
+  "version": "2.2.2",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.2.1/SvCamTool_update_2.2.1.zip",
-  "sha256": "ad749a64af31b1a6836066d1f67808d6daf1d0d9196dd7225e8550dd7379e8a8",
-  "size": 1339853,
-  "notes": "### New\n- Added support for creating narrated recap videos with AI hooks and custom lengths (Pro).\n### Improved\n- Made speech recognition faster by listening to audio in parallel parts.\n- Automatically transliterates and spells any remaining foreign letters into the target language.\n### Fixed\n- Fixed text translation issues for foreign character sets.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.2.2/SvCamTool_update_2.2.2.zip",
+  "sha256": "786150fc6b8241ebcce25ef69f41a7fe8fcd562d82579d79f3bec20a632fafe2",
+  "size": 1400372,
+  "notes": "### New\n- Added AI picture generation for thumbnails using Grok (xAI) or ChatGPT (OpenAI) with your own API key (Pro).\n- Added text animations including intro, outro, and loop effects for custom text layers (Pro).\n- Added an extra small title layer (third text layer) for thumbnail creation.\n- Added advanced speaker recognition to automatically group speakers by voice print for more accurate gender detection.\n### Improved\n- Improved video rendering speed and overall performance when applying multiple visual effects.\n- Improved handling of Gemini free-plan limits with automatic waiting and retries.\n- Enhanced gender detection reliability using voice timbre analysis alongside pitch detection.\n### Fixed\n- Fixed an issue where interrupted runs or damaged temporary audio files could result in incomplete videos.",
   "changelog": [
+   {
+    "version": "2.2.2",
+    "date": "2026-09-29",
+    "text": "### New\n- Added AI picture generation for thumbnails using Grok (xAI) or ChatGPT (OpenAI) with your own API key (Pro).\n- Added text animations including intro, outro, and loop effects for custom text layers (Pro).\n- Added an extra small title layer (third text layer) for thumbnail creation.\n- Added advanced speaker recognition to automatically group speakers by voice print for more accurate gender detection.\n### Improved\n- Improved video rendering speed and overall performance when applying multiple visual effects.\n- Improved handling of Gemini free-plan limits with automatic waiting and retries.\n- Enhanced gender detection reliability using voice timbre analysis alongside pitch detection.\n### Fixed\n- Fixed an issue where interrupted runs or damaged temporary audio files could result in incomplete videos."
+   },
    {
     "version": "2.2.1",
     "date": "2026-09-27",
@@ -103,15 +108,15 @@
     "version": "2.1.3",
     "date": "2026-09-27",
     "text": "### Improved\n- Improvements and bug fixes."
-   },
-   {
-    "version": "2.1.2",
-    "date": "2026-09-27",
-    "text": "### Improved\n- Improvements and bug fixes."
    }
   ],
   "changelog_i18n": {
    "km": [
+    {
+     "version": "2.2.2",
+     "date": "2026-09-29",
+     "text": "### ថ្មី\n- បានបន្ថែមមុខងារបង្កើតរូបភាព AI សម្រាប់រូបភាពតូចៗ (Thumbnails) ដោយប្រើប្រាស់ Grok (xAI) ឬ ChatGPT (OpenAI) ជាមួយ API key ផ្ទាល់ខ្លួនរបស់អ្នក (សម្រាប់ Pro)។\n- បានបន្ថែមបែបផែនអត្ថបទចលនា រួមមាន intro, outro និង loop effects សម្រាប់ស្រទាប់អត្ថបទផ្ទាល់ខ្លួន (សម្រាប់ Pro)។\n- បានបន្ថែមស្រទាប់ចំណងជើងតូចបន្ថែម (ស្រទាប់អត្ថបទទីបី) សម្រាប់ការបង្កើតរូបភាពតូចៗ។\n- បានបន្ថែមការសម្គាល់អ្នកនិយាយកម្រិតខ្ពស់ ដើម្បីจัดกลุ่มអ្នកនិយាយដោយស្វ័យប្រវត្តិផ្អែកលើសំឡេង សម្រាប់ការរកឃើញភេទកាន់តែត្រឹមត្រូវ។\n### បានកែលម្អ\n- បានកែលម្អល្បឿន റെនឌ័រ វីដេអូ និងដំណើរការទូទៅនៅពេលដាក់បញ្ចូលបែបផែនមើលឃើញច្រើន។\n- បានកែលម្អការគ្រប់គ្រងដែនកំណត់គម្រោងឥតគិតថ្លៃរបស់ Gemini ជាមួយនឹងការរង់ចាំនិងការធ្វើឡើងវិញដោយស្វ័យប្រវត្តិ។\n- បានកែលម្អភាពជឿជាក់នៃការរកឃើញភេទ ដោយប្រើការវិភាគសំឡេងរួមជាមួយនឹងការរកឃើញកម្រិតសំឡេង។\n### បានជួសជុល\n- បានជួសជុលបញ្ហាដែលការដំណើរការត្រូវបានកាត់ផ្តាច់ ឬឯកសារអូឌីយ៉ូបណ្តោះអាសន្នខូច ដែលអាចបណ្តាលឱ្យវីដេអូមើលមិនចប់។"
+    },
     {
      "version": "2.2.1",
      "date": "2026-09-27",
@@ -206,14 +211,14 @@
      "version": "1.5.0",
      "date": "2026-09-24",
      "text": "### ថ្មី\n- បានបន្ថែមកម្មវិធីកែសម្រួលវីដេអូពេញលេញ ដើម្បីកែច្នៃវីដេអូរបស់អ្នកជាមួយស្រទាប់អត្ថបទ ប្រអប់ព្រិល តម្រងពណ៌ រូបភាពត្រួតគ្នា និងស្ពនស័រ (Pro)។\n- បានបន្ថែមការគាំទ្រសម្រាប់ការ റെនឌ័រវីដេអូដោយប្រើប្រាស់បន្ទះឈីបក្រាហ្វិក NVIDIA, Intel និង AMD សម្រាប់ល្បឿននាំចេញលឿនជាងមុន។\n- បានបន្ថែមការមើលជាមុនផ្ទាល់សម្រាប់ការអូស និងកំណត់ទីតាំងចំណងជើងរង រូបសញ្ញា និងស្រទាប់អត្ថបទផ្ទាល់ខ្លួននៅលើវីដេអូ។\n- បានបន្ថែមការរកឃើញស្វ័យប្រវត្តិដើម្បីត្រឡប់ទៅបទអូឌីយ៉ូដើមវិញ ប្រសិនបើបទសំឡេងដាច់ដោយឡែកស្ងាត់ពេក។\n### បានកែលម្អ\n- បានកែលម្អការសម្គាល់សំឡេងភាសាខ្មែរ និងភាពត្រឹមត្រូវនៃការបកប្រែដោយប្រើប្រាស់ CPU threads ទាំងអស់ដែលមាន និងការจัดการបទអូឌីយ៉ូស្ងាត់បានល្អជាងមុន។\n- បានធ្វើបច្ចុប្បន្នភាពទ្រង់ទ្រាយចំណងជើងរងភាសាខ្មែរជាមួយការគាំទ្រសម្រាប់ប្រអប់ផ្ទៃខាងក្រោយមូល គែមផ្ទាល់ខ្លួន ស្រមោល និងការកាត់បន្ទាត់ច្បាស់លាស់។\n- បានធ្វើបច្ចុប្បន្នភាពផ្លូវកាត់កម្មវិធីនៅលើ Desktop និង Start menu ដើម្បីបង្ហាញលេខកំណែបច្ចុប្បន្នដោយស្វ័យប្រវត្តិ។\n- បានធ្វើបច្ចុប្បន្នភាពការពិនិត្យអាជ្ញាប័ណ្ណ និងបច្ចុប្បន្នភាពដើម្បីគាំទ្រដល់ការលុបចោលគន្លឹះពីចម្ងាយ និងការត្រួតពិនិត្យសុវត្ថិភាពដែលប្រសើរឡើង។\n### បានកែសម្រួល\n- បានកែសម្រួលបញ្ហាដែលកម្មវិធីចាក់អត្ថបទ Windows  ಕೆಲครั้งមិនអាចបង្ហាញតួអក្សរ Unicode ខ្មែរបានត្រឹមត្រូវនៅក្នុងឯកសារចំណងជើងរងដែលបាននាំចេញ។\n- បានកែសម្រួលលំដាប់តួអក្សរ និងចន្លោះពាក្យសម្រាប់ស្រទាប់អត្ថបទ និងចំណងជើងរងភាសាខ្មែរ។"
-    },
-    {
-     "version": "1.4.4",
-     "date": "2026-09-24",
-     "text": "### ថ្មី\n- ជម្រើសបម្លែងវីដេអូដើម្បីត្រឡប់កាមេរ៉ាផ្ដេកខណៈពេលដែលរក្សាទុកចំណងជើងរង និងរូបសញ្ញាឱ្យអាចអានបាន។\n- ការមើលវីដេអូជាមុនអន្តរកម្មដើម្បីអូស កំណត់ទីតាំង និងប្ដូរទំហំរូបសញ្ញា និងចំណងជើងរងដោយមើលឃើញ។ (Pro)\n- រចនាប័ទ្មចំណងជើងរងថ្មីអនុញ្ញាតឱ្យអ្នកជ្រើសរើសរหว่างក្រុមព្រិល ប្រអប់ផ្ទៃខាងក្រោយ ឬអត្ថបទគូសបន្ទាត់ច្បាស់។ (Pro)\n- បង្អួចទំនាក់ទំនងខិតខំប្រឹងប្រែងជាមួយនឹងតំណភ្ជាប់រហ័សទៅកាន់ Telegram ទូរស័ព្ទ និងអ៊ីមែលសម្រាប់ការផ្តល់អាជ្ញាប័ណ្ណ និងការគាំទ្រ។\n- ការគ្រប់គ្រងដំណើរការជាបណ្តុំដើម្បីជ្រើសរើសចំនួនវីដេអូក្នុងជួរដែលដំណើរការក្នុងពេលតែមួយ។ (Pro)\n### បានកែលម្អ\n- ការរុំបន្ទាត់ចំណងជើងរងឥឡូវនេះបំបែកធម្មជាតិរវាងពាក្យខ្មែរដោយមិនបំបែកក្រុមអក្សរ។\n- ពង្រីកជម្រើសរចនាប័ទ្មចំណងជើងរង រួមទាំងការជ្រើសរើសពុម្ពអក្សរខ្មែរ ការจัดតម្រៀប ស្រមោល និងកម្រាស់គែម។ (Pro)\n- ចំណុចប្រទាក់ដែលបានសម្រួលមានរបារម៉ឺនុយខាងលើ និងបង្អួចកំណត់រចនាសម្ព័ន្ធខិតខំប្រឹងប្រែង។\n- ផ្លូវកាត់ Desktop និង Start Menu ឥឡូវនេះធ្វើបច្ចុប្បន្នភាពដោយស្វ័យប្រវត្តិជាមួយកំណែកម្មវិធីបច្ចុប្បន្ន។\n### បានកែសម្រួល\n- ឯកសារចំណងជើងរងភាសាខ្មែរដែលបាននាំចេញ (.srt) ឥឡូវនេះបើកបានគួរឱ្យទុកចិត្តនៅក្នុងកម្មវិធីចាក់មេឌៀ Windows ដោយគ្មានអំពុករលួយតួអក្សរ។"
     }
    ],
    "th": [
+    {
+     "version": "2.2.2",
+     "date": "2026-09-29",
+     "text": "### ใหม่\n- เพิ่มฟังก์ชันสร้างรูปภาพ AI สำหรับทำภาพย่อ (Thumbnail) ด้วย Grok (xAI) หรือ ChatGPT (OpenAI) โดยใช้ API key ของคุณเอง (Pro)\n- เพิ่มแอนิเมชันข้อความ รวมถึงเอฟเฟกต์เปิดตัว (Intro) ปิดท้าย (Outro) และวนลูป (Loop) สำหรับเลเยอร์ข้อความกำหนดเอง (Pro)\n- เพิ่มเลเยอร์ชื่อเรื่องขนาดเล็กพิเศษ (เลเยอร์ข้อความที่สาม) สำหรับการสร้างภาพย่อ\n- เพิ่มระบบจดจำผู้พูดขั้นสูงเพื่อจัดกลุ่มผู้พูดตามเสียงพ- พูด (Voice Print) โดยอัตโนมัติ ทำให้การตรวจจับเพศแม่นยำยิ่งขึ้น\n### ปรับปรุง\n- ปรับปรุงความเร็วในการเรนเดอร์วิดีโอและประสิทธิภาพโดยรวมเมื่อใช้งานเอฟเฟกต์ภาพหลายรายการ\n- ปรับปรุงการจัดการขีดจำกัดแผนฟรีของ Gemini ด้วยระบบรอและลองใหม่อัตโนมัติ\n- เพิ่มความเสถียรในการตรวจจับเพศด้วยการวิเคราะห์โทนเสียงร่วมกับการตรวจจับระดับเสียงสูงต่ำ\n### แก้ไข\n- แก้ไขปัญหาที่กระบวนการทำงานถูกขัดจังหวะหรือไฟล์เสียงชั่วคราวเสียหาย ซึ่งอาจส่งผลให้วิดีโอไม่สมบูรณ์"
+    },
     {
      "version": "2.2.1",
      "date": "2026-09-27",
@@ -308,14 +313,14 @@
      "version": "1.5.0",
      "date": "2026-09-24",
      "text": "### New\n- เพิ่มโปรแกรมตัดต่อวิดีโอเต็มรูปแบบเพื่อปรับแต่งวิดีโอของคุณด้วยเลเยอร์ข้อความ, กล่องเบลอ, ฟิลเตอร์สี, ภาพซ้อนทับ และผู้สนับสนุน (Pro)\n- เพิ่มการรองรับการเรนเดอร์วิดีโอด้วย Hardware-accelerated โดยใช้ชิปกราฟิก NVIDIA, Intel และ AMD เพื่อความเร็วในการส่งออกที่สูงขึ้นมาก\n- เพิ่มการรองรับตัวอย่างสดสำหรับการลากและวางตำแหน่งคำบรรยาย, โลโก้ และเลเยอร์ข้อความกำหนดเองบนวิดีโอโดยตรง\n- เพิ่มการตรวจจับอัตโนมัติเพื่อสำรองข้อมูลไปยังแทร็กเสียงดั้งเดิมหากแทร็กเสียงที่แยกออกมาเบาเกินไป\n### Improved\n- ปรับปรุงความแม่นยำในการจดจำเสียงพูดและการแปลภาษาเขมรโดยใช้ CPU threads ทั้งหมดที่มีและการจัดการแทร็กเสียงเงียบที่ดีขึ้น\n- อัปเดตการจัดรูปแบบคำบรรยายภาษาเขมรด้วยการรองรับกล่องพื้นหลังแบบมน, ขอบกำหนดเอง, เงา และการตัดบรรทัดที่แม่นยำ\n- อัปเดตทางลัดของแอปบนเดสก์ท็อปและเมนู Start เพื่อแสดงหมายเลขเวอร์ชันปัจจุบันโดยอัตโนมัติ\n- อัปเดตการตรวจสอบ License และการอัปเดตเพื่อรองรับการเพิกถอนคีย์ระยะไกลและการตรวจสอบความสมบูรณ์ด้านความปลอดภัยที่ 강화ขึ้น\n### Fixed\n- แก้ไขปัญหาที่โปรแกรมเล่นข้อความของ Windows บางครั้งไม่สามารถแสดงอักขระ Unicode ภาษาเขมรได้อย่างถูกต้องในไฟล์คำบรรยายที่ส่งออก\n- แก้ไขปัญหาลำดับตัวอักษรและช่องว่างระหว่างคำสำหรับเลเยอร์ข้อความและคำบรรยายภาษาเขมร"
-    },
-    {
-     "version": "1.4.4",
-     "date": "2026-09-24",
-     "text": "### ใหม่\n- ตัวเลือกกลับด้านวิดีโอเพื่อพลิกฟุตเทจในแนว horizontal พร้อมคงความอ่านง่ายของซับไตเติลและโลโก้\n- พรีวิววิดีโอแบบอินเทอร์แอกทีฟเพื่อลาก จัดตำแหน่ง และปรับขนาดโลโก้และซับไตเติลด้วยสายตา (Pro)\n- สไตล์ซับไตเติลใหม่ให้คุณเลือกได้ระหว่างแถบเบลอ กล่องพื้นหลัง หรือข้อความมีขอบที่สะอาดตา (Pro)\n- หน้าต่างติดต่อเฉพาะพร้อมลิงก์ด่วนไปยัง Telegram, โทรศัพท์ และอีเมลสำหรับการออกใบอนุญาตและการสนับสนุน\n- การควบคุมการประมวลผลเป็นชุดเพื่อเลือกว่าจะให้วิดีโอในคิวทำงานพร้อมกันกี่รายการ (Pro)\n### ปรับปรุง\n- การตัดบรรทัดซับไตเติลตอนนี้จะตัดตามธรรมชาติระหว่างคำภาษาเขมรโดยไม่แยกกลุ่มตัวอักษร\n- ขยายตัวเลือกสไตล์ซับไตเติล รวมถึงการเลือกฟอนต์ภาษาเขมร การจัดแนว เงา และความหนาของขอบ (Pro)\n- อินเทอร์เฟซที่คล่องตัวขึ้นด้วยแถบเมนูด้านบนและหน้าต่างการตั้งค่าเฉพาะ\n- ทางลัดบนเดสก์ท็อปและ Start Menu จะอัปเดตตามเวอร์ชันแอปปัจจุบันโดยอัตโนมัติ\n### แก้ไขข้อบกพร่อง\n- ไฟล์ซับไตเติลภาษาเขมร (.srt) ที่ส่งออกตอนนี้เปิดใช้งานได้อย่างเสถียรใน Windows media player โดยไม่มีปัญหาตัวอักษรเพี้ยน"
     }
    ],
    "vi": [
+    {
+     "version": "2.2.2",
+     "date": "2026-09-29",
+     "text": "### Mới\n- Thêm tính năng tạo ảnh AI cho hình thu nhỏ (thumbnail) bằng Grok (xAI) hoặc ChatGPT (OpenAI) với API key của riêng bạn (Pro).\n- Thêm hiệu ứng văn bản bao gồm hiệu ứng mở đầu, kết thúc và lặp lại cho các lớp văn bản tùy chỉnh (Pro).\n- Thêm một lớp tiêu đề siêu nhỏ (lớp văn bản thứ ba) để tạo hình thu nhỏ.\n- Thêm tính năng nhận diện người nói nâng cao để tự động nhóm người nói theo đặc điểm giọng nói giúp phát hiện giới tính chính xác hơn.\n### Cải tiến\n- Cải thiện tốc độ kết xuất video và hiệu suất tổng thể khi áp dụng nhiều hiệu ứng hình ảnh.\n- Cải thiện việc xử lý giới hạn gói miễn phí của Gemini bằng tính năng tự động chờ và thử lại.\n- Nâng cao độ tin cậy trong việc phát hiện giới tính bằng cách phân tích âm sắc giọng nói kết hợp với phát hiện cao độ.\n### Đã sửa lỗi\n- Khắc phục sự cố khi các lần chạy bị gián đoạn hoặc tệp âm thanh tạm thời bị hỏng có thể dẫn đến video chưa hoàn chỉnh."
+    },
     {
      "version": "2.2.1",
      "date": "2026-09-27",
@@ -410,15 +415,10 @@
      "version": "1.5.0",
      "date": "2026-09-24",
      "text": "### New\n- Đã thêm trình chỉnh sửa video đầy đủ để tùy chỉnh video của bạn với các lớp văn bản, hộp làm mờ, bộ lọc màu, lớp phủ hình ảnh và nhà tài trợ (Pro).\n- Đã thêm hỗ trợ kết xuất video tăng tốc phần cứng bằng chip đồ họa NVIDIA, Intel và AMD để tốc độ xuất nhanh hơn nhiều.\n- Đã thêm hỗ trợ xem trước trực tiếp để kéo và định vị phụ đề, logo và các lớp văn bản tùy chỉnh trực tiếp trên video.\n- Đã thêm tính năng tự động phát hiện để chuyển về bản âm thanh gốc nếu các bản âm thanh được tách quá nhỏ.\n### Improved\n- Cải thiện độ chính xác nhận dạng và dịch giọng nói tiếng Khmer bằng cách sử dụng tất cả các luồng CPU khả dụng và xử lý tốt hơn các bản âm thanh tĩnh lặng.\n- Cập nhật định dạng phụ đề tiếng Khmer với hỗ trợ hộp nền bo tròn, đường viền tùy chỉnh, bóng đổ và ngắt dòng chính xác.\n- Cập nhật phím tắt ứng dụng trên Màn hình nền và menu Start để tự động hiển thị số phiên bản hiện tại.\n- Cập nhật kiểm tra bản quyền và cập nhật để hỗ trợ thu hồi khóa từ xa và tăng cường kiểm tra tính toàn vẹn bảo mật.\n### Fixed\n- Đã sửa lỗi trình phát văn bản Windows đôi khi không hiển thị chính xác các ký tự Unicode tiếng Khmer trong các tệp phụ đề đã xuất.\n- Đã sửa lỗi thứ tự ký tự và khoảng cách từ cho các lớp văn bản và phụ đề tiếng Khmer."
-    },
-    {
-     "version": "1.4.4",
-     "date": "2026-09-24",
-     "text": "### Mới\n- Tùy chọn lật gương video để lật cảnh quay theo chiều ngang trong khi vẫn giữ phụ đề và logo dễ đọc.\n- Xem trước video tương tác để trực quan kéo, định vị và thay đổi kích thước logo và phụ đề. (Pro)\n- Kiểu phụ đề mới cho phép bạn chọn giữa dải làm mờ, hộp nền hoặc văn bản viền sạch sẽ. (Pro)\n- Cửa sổ liên hệ chuyên dụng với các liên kết nhanh đến Telegram, điện thoại và email để cấp phép và hỗ trợ.\n- Điều khiển xử lý hàng loạt để chọn số lượng video trong hàng đợi chạy cùng một lúc. (Pro)\n### Cải tiến\n- Ngắt dòng phụ đề giờ đây ngắt tự nhiên giữa các từ tiếng Khmer mà không làm tách cụm chữ cái.\n- Mở rộng các tùy chọn kiểu dáng phụ đề, bao gồm lựa chọn phông chữ tiếng Khmer, căn chỉnh, bóng đổ và độ dày viền. (Pro)\n- Giao diện được tinh hỉnh có thanh menu trên cùng và cửa sổ cài đặt chuyên dụng.\n- Lối tắt trên Màn hình nền và Menu Bắt đầu giờ đây tự động cập nhật theo phiên bản ứng dụng hiện tại.\n### Sửa lỗi\n- Các tệp phụ đề tiếng Khmer (.srt) đã xuất giờ đây mở ổn định trong các trình phát đa phương tiện trên Windows mà không bị lỗi ký tự."
     }
    ]
   },
-  "date": "2026-09-27"
+  "date": "2026-09-29"
  },
- "sig": "8f0a75c7d03b89d172aa14b5d93a087e1278dfc5d5ac72702f7157702be3b2d13bc2f5f674814a1e0f49912d1364062abfebf03af5a475a55ad677b0d356c50e"
+ "sig": "4f058701cfe7adbbd5bdc96517eea8c724ee7a6c5375461f80379f6c4b9a4156e33b3b6828701e56194d91c0f2a0da79f98d7bb1dad53fb515a5d11c8bbd8d02"
 }
