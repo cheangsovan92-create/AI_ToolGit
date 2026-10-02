@@ -2,13 +2,28 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.2.2",
+  "version": "2.3.0",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.2.2/SvCamTool_update_2.2.2.zip",
-  "sha256": "786150fc6b8241ebcce25ef69f41a7fe8fcd562d82579d79f3bec20a632fafe2",
-  "size": 1400372,
-  "notes": "### New\n- Added AI picture generation for thumbnails using Grok (xAI) or ChatGPT (OpenAI) with your own API key (Pro).\n- Added text animations including intro, outro, and loop effects for custom text layers (Pro).\n- Added an extra small title layer (third text layer) for thumbnail creation.\n- Added advanced speaker recognition to automatically group speakers by voice print for more accurate gender detection.\n### Improved\n- Improved video rendering speed and overall performance when applying multiple visual effects.\n- Improved handling of Gemini free-plan limits with automatic waiting and retries.\n- Enhanced gender detection reliability using voice timbre analysis alongside pitch detection.\n### Fixed\n- Fixed an issue where interrupted runs or damaged temporary audio files could result in incomplete videos.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.3.0/SvCamTool_update_2.3.0.zip",
+  "sha256": "2e5f73d80a0cce6639a4ce2c6fdb2af7c695db998c0b257bfaefc7ccf403cebe",
+  "size": 1507677,
+  "notes": "### New\n- Added a new **Premium** plan featuring advanced creator tools [Premium].\n- Added animated word-by-word captions (karaoke and pop-up styles) [Premium].\n- Added automatic punch-in zoom effects on key lines [Premium].\n- Added background music support with automatic volume ducking when someone speaks [Premium].\n- Added voice cloning to let each character keep a clone of their original voice [Premium].\n- Added multi-language export to translate and render a video into several languages in one run [Premium].\n- Added automatic Shorts/Reels/TikTok clipping and watch folder support [Premium].\n### Improved\n- Upgraded the payment screen layout with clear instructions and a built-in timer.\n- Improved progress reporting during FFmpeg rendering and audio processing.",
   "changelog": [
+   {
+    "version": "2.3.0",
+    "date": "2026-10-02",
+    "text": "### New\n- Added a new **Premium** plan featuring advanced creator tools [Premium].\n- Added animated word-by-word captions (karaoke and pop-up styles) [Premium].\n- Added automatic punch-in zoom effects on key lines [Premium].\n- Added background music support with automatic volume ducking when someone speaks [Premium].\n- Added voice cloning to let each character keep a clone of their original voice [Premium].\n- Added multi-language export to translate and render a video into several languages in one run [Premium].\n- Added automatic Shorts/Reels/TikTok clipping and watch folder support [Premium].\n### Improved\n- Upgraded the payment screen layout with clear instructions and a built-in timer.\n- Improved progress reporting during FFmpeg rendering and audio processing."
+   },
+   {
+    "version": "2.2.2",
+    "date": "2026-10-02",
+    "text": "### New\n- Added AI picture generation for thumbnails using Grok (xAI) or ChatGPT (OpenAI) with your own API key (Trial)\n- Added creator tools for Pro and Premium plans, including automated punch-in zooms, character voice cloning, and AI Shorts clipping (Pro)\n- Added text animations with intro, outro, and loop effects in the video editor (Pro)\n- Added background music support with automatic ducking during voice-overs (Pro)\n### Improved\n- Improved progress tracking during video rendering and audio extraction\n- Improved speaker voice recognition and gender detection accuracy\n- Enhanced temporary file management to automatically clean up old data\n### Fixed\n- Fixed an issue where unfinished temporary audio files could result in incomplete videos\n- Fixed JSON parsing errors in AI recap generation"
+   },
+   {
+    "version": "2.2.1",
+    "date": "2026-09-29",
+    "text": "### New\n- **AI Thumbnail Pictures**: Generate custom picture backgrounds for video thumbnails using Grok (xAI) or ChatGPT (OpenAI) with your own API key.\n- **Narrated Video Recaps**: Create a short, narrated summary story of a longer video (drama or film recap) with professional tools.\n- **Text Animations**: Add entrance, exit, and loop animations to on-screen text in the video editor [Pro].\n- **Speaker Recognition**: Identify different speakers in your videos automatically to assign voices more accurately [Pro].\n- **Quick Video Previews**: Test your edits and animations instantly with a fast, short preview before rendering the full video.\n### Improved\n- **Faster Speech Recognition**: Gemini can now listen to long videos in parallel chunks for significantly faster transcription on videos without NVIDIA graphics cards.\n- **Foreign Name Spelling**: Automatically corrects the spelling of names left in Chinese, Japanese, or Korean characters so the voice-over can read them.\n- **Work Folder Location**: Temporary video project files are now kept neatly in the app's own data folder rather than next to your original videos.\n- **Reliable Voice Checks**: Voice gender checks now include automatic retry steps and wait times to handle rate limits smoothly.\n### Fixed\n- **Empty Output Prevention**: Added safeguards to detect and fix damaged temporary sound files that previously caused finished videos to export empty or too short.\n- **Video Cutter Sync**: Fixed an issue where audio and video could drift out of sync when cutting specific segments."
+   },
    {
     "version": "2.2.2",
     "date": "2026-09-29",
@@ -93,25 +108,15 @@
     "version": "2.1.5",
     "date": "2026-09-27",
     "text": "### Improved\n- License updates and plan changes are now detected much faster, checking every minute instead of every five minutes.\n- The application log now displays clear status messages regarding your license checks and plan updates."
-   },
-   {
-    "version": "2.1.5",
-    "date": "2026-09-27",
-    "text": "### Improved\n- Improvements and bug fixes."
-   },
-   {
-    "version": "2.1.4",
-    "date": "2026-09-27",
-    "text": "### Improved\n- Improvements and bug fixes."
-   },
-   {
-    "version": "2.1.3",
-    "date": "2026-09-27",
-    "text": "### Improved\n- Improvements and bug fixes."
    }
   ],
   "changelog_i18n": {
    "km": [
+    {
+     "version": "2.3.0",
+     "date": "2026-10-02",
+     "text": "### ថ្មី\n- បានបន្ថែមផែនការ **Premium** ថ្មីដែលមានឧបករណ៍អ្នកបង្កើតកម្រិតខ្ពស់ [Premium]។\n- បានបន្ថែមចំណងជើងរងមានចលនាពាក្យម្ដងៗ (ស្ទីលការ៉ាអូខេ និងផុបអាប់) [Premium]។\n- បានបន្ថែម אפפקតពង្រីកស្វ័យប្រវត្តិនឹងបន្ទាត់សំខាន់ៗ [Premium]។\n- បានបន្ថែមការគាំទ្រតន្ត្រីផ្ទៃខាងក្រោយជាមួយការបន្ថយសំឡេងស្វ័យប្រវត្តិពេលមានអ្នកនិយាយ [Premium]។\n- បានបន្ថែមមុខងារក្លូនសំឡេង ដើម្បីឱ្យតួអង្គនីមួយៗរក្សាទុកសំឡេងដើមរបស់ខ្លួន [Premium]។\n- បានបន្ថែមការនាំចេញពហុភាសា ដើម្បីបកប្រែ និង റെនដឺ វីដេអូជាច្រើនភាសា្នក្នុងពេលតែមួយ [Premium]។\n- បានបន្ថែមការកាត់តស្វ័យប្រវត្តិ Shorts/Reels/TikTok និងការគាំទ្រថតឯកសារមើល [Premium]។\n### បានកែលម្អ\n- បានអាប់ដេតប្លង់អេក្រង់ទូទាត់ជាមួយការណែនាំច្បាស់លាស់ និងកម្មវិធីកំណត់ម៉ោងក្នុងប្រព័ន្ធ។\n- បានកែលម្អការរាយការណ៍វឌ្ឍនភាពអំឡុងពេល រ៉េនដឺ តាមរយៈ FFmpeg និងការដំណើរការសំឡេង។"
+    },
     {
      "version": "2.2.2",
      "date": "2026-09-29",
@@ -206,14 +211,14 @@
      "version": "2.0.0",
      "date": "2026-09-24",
      "text": "### ថ្មី\n- បានបន្ថែមកម្មវិធីកែសម្រួលវីដេអូ [Pro] ដើម្បីបន្ថែមអត្ថបទផ្ទាល់ខ្លួន ប្រអប់ព្រិលដើម្បីលាក់អត្ថបទដើម រូបភាពស្ពនស័រ និងស៊ុមត្រួតគ្នា។\n- បានបន្ថែមការគាំទ្រសម្រាប់ការ റെនឌ័រវីដេអូ [Pro/Trial] ដោយប្រើប្រាស់បន្ទះឈីបក្រាហ្វិករបស់អ្នកសម្រាប់ការនាំចេញលឿនជាងមុន។\n### បានកែលម្អ\n- បានកែលម្អការសម្គាល់សំឡេងភាសាខ្មែរ និងភាពត្រឹមត្រូវនៃការបកប្រែដោយពិនិត្យដោយស្វ័យប្រវត្តិនូវទាំងបទសំឡេងដាច់ដោយឡែក និងអូឌីយ៉ូដើម។\n- បានធ្វើបច្ចុប្បន្នភាពការបង្កើតរាងអត្ថបទ និងការគូសបន្ទាត់ភាសាខ្មែរ ដើម្បីធានាថាចំណងជើងរង និងអត្ថបទផ្ទាល់ខ្លួនរុំព័ទ្ធបានត្រឹមត្រូវដោយមិនបំបែកពាក្យ។\n- ផ្លូវកាត់ Desktop និង Start Menu ឥឡូវនេះរក្សាលេខកំណែដែលត្រឹមត្រូវដោយស្វ័យប្រវត្តិនៅពេលធ្វើបច្ចុប្បន្នភាព។\n### បានកែសម្រួល\n- បានកែសម្រួលបញ្ហាដែលបទសំឡេងដាច់ដោយឡែកស្ងាត់ខ្លាំងអាចបណ្តាលឱ្យការបកប្រែ ឬការបំលែងជាអត្ថបទបរាជ័យ។\n- បានកែសម្រួលកំហុសជាមួយការអ៊ិនកូដឯកសារចំណងជើងរង ដូច្នេះតួអក្សរខ្មែរឥឡូវនេះបង្ហាញបានត្រឹមត្រូវនៅទូទាំងកម្មវិធីចាក់មេឌៀ Windows ទាំងអស់។"
-    },
-    {
-     "version": "1.5.0",
-     "date": "2026-09-24",
-     "text": "### ថ្មី\n- បានបន្ថែមកម្មវិធីកែសម្រួលវីដេអូពេញលេញ ដើម្បីកែច្នៃវីដេអូរបស់អ្នកជាមួយស្រទាប់អត្ថបទ ប្រអប់ព្រិល តម្រងពណ៌ រូបភាពត្រួតគ្នា និងស្ពនស័រ (Pro)។\n- បានបន្ថែមការគាំទ្រសម្រាប់ការ റെនឌ័រវីដេអូដោយប្រើប្រាស់បន្ទះឈីបក្រាហ្វិក NVIDIA, Intel និង AMD សម្រាប់ល្បឿននាំចេញលឿនជាងមុន។\n- បានបន្ថែមការមើលជាមុនផ្ទាល់សម្រាប់ការអូស និងកំណត់ទីតាំងចំណងជើងរង រូបសញ្ញា និងស្រទាប់អត្ថបទផ្ទាល់ខ្លួននៅលើវីដេអូ។\n- បានបន្ថែមការរកឃើញស្វ័យប្រវត្តិដើម្បីត្រឡប់ទៅបទអូឌីយ៉ូដើមវិញ ប្រសិនបើបទសំឡេងដាច់ដោយឡែកស្ងាត់ពេក។\n### បានកែលម្អ\n- បានកែលម្អការសម្គាល់សំឡេងភាសាខ្មែរ និងភាពត្រឹមត្រូវនៃការបកប្រែដោយប្រើប្រាស់ CPU threads ទាំងអស់ដែលមាន និងការจัดการបទអូឌីយ៉ូស្ងាត់បានល្អជាងមុន។\n- បានធ្វើបច្ចុប្បន្នភាពទ្រង់ទ្រាយចំណងជើងរងភាសាខ្មែរជាមួយការគាំទ្រសម្រាប់ប្រអប់ផ្ទៃខាងក្រោយមូល គែមផ្ទាល់ខ្លួន ស្រមោល និងការកាត់បន្ទាត់ច្បាស់លាស់។\n- បានធ្វើបច្ចុប្បន្នភាពផ្លូវកាត់កម្មវិធីនៅលើ Desktop និង Start menu ដើម្បីបង្ហាញលេខកំណែបច្ចុប្បន្នដោយស្វ័យប្រវត្តិ។\n- បានធ្វើបច្ចុប្បន្នភាពការពិនិត្យអាជ្ញាប័ណ្ណ និងបច្ចុប្បន្នភាពដើម្បីគាំទ្រដល់ការលុបចោលគន្លឹះពីចម្ងាយ និងការត្រួតពិនិត្យសុវត្ថិភាពដែលប្រសើរឡើង។\n### បានកែសម្រួល\n- បានកែសម្រួលបញ្ហាដែលកម្មវិធីចាក់អត្ថបទ Windows  ಕೆಲครั้งមិនអាចបង្ហាញតួអក្សរ Unicode ខ្មែរបានត្រឹមត្រូវនៅក្នុងឯកសារចំណងជើងរងដែលបាននាំចេញ។\n- បានកែសម្រួលលំដាប់តួអក្សរ និងចន្លោះពាក្យសម្រាប់ស្រទាប់អត្ថបទ និងចំណងជើងរងភាសាខ្មែរ។"
     }
    ],
    "th": [
+    {
+     "version": "2.3.0",
+     "date": "2026-10-02",
+     "text": "### ใหม่\n- เพิ่มแผน **Premium** ใหม่พร้อมเครื่องมือครีเอเตอร์ขั้นสูง [Premium]\n- เพิ่มคำบรรยายแบบเคลื่อนไหวทีละคำ (สไตล์คาราโอเกะและป๊อปอัป) [Premium]\n- เพิ่มเอฟเฟกต์ซูมเข้าอัตโนมัติในประโยคสำคัญ [Premium]\n- เพิ่มการรองรับเสียงเพลงประกอบพร้อมลดเสียงอัตโนมัติเมื่อมีคนพูด [Premium]\n- เพิ่มการโคลนเสียงเพื่อให้ตัวละครแต่ละตัวคงเสียงต้นฉบับไว้ได้ [Premium]\n- เพิ่มการส่งออกหลายภาษาเพื่อแปลและเรนเดอร์วิดีโอเป็นหลายภาษาได้ในครั้งเดียว [Premium]\n- เพิ่มการตัดคลิป Shorts/Reels/TikTok อัตโนมัติและการรองรับโฟลเดอร์เฝ้าดู [Premium]\n### ปรับปรุง\n- อัปเกรดเลย์เอาต์หน้าจอการชำระเงินพร้อมคำแนะนำที่ชัดเจนและตัวจับเวลาในตัว\n- ปรับปรุงการรายงานความคืบหน้าระหว่างการเรนเดอร์ FFmpeg และการประมวลผลเสียง"
+    },
     {
      "version": "2.2.2",
      "date": "2026-09-29",
@@ -308,14 +313,14 @@
      "version": "2.0.0",
      "date": "2026-09-24",
      "text": "### ใหม่\n- เพิ่มโปรแกรมตัดต่อวิดีโอแบบเต็มรูปแบบ [Pro] เพื่อเพิ่มข้อความกำหนดเอง กล่องเบลอเพื่อซ่อนข้อความต้นฉบับ รูปภาพผู้สนับสนุน และเฟรมซ้อนทับ\n- เพิ่มการรองรับการเรนเดอร์วิดีโอเร่งด้วยฮาร์ดแวร์ [Pro/Trial] โดยใช้ชิปการ์ดจอของคุณเพื่อการส่งออกที่เร็วขึ้นมาก\n### ปรับปรุง\n- ปรับปรุงความแม่นยำในการจดจำเสียงและการแปลภาษาเขมร โดยตรวจสอบทั้งแทร็กเสียงที่แยกและเสียงต้นฉบับโดยอัตโนมัติ\n- อัปเดตการจัดรูปทรงและการตัดคำภาษาเขมรเพื่อให้แน่ใจว่าซับไตเติลและข้อความกำหนดเองตัดบรรทัดได้อย่างถูกต้องโดยไม่คำขาด\n- ทางลัดบนเดสก์ท็อปและ Start Menu จะอัปเดตหมายเลขเวอร์ชันที่ถูกต้องให้อัตโนมัติเมื่อมีการอัปเดต\n### แก้ไขข้อบกพร่อง\n- แก้ไขปัญหาที่แทร็กเสียงแยกซึ่งเบามากอาจทำให้การแปลหรือการถอดเสียงล้มเหลว\n- แก้ไขข้อบกพร่องเกี่ยวกับการเข้ารหัสไฟล์ซับไตเติล ทำให้ตัวอักษรภาษาเขมรแสดงผลได้อย่างถูกต้องใน Windows media player ทั้งหมด"
-    },
-    {
-     "version": "1.5.0",
-     "date": "2026-09-24",
-     "text": "### New\n- เพิ่มโปรแกรมตัดต่อวิดีโอเต็มรูปแบบเพื่อปรับแต่งวิดีโอของคุณด้วยเลเยอร์ข้อความ, กล่องเบลอ, ฟิลเตอร์สี, ภาพซ้อนทับ และผู้สนับสนุน (Pro)\n- เพิ่มการรองรับการเรนเดอร์วิดีโอด้วย Hardware-accelerated โดยใช้ชิปกราฟิก NVIDIA, Intel และ AMD เพื่อความเร็วในการส่งออกที่สูงขึ้นมาก\n- เพิ่มการรองรับตัวอย่างสดสำหรับการลากและวางตำแหน่งคำบรรยาย, โลโก้ และเลเยอร์ข้อความกำหนดเองบนวิดีโอโดยตรง\n- เพิ่มการตรวจจับอัตโนมัติเพื่อสำรองข้อมูลไปยังแทร็กเสียงดั้งเดิมหากแทร็กเสียงที่แยกออกมาเบาเกินไป\n### Improved\n- ปรับปรุงความแม่นยำในการจดจำเสียงพูดและการแปลภาษาเขมรโดยใช้ CPU threads ทั้งหมดที่มีและการจัดการแทร็กเสียงเงียบที่ดีขึ้น\n- อัปเดตการจัดรูปแบบคำบรรยายภาษาเขมรด้วยการรองรับกล่องพื้นหลังแบบมน, ขอบกำหนดเอง, เงา และการตัดบรรทัดที่แม่นยำ\n- อัปเดตทางลัดของแอปบนเดสก์ท็อปและเมนู Start เพื่อแสดงหมายเลขเวอร์ชันปัจจุบันโดยอัตโนมัติ\n- อัปเดตการตรวจสอบ License และการอัปเดตเพื่อรองรับการเพิกถอนคีย์ระยะไกลและการตรวจสอบความสมบูรณ์ด้านความปลอดภัยที่ 강화ขึ้น\n### Fixed\n- แก้ไขปัญหาที่โปรแกรมเล่นข้อความของ Windows บางครั้งไม่สามารถแสดงอักขระ Unicode ภาษาเขมรได้อย่างถูกต้องในไฟล์คำบรรยายที่ส่งออก\n- แก้ไขปัญหาลำดับตัวอักษรและช่องว่างระหว่างคำสำหรับเลเยอร์ข้อความและคำบรรยายภาษาเขมร"
     }
    ],
    "vi": [
+    {
+     "version": "2.3.0",
+     "date": "2026-10-02",
+     "text": "### Mới\n- Thêm gói **Premium** mới với các công cụ sáng tạo nâng cao [Premium].\n- Thêm phụ đề động theo từng từ (kiểu karaoke và pop-up) [Premium].\n- Thêm hiệu ứng phóng to tự động (zoom) tại các câu quan trọng [Premium].\n- Thêm hỗ trợ nhạc nền với tính năng tự động giảm âm lượng khi có người nói [Premium].\n- Thêm tính năng nhân bản giọng nói giúp mỗi nhân vật giữ được bản sao giọng gốc của mình [Premium].\n- Thêm tính năng xuất đa ngôn ngữ để dịch và render video sang nhiều ngôn ngữ trong một lần chạy [Premium].\n- Thêm tính năng tự động cắt Shorts/Reels/TikTok và hỗ trợ thư mục theo dõi (watch folder) [Premium].\n### Cải tiến\n- Nâng cấp giao diện màn hình thanh toán với hướng dẫn rõ ràng và bộ đếm thời gian tích hợp.\n- Cải thiện việc hiển thị tiến trình trong quá trình render bằng FFmpeg và xử lý âm thanh."
+    },
     {
      "version": "2.2.2",
      "date": "2026-09-29",
@@ -410,15 +415,10 @@
      "version": "2.0.0",
      "date": "2026-09-24",
      "text": "### Mới\n- Thêm trình chỉnh sửa video đầy đủ [Pro] để thêm văn bản tùy chỉnh, hộp làm mờ để ẩn văn bản gốc, hình ảnh nhà tài trợ và khung lớp phủ.\n- Thêm hỗ trợ kết xuất video tăng tốc phần cứng [Pro/Trial] sử dụng chip đồ họa của bạn để xuất video nhanh hơn nhiều.\n### Cải tiến\n- Cải thiện độ chính xác nhận dạng và dịch giọng nói tiếng Khmer bằng cách tự động kiểm tra cả bản nhạc giọng nói đã tách và âm thanh gốc.\n- Cập nhật định dạng và ngắt từ tiếng Khmer để đảm bảo phụ đề và văn bản tùy chỉnh xuống dòng chính xác mà không bị ngắt giữa chừng từ.\n- Lối tắt trên Màn hình nền và Menu Bắt đầu giờ đây tự động giữ đúng số phiên bản khi được cập nhật.\n### Sửa lỗi\n- Khắc phục sự cố bản nhạc giọng nói đã tách quá nhỏ có thể khiến quá trình dịch hoặc chuyển đổi giọng nói thành văn bản thất bại.\n- Khắc phục lỗi mã hóa tệp phụ đề để các ký tự tiếng Khmer hiện hiển thị chính xác trên tất cả các trình phát đa phương tiện trên Windows."
-    },
-    {
-     "version": "1.5.0",
-     "date": "2026-09-24",
-     "text": "### New\n- Đã thêm trình chỉnh sửa video đầy đủ để tùy chỉnh video của bạn với các lớp văn bản, hộp làm mờ, bộ lọc màu, lớp phủ hình ảnh và nhà tài trợ (Pro).\n- Đã thêm hỗ trợ kết xuất video tăng tốc phần cứng bằng chip đồ họa NVIDIA, Intel và AMD để tốc độ xuất nhanh hơn nhiều.\n- Đã thêm hỗ trợ xem trước trực tiếp để kéo và định vị phụ đề, logo và các lớp văn bản tùy chỉnh trực tiếp trên video.\n- Đã thêm tính năng tự động phát hiện để chuyển về bản âm thanh gốc nếu các bản âm thanh được tách quá nhỏ.\n### Improved\n- Cải thiện độ chính xác nhận dạng và dịch giọng nói tiếng Khmer bằng cách sử dụng tất cả các luồng CPU khả dụng và xử lý tốt hơn các bản âm thanh tĩnh lặng.\n- Cập nhật định dạng phụ đề tiếng Khmer với hỗ trợ hộp nền bo tròn, đường viền tùy chỉnh, bóng đổ và ngắt dòng chính xác.\n- Cập nhật phím tắt ứng dụng trên Màn hình nền và menu Start để tự động hiển thị số phiên bản hiện tại.\n- Cập nhật kiểm tra bản quyền và cập nhật để hỗ trợ thu hồi khóa từ xa và tăng cường kiểm tra tính toàn vẹn bảo mật.\n### Fixed\n- Đã sửa lỗi trình phát văn bản Windows đôi khi không hiển thị chính xác các ký tự Unicode tiếng Khmer trong các tệp phụ đề đã xuất.\n- Đã sửa lỗi thứ tự ký tự và khoảng cách từ cho các lớp văn bản và phụ đề tiếng Khmer."
     }
    ]
   },
-  "date": "2026-09-29"
+  "date": "2026-10-02"
  },
- "sig": "4f058701cfe7adbbd5bdc96517eea8c724ee7a6c5375461f80379f6c4b9a4156e33b3b6828701e56194d91c0f2a0da79f98d7bb1dad53fb515a5d11c8bbd8d02"
+ "sig": "7e21a8d2da4b0f07fca02eb3522ad71718980c7cb7a42d6e08458cf2c50613c3099b87393cb51bed026d5e1c85d8b83f1755719e7d90bd05620469098971eb06"
 }
