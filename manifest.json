@@ -2,13 +2,23 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.3.0",
+  "version": "2.3.1",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.3.0/SvCamTool_update_2.3.0.zip",
-  "sha256": "2e5f73d80a0cce6639a4ce2c6fdb2af7c695db998c0b257bfaefc7ccf403cebe",
-  "size": 1507677,
-  "notes": "### New\n- Added a new **Premium** plan featuring advanced creator tools [Premium].\n- Added animated word-by-word captions (karaoke and pop-up styles) [Premium].\n- Added automatic punch-in zoom effects on key lines [Premium].\n- Added background music support with automatic volume ducking when someone speaks [Premium].\n- Added voice cloning to let each character keep a clone of their original voice [Premium].\n- Added multi-language export to translate and render a video into several languages in one run [Premium].\n- Added automatic Shorts/Reels/TikTok clipping and watch folder support [Premium].\n### Improved\n- Upgraded the payment screen layout with clear instructions and a built-in timer.\n- Improved progress reporting during FFmpeg rendering and audio processing.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.3.1/SvCamTool_update_2.3.1.zip",
+  "sha256": "ea40ae93b5e5f9188c8e2ca67bf0c10ae75e4ab28ff279ec4a2731ca99ae3f9c",
+  "size": 1617470,
+  "notes": "### New\n- Built-in Video Downloader to grab single videos, full channels, or playlists from YouTube, TikTok, Facebook, and over 1,000 sites (Pro).\n- Automatic child voice detection with new young boy, young girl, and kid dubbing voices that use child-friendly Khmer phrasing.\n- SvCamTool AI connection that lets you translate and detect voices without needing your own Gemini key.\n- Expanded Thumbnail Maker with over 100 ready-to-use title styles, word highlighting, and customizable episode badges.\n- System Check tool in the Help menu to instantly test your internet, AI keys, and voice services for issues.\n### Improved\n- Title style previews in the Thumbnail Maker now show your actual text instead of generic placeholder letters.\n- Token tracker under Help > My AI Tokens to easily monitor your monthly usage when using SvCamTool AI.",
   "changelog": [
+   {
+    "version": "2.3.1",
+    "date": "2026-10-12",
+    "text": "### New\n- Built-in Video Downloader to grab single videos, full channels, or playlists from YouTube, TikTok, Facebook, and over 1,000 sites (Pro).\n- Automatic child voice detection with new young boy, young girl, and kid dubbing voices that use child-friendly Khmer phrasing.\n- SvCamTool AI connection that lets you translate and detect voices without needing your own Gemini key.\n- Expanded Thumbnail Maker with over 100 ready-to-use title styles, word highlighting, and customizable episode badges.\n- System Check tool in the Help menu to instantly test your internet, AI keys, and voice services for issues.\n### Improved\n- Title style previews in the Thumbnail Maker now show your actual text instead of generic placeholder letters.\n- Token tracker under Help > My AI Tokens to easily monitor your monthly usage when using SvCamTool AI."
+   },
+   {
+    "version": "2.3.0",
+    "date": "2026-10-12",
+    "text": "### New\n- Added SvCamTool AI: translate with Gemini directly through your license plan—no personal Gemini API key required.\n- Added support for new young voices (Young Boy, Young Girl, Kid) with automatic age detection for children's lines.\n- Added System Check under the Help menu to test your internet, license, AI keys, and voice services in one click.\n- Added automated creator tools to create Shorts/Reels, keep original voice clones, add background music, auto-zoom key moments, and publish packs (Premium).\n- Added multi-language rendering to translate and render a single video into several target languages in one run (Premium).\n- Added a video downloader tool to grab individual videos, playlists, or entire channels from over 1,000 supported sites (Professional & Premium).\n### Improved\n- Upgraded recap video tools with smart section splitting, sentence snapping, smooth transitions, vertical 9:16 layout, and animated title overlays.\n- Upgraded the progress bar during transcription, translation, and rendering to give smoother and more accurate timing estimates.\n- Updated Telegram contact support to @SvCamTool.\n- Added animated caption text effects, including continuous scrolling up, down, and across the screen.\n### Fixed\n- Fixed an issue where saved lines using the same voice were not automatically updated when switching to Auto voice.\n- Fixed JSON parsing errors that could occur during recap generation."
+   },
    {
     "version": "2.3.0",
     "date": "2026-10-02",
@@ -98,20 +108,15 @@
     "version": "2.1.6",
     "date": "2026-09-27",
     "text": "### Improved\n- The app now checks for license updates and plan changes every minute instead of every five minutes.\n- Offline license keys are now safely preserved and will not be overwritten by the server unless you upgrade to a better plan.\n- Detailed license status and server connection messages are now displayed directly in the app's log.\n- Purchase and trial buttons will now automatically hide if online buying is temporarily paused on the server."
-   },
-   {
-    "version": "2.1.6",
-    "date": "2026-09-27",
-    "text": "### Improved\n- License updates and plan changes are now applied much faster, checking every minute instead of every five minutes.\n- The application log now displays clear status updates regarding your license checks."
-   },
-   {
-    "version": "2.1.5",
-    "date": "2026-09-27",
-    "text": "### Improved\n- License updates and plan changes are now detected much faster, checking every minute instead of every five minutes.\n- The application log now displays clear status messages regarding your license checks and plan updates."
    }
   ],
   "changelog_i18n": {
    "km": [
+    {
+     "version": "2.3.1",
+     "date": "2026-10-12",
+     "text": "### ថ្មី\n- កម្មវិធីទាញយកវីដេអូ內嵌 (Built-in Video Downloader) ដើម្បីទាញយកវីដេអូបុគ្គល ឆានែលពេញ ឬ បញ្ជីចាក់ ពី YouTube, TikTok, Facebook និងគេហទំព័រជាង ១,០០០ ទៀត (Pro)។\n- ការរកឃើញសំឡេងក្មេងដោយស្វ័យប្រវត្តិ ជាមួយនឹងសំឡេងក្មេងប្រុស ក្មេងស្រី និងសំឡេងឌុបក្មេងៗថ្មី ដែលប្រើប្រាស់ឃ្លាភាសាខ្មែរដែលសبیសមស្របសម្រាប់ក្មេង។\n- ការតភ្ជាប់ SvCamTool AI ដែលអនុញ្ញាតឱ្យអ្នកបកប្រែ និងរកឃើញសំឡេងដោយមិនចាំបាច់មានគន្លឹះ (key) Gemini ផ្ទាល់ខ្លួនរបស់អ្នក។\n- កម្មវិធីបង្កើតរូបភាពតូច (Thumbnail Maker) ដែលបានពង្រីក ជាមួយនឹងរចនាប័ទ្មចំណងជើងជាង ១០០ ដែលត្រៀមរួចជាស្រេចដើម្បីប្រើប្រាស់ ការសម្គាល់ពាក្យ និងផ្លាកសញ្ញាភាគដែលអាចប្ដូរតាមបំណងបាន។\n- ឧបករណ៍ពិនិត្យប្រព័ន្ធ (System Check) នៅក្នុងមីនុយជំនួយ ដើម្បីសាកល្បងអ៊ីនធឺណិត គន្លឹះ AI និងសេវាកម្មសំឡេងរបស់អ្នកភ្លាមៗចំពោះបញ្ហាផ្សេងៗ។\n### បានកែលម្អ\n- ការមើលជាមុននៃរចនាប័ទ្មចំណងជើងនៅក្នុង Thumbnail Maker ឥឡូវនេះបង្ហាញអត្ថបទពិតរបស់អ្នកជំនួសឱ្យអក្សរដាក់ជំនួសទូទៅ។\n- កម្មវិធីតាមដានតូខេន (Token tracker) ក្រោម ជំនួយ > តូខេន AI របស់ខ្ញុំ ដើម្បីងាយស្រួលត្រួតពិនិត្យការប្រើប្រាស់ប្រចាំខែរបស់អ្នកពេលប្រើប្រាស់ SvCamTool AI។"
+    },
     {
      "version": "2.3.0",
      "date": "2026-10-02",
@@ -206,14 +211,14 @@
      "version": "2.0.1",
      "date": "2026-09-24",
      "text": "### ថ្មី\n- បានបន្ថែមកម្មវិធីកែសម្រួលវីដេអូពេញលេញនៅខាងក្រោមការមើលជាមុន ដើម្បីបន្ថែមស្រទាប់អត្ថបទផ្ទាល់ខ្លួន ព្រិលតំបន់រសើប រូបភាពស្ពនស័រ ស៊ុម និងតម្រងពណ៌។\n- បានបន្ថែមការគាំទ្រសម្រាប់ Facebook Reel, ការចុចការេ 1:1 និងរូបរាងមើលជាមុនផ្ទាល់ខ្លួនពីម៉ឺនុយបង្អួច។\n### បានកែលម្អ\n- បានបង្កើនល្បឿននៃការបំលែងវីដេអូជាអត្ថបទ និងការ റെនឌ័រដោយស្វ័យប្រវត្តិប្រើប្រាស់ CPU cores ទាំងអស់ និងការបង្កើនល្បឿនផ្នែករឹងកាតក្រាហ្វិក។\n- បានធ្វើឱ្យការលុបសំឡេងច្រៀងកាន់តែឆ្លាតវៃដោយការពិនិត្យឡើងវិញដោយស្វ័យប្រវត្តិនូវអូឌីយ៉ូដើម ប្រសិនបើបទសំឡេងដាច់ដោយឡែកស្ងាត់ពេក។\n- បានធ្វើឱ្យចំណុចប្រទាក់អ្នកប្រើប្រាស់ស្រស់ស្រាយជាមួយប្លង់ម៉ឺនុយស្អាតជាងមុន និងរចនាប័ទ្មផ្ទាំងដែលប្រសើរឡើង។\n### បានកែសម្រួល\n- បានកែសម្រួលបញ្ហាដែលវីដេអូដែលមានបទបំបែកសំឡេងស្ងាត់ខ្លាំង ឬបាត់មិនអាចបំលែងសំឡេងជាអត្ថបទបានត្រឹមត្រូវ។"
-    },
-    {
-     "version": "2.0.0",
-     "date": "2026-09-24",
-     "text": "### ថ្មី\n- បានបន្ថែមកម្មវិធីកែសម្រួលវីដេអូ [Pro] ដើម្បីបន្ថែមអត្ថបទផ្ទាល់ខ្លួន ប្រអប់ព្រិលដើម្បីលាក់អត្ថបទដើម រូបភាពស្ពនស័រ និងស៊ុមត្រួតគ្នា។\n- បានបន្ថែមការគាំទ្រសម្រាប់ការ റെនឌ័រវីដេអូ [Pro/Trial] ដោយប្រើប្រាស់បន្ទះឈីបក្រាហ្វិករបស់អ្នកសម្រាប់ការនាំចេញលឿនជាងមុន។\n### បានកែលម្អ\n- បានកែលម្អការសម្គាល់សំឡេងភាសាខ្មែរ និងភាពត្រឹមត្រូវនៃការបកប្រែដោយពិនិត្យដោយស្វ័យប្រវត្តិនូវទាំងបទសំឡេងដាច់ដោយឡែក និងអូឌីយ៉ូដើម។\n- បានធ្វើបច្ចុប្បន្នភាពការបង្កើតរាងអត្ថបទ និងការគូសបន្ទាត់ភាសាខ្មែរ ដើម្បីធានាថាចំណងជើងរង និងអត្ថបទផ្ទាល់ខ្លួនរុំព័ទ្ធបានត្រឹមត្រូវដោយមិនបំបែកពាក្យ។\n- ផ្លូវកាត់ Desktop និង Start Menu ឥឡូវនេះរក្សាលេខកំណែដែលត្រឹមត្រូវដោយស្វ័យប្រវត្តិនៅពេលធ្វើបច្ចុប្បន្នភាព។\n### បានកែសម្រួល\n- បានកែសម្រួលបញ្ហាដែលបទសំឡេងដាច់ដោយឡែកស្ងាត់ខ្លាំងអាចបណ្តាលឱ្យការបកប្រែ ឬការបំលែងជាអត្ថបទបរាជ័យ។\n- បានកែសម្រួលកំហុសជាមួយការអ៊ិនកូដឯកសារចំណងជើងរង ដូច្នេះតួអក្សរខ្មែរឥឡូវនេះបង្ហាញបានត្រឹមត្រូវនៅទូទាំងកម្មវិធីចាក់មេឌៀ Windows ទាំងអស់។"
     }
    ],
    "th": [
+    {
+     "version": "2.3.1",
+     "date": "2026-10-12",
+     "text": "### ใหม่\n- ตัวดาวน์โหลดวิดีโอในตัว สำหรับดึงวิดีโอเดี่ยว, ช่องเต็ม หรือเพลย์ลิสต์จาก YouTube, TikTok, Facebook และกว่า 1,000 เว็บไซต์ (Pro)\n- ระบบตรวจจับเสียงเด็กอัตโนมัติ พร้อมเสียงพากย์เด็กผู้ชาย เด็กผู้หญิง และเด็กเล็ก ที่ใช้สำนวนภาษาเขมรที่เป็นกันเองสำหรับเด็ก\n- การเชื่อมต่อ SvCamTool AI ที่ช่วยให้คุณแปลและตรวจจับเสียงได้โดยไม่ต้องใช้คีย์ Gemini ส่วนตัว\n- เครื่องมือสร้างภาพย่อ (Thumbnail Maker) ที่ขยายเพิ่มเติมด้วยสไตล์ชื่อเรื่องพร้อมใช้งานกว่า 100 แบบ, การไฮไลต์คำ และป้ายกำกับตอนที่ปรับแต่งได้\n- เครื่องมือตรวจสอบระบบในเมนู Help เพื่อทดสอบอินเทอร์เน็ต, คีย์ AI และบริการเสียงของคุณได้ทันทีเพื่อหาปัญหา\n### ปรับปรุง\n- ตัวอย่างสไตล์ชื่อเรื่องใน Thumbnail Maker ตอนนี้จะแสดงข้อความจริงของคุณแทนที่จะเป็นตัวอักษรตัวแทนทั่วไป\n- ตัวติดตามโทเค็นใต้ Help > My AI Tokens เพื่อตรวจสอบการใช้งานรายเดือนของคุณได้อย่างง่ายดายเมื่อใช้ SvCamTool AI"
+    },
     {
      "version": "2.3.0",
      "date": "2026-10-02",
@@ -308,14 +313,14 @@
      "version": "2.0.1",
      "date": "2026-09-24",
      "text": "### ใหม่\n- เพิ่มโปรแกรมตัดต่อวิดีโอแบบเต็มรูปแบบใต้หน้าจอพรีวิว เพื่อเพิ่มเลเยอร์ข้อความกำหนดเอง เบลอส่วนที่ละเอียดอ่อน รูปภาพผู้สนับสนุน เฟรม และฟิลเตอร์สี\n- เพิ่มการรองรับ Facebook Reel, สี่เหลี่ยม 1:1 และรูปทรงพรีวิวแบบกำหนดเองจากเมนูหน้าต่าง\n### ปรับปรุง\n- เร่งความเร็วในการถอดเสียงและเรนเดอร์วิดีโอให้เร็วขึ้น โดยใช้ประโยชน์จากทุกคอร์ CPU และการเร่งฮาร์ดแวร์การ์ดจอโดยอัตโนมัติ\n- ทำให้การลบเสียงร้องฉลาดขึ้น โดยตรวจสอบเสียงต้นฉบับใหม่อัตโนมัติหากแทร็กเสียงที่แยกออกมาเบาเกินไป\n- ปรับปรุงอินเทอร์เฟซผู้ใช้ใหม่ด้วยเลย์เอาต์เมนูที่สะอาดตาขึ้นและสไตล์แท็บที่ดีขึ้น\n### แก้ไขข้อบกพร่อง\n- แก้ไขปัญหาที่วิดีโอซึ่งมีแทร็กแยกเสียงร้องที่เบามากหรือขาดหายไป ไม่สามารถถอดเสียงพูดได้อย่างถูกต้อง"
-    },
-    {
-     "version": "2.0.0",
-     "date": "2026-09-24",
-     "text": "### ใหม่\n- เพิ่มโปรแกรมตัดต่อวิดีโอแบบเต็มรูปแบบ [Pro] เพื่อเพิ่มข้อความกำหนดเอง กล่องเบลอเพื่อซ่อนข้อความต้นฉบับ รูปภาพผู้สนับสนุน และเฟรมซ้อนทับ\n- เพิ่มการรองรับการเรนเดอร์วิดีโอเร่งด้วยฮาร์ดแวร์ [Pro/Trial] โดยใช้ชิปการ์ดจอของคุณเพื่อการส่งออกที่เร็วขึ้นมาก\n### ปรับปรุง\n- ปรับปรุงความแม่นยำในการจดจำเสียงและการแปลภาษาเขมร โดยตรวจสอบทั้งแทร็กเสียงที่แยกและเสียงต้นฉบับโดยอัตโนมัติ\n- อัปเดตการจัดรูปทรงและการตัดคำภาษาเขมรเพื่อให้แน่ใจว่าซับไตเติลและข้อความกำหนดเองตัดบรรทัดได้อย่างถูกต้องโดยไม่คำขาด\n- ทางลัดบนเดสก์ท็อปและ Start Menu จะอัปเดตหมายเลขเวอร์ชันที่ถูกต้องให้อัตโนมัติเมื่อมีการอัปเดต\n### แก้ไขข้อบกพร่อง\n- แก้ไขปัญหาที่แทร็กเสียงแยกซึ่งเบามากอาจทำให้การแปลหรือการถอดเสียงล้มเหลว\n- แก้ไขข้อบกพร่องเกี่ยวกับการเข้ารหัสไฟล์ซับไตเติล ทำให้ตัวอักษรภาษาเขมรแสดงผลได้อย่างถูกต้องใน Windows media player ทั้งหมด"
     }
    ],
    "vi": [
+    {
+     "version": "2.3.1",
+     "date": "2026-10-12",
+     "text": "### Mới\n- Tích hợp trình tải video để tải xuống video đơn, toàn bộ kênh hoặc danh sách phát từ YouTube, TikTok, Facebook và hơn 1.000 trang web khác (Pro).\n- Tự động phát hiện giọng trẻ em với các giọng lồng tiếng bé trai, bé gái và trẻ em mới sử dụng cách diễn đạt tiếng Khmer thân thiện với trẻ nhỏ.\n- Kết nối SvCamTool AI cho phép bạn dịch và phát hiện giọng nói mà không cần dùng khóa Gemini của riêng bạn.\n- Trình tạo ảnh thu nhỏ (Thumbnail Maker) mở rộng với hơn 100 kiểu tiêu đề có sẵn, làm nổi bật từ và huy hiệu tập phim có thể tùy chỉnh.\n- Công cụ kiểm tra hệ thống trong menu Trợ giúp để kiểm tra ngay lập tức kết nối internet, khóa AI và các dịch vụ giọng nói xem có lỗi gì không.\n### Cải tiến\n- Bản xem trước kiểu tiêu đề trong Trình tạo ảnh thu nhỏ giờ đây hiển thị văn bản thực tế của bạn thay vì các chữ cái giữ chỗ chung chung.\n- Trình theo dõi token trong Trợ giúp > Token AI của tôi để dễ dàng theo dõi mức sử dụng hàng tháng của bạn khi dùng SvCamTool AI."
+    },
     {
      "version": "2.3.0",
      "date": "2026-10-02",
@@ -410,15 +415,10 @@
      "version": "2.0.1",
      "date": "2026-09-24",
      "text": "### Mới\n- Thêm trình chỉnh sửa video đầy đủ ngay bên dưới bản xem trước để thêm các lớp văn bản tùy chỉnh, làm mờ vùng nhạy cảm, hình ảnh nhà tài trợ, khung hình và bộ lọc màu.\n- Thêm hỗ trợ cho Facebook Reel, tỷ lệ vuông 1:1 và các hình dạng xem trước tùy chỉnh từ menu cửa sổ.\n### Cải tiến\n- Tăng tốc độ chuyển đổi giọng nói thành văn bản và kết xuất video bằng cách tự động tận dụng tất cả các nhân CPU và tăng tốc phần cứng card đồ họa.\n- Làm cho tính năng tách giọng hát thông minh hơn bằng cách tự động kiểm tra lại âm thanh gốc nếu bản nhạc giọng nói tách ra quá nhỏ.\n- Làm mới giao diện người dùng với bố cục menu gọn gàng hơn và cải thiện kiểu dáng tab.\n### Sửa lỗi\n- Khắc phục sự cố video có bản nhạc tách giọng hát quá nhỏ hoặc bị thiếu không thể chuyển đổi giọng nói thành văn bản đúng cách."
-    },
-    {
-     "version": "2.0.0",
-     "date": "2026-09-24",
-     "text": "### Mới\n- Thêm trình chỉnh sửa video đầy đủ [Pro] để thêm văn bản tùy chỉnh, hộp làm mờ để ẩn văn bản gốc, hình ảnh nhà tài trợ và khung lớp phủ.\n- Thêm hỗ trợ kết xuất video tăng tốc phần cứng [Pro/Trial] sử dụng chip đồ họa của bạn để xuất video nhanh hơn nhiều.\n### Cải tiến\n- Cải thiện độ chính xác nhận dạng và dịch giọng nói tiếng Khmer bằng cách tự động kiểm tra cả bản nhạc giọng nói đã tách và âm thanh gốc.\n- Cập nhật định dạng và ngắt từ tiếng Khmer để đảm bảo phụ đề và văn bản tùy chỉnh xuống dòng chính xác mà không bị ngắt giữa chừng từ.\n- Lối tắt trên Màn hình nền và Menu Bắt đầu giờ đây tự động giữ đúng số phiên bản khi được cập nhật.\n### Sửa lỗi\n- Khắc phục sự cố bản nhạc giọng nói đã tách quá nhỏ có thể khiến quá trình dịch hoặc chuyển đổi giọng nói thành văn bản thất bại.\n- Khắc phục lỗi mã hóa tệp phụ đề để các ký tự tiếng Khmer hiện hiển thị chính xác trên tất cả các trình phát đa phương tiện trên Windows."
     }
    ]
   },
-  "date": "2026-10-02"
+  "date": "2026-10-12"
  },
- "sig": "7e21a8d2da4b0f07fca02eb3522ad71718980c7cb7a42d6e08458cf2c50613c3099b87393cb51bed026d5e1c85d8b83f1755719e7d90bd05620469098971eb06"
+ "sig": "bf1b39b0044eff3a35995cdcbf51e001c15ac36c83e3756a1518559d5e13ec3539ba8ea1824ef3b296f72c1dcad379cc7f1a4ee657bddbf0216f765b1e152b00"
 }
