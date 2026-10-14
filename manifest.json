@@ -2,13 +2,23 @@
  "data": {
   "revoked": [],
   "blocked_api_keys": [],
-  "version": "2.3.1",
+  "version": "2.3.2",
   "min_version": "2.0.3",
-  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.3.1/SvCamTool_update_2.3.1.zip",
-  "sha256": "ea40ae93b5e5f9188c8e2ca67bf0c10ae75e4ab28ff279ec4a2731ca99ae3f9c",
-  "size": 1617470,
-  "notes": "### New\n- Built-in Video Downloader to grab single videos, full channels, or playlists from YouTube, TikTok, Facebook, and over 1,000 sites (Pro).\n- Automatic child voice detection with new young boy, young girl, and kid dubbing voices that use child-friendly Khmer phrasing.\n- SvCamTool AI connection that lets you translate and detect voices without needing your own Gemini key.\n- Expanded Thumbnail Maker with over 100 ready-to-use title styles, word highlighting, and customizable episode badges.\n- System Check tool in the Help menu to instantly test your internet, AI keys, and voice services for issues.\n### Improved\n- Title style previews in the Thumbnail Maker now show your actual text instead of generic placeholder letters.\n- Token tracker under Help > My AI Tokens to easily monitor your monthly usage when using SvCamTool AI.",
+  "url": "https://github.com/cheangsovan92-create/AI_ToolGit/releases/download/v2.3.2/SvCamTool_update_2.3.2.zip",
+  "sha256": "76e835a7215893c093ab0a52331aeffeb1c2d5144350ae11f621b1281782c8d6",
+  "size": 1625784,
+  "notes": "### New\n- You can now open video files directly from other apps in the Sv family.\n- Voice-over generation is now faster by automatically reusing previously created audio clips.\n### Improved\n- Translation is now more reliable and handles busy periods much more smoothly.\n- The app now checks if your voice-over components are up to date to ensure the best performance.\n- Processing of long videos is more stable and efficient.\n### Fixed\n- Fixed issues where the voice-over service would occasionally time out or stall.\n- Improved how the app handles foreign names during translation.",
   "changelog": [
+   {
+    "version": "2.3.2",
+    "date": "2026-10-14",
+    "text": "### New\n- You can now open video files directly from other apps in the Sv family.\n- Voice-over generation is now faster by automatically reusing previously created audio clips.\n### Improved\n- Translation is now more reliable and handles busy periods much more smoothly.\n- The app now checks if your voice-over components are up to date to ensure the best performance.\n- Processing of long videos is more stable and efficient.\n### Fixed\n- Fixed issues where the voice-over service would occasionally time out or stall.\n- Improved how the app handles foreign names during translation."
+   },
+   {
+    "version": "2.3.1",
+    "date": "2026-10-14",
+    "text": "### New\n- Added a built-in video downloader to easily grab videos from YouTube, TikTok, and other sites (Pro).\n- Added \"SvCamTool AI\" mode, allowing you to use Gemini without needing your own API key.\n- Added support for child voices (young boy, young girl, and kid) for more natural dubbing.\n- Added a new System Check tool in the Help menu to quickly verify your connection and services.\n- Added over 100 new professional thumbnail styles and episode badge support (Pro).\n### Improved\n- Improved translation reliability by automatically handling busy AI keys more effectively.\n- You can now highlight specific words in your thumbnail titles with custom colors and sizes.\n- Voice-over generation is now faster and more reliable with improved caching.\n- Added support to open video files directly from other Sv apps."
+   },
    {
     "version": "2.3.1",
     "date": "2026-10-12",
@@ -98,20 +108,15 @@
     "version": "2.1.7",
     "date": "2026-09-27",
     "text": "### Improved\n- Increased the connection timeout when syncing licenses to prevent errors on slower internet connections.\n- Offline-generated license keys are now protected from being automatically overwritten by lower-tier plans.\n- License connection errors are now displayed in the main app log to make troubleshooting easier.\n### Fixed\n- Fixed connection timeouts during license activation on network routers with broken IPv6 configurations."
-   },
-   {
-    "version": "2.1.7",
-    "date": "2026-09-27",
-    "text": "### Improved\n- The app now automatically hides purchase and trial buttons if the online store is temporarily closed.\n- Offline license keys are now protected from being overwritten by the server unless a better plan is available."
-   },
-   {
-    "version": "2.1.6",
-    "date": "2026-09-27",
-    "text": "### Improved\n- The app now checks for license updates and plan changes every minute instead of every five minutes.\n- Offline license keys are now safely preserved and will not be overwritten by the server unless you upgrade to a better plan.\n- Detailed license status and server connection messages are now displayed directly in the app's log.\n- Purchase and trial buttons will now automatically hide if online buying is temporarily paused on the server."
    }
   ],
   "changelog_i18n": {
    "km": [
+    {
+     "version": "2.3.2",
+     "date": "2026-10-14",
+     "text": "### ថ្មី\n- ឥឡូវนี้អ្នកអាចបើកឯកសារវីដេអូដោយផ្ទាល់ពីកម្មវិធីផ្សេងទៀតនៅក្នុងគ្រួសារ Sv។\n- ការបង្កើតសំឡេងអរូបី (Voice-over) ឥឡូវនេះលឿនជាងមុន ដោយការប្រើប្រាស់ឡើងវិញដោយស្វ័យប្រវត្តិូវឃ្លីបសំឡេងដែលបានបង្កើតពីមុន។\n### បានកែលម្អ\n- ការបកប្រែឥឡូវនេះមានភាពជឿជាក់ជាងមុន និងគ្រប់គ្រងពេលមានការមមាញឹកបានយ៉ាងរលូន។\n- ឥឡូវនេះកម្មវិធីពិនិត្យមើលថាតើសមាសធាតុសំឡេងរបស់អ្នកទាន់សម័យឬអត់ ដើម្បីធានាបាននូវដំណើរការល្អបំផុត។\n- ការដំណើរការវីដេអូខ្នាតវែងមានភាពនឹងនរ និងមានប្រសិទ្ធភាពជាងមុន។\n### បានជួសជុល\n- បានជួសជុលបញ្ហាដែលសេវាកម្មសំឡេងអរូបីពេលខ្លះអស់ពេល (Time out) ឬគាំង។\n- បានកែលម្អវិធីដែលកម្មវិធីគ្រប់គ្រងឈ្មោះបរទេសអំឡុងពេលបកប្រែ។"
+    },
     {
      "version": "2.3.1",
      "date": "2026-10-12",
@@ -206,14 +211,14 @@
      "version": "2.0.2",
      "date": "2026-09-24",
      "text": "### New\n- បានបន្ថែមបង្អួចដាច់ដោយឡែកសម្រាប់គ្រប់គ្រងសោ Gemini API ជាមួយការណែនាំជាជំហានៗ និងការបិទបាំងសោដែលមានសុវត្ថិភាព។\n- បានបន្ថែមជម្រើសដើម្បីបើកថតឯកសារលទ្ធផលដោយស្វ័យប្រវត្តិនៅពេលការបម្លែងបានបញ្ចប់។\n### Improved\n- បានបង្កើនល្បឿនបកប្រែដោយផ្ញើชุดជាច្រើនស្របគ្នាឆ្លងកាត់សោ API ដែលបានកំណត់រចនាសម្ព័ន្ធរបស់អ្នកទាំងអស់។\n- បានកែលម្អការរកឃើញយេនឌ័រអ្នកនិយាយ និងសំឡេងដោយស្វ័យប្រវត្តិ ដោយប្រើការវិភាគកម្រិតសំឡេង និង timbre កម្រិតខ្ពស់។\n- បានធ្វើឱ្យការកំណត់ការបកប្រែរបស់ Gemini ប្រសើរឡើងដើម្បីឆ្លើយតបលឿនជាងមុនដោយមិនកាត់បន្ថយគុណភាព។\n- បានអាប់ដេតការពិនិត្យសោ API ដើម្បីសាកល្បងសោច្រើនក្នុងពេលតែមួយ និងបដិសេធសោដែលមិនត្រឹមត្រូវភ្លាមៗ។\n### Fixed\n- បានជួសជុលបញ្ហាដែលកម្មវិធីអាចគាំង ឬបរាជ័យប្រសិនបើឯកសារកម្មវិធីត្រូវបានកែប្រែ ឬខូចខាត។"
-    },
-    {
-     "version": "2.0.1",
-     "date": "2026-09-24",
-     "text": "### ថ្មី\n- បានបន្ថែមកម្មវិធីកែសម្រួលវីដេអូពេញលេញនៅខាងក្រោមការមើលជាមុន ដើម្បីបន្ថែមស្រទាប់អត្ថបទផ្ទាល់ខ្លួន ព្រិលតំបន់រសើប រូបភាពស្ពនស័រ ស៊ុម និងតម្រងពណ៌។\n- បានបន្ថែមការគាំទ្រសម្រាប់ Facebook Reel, ការចុចការេ 1:1 និងរូបរាងមើលជាមុនផ្ទាល់ខ្លួនពីម៉ឺនុយបង្អួច។\n### បានកែលម្អ\n- បានបង្កើនល្បឿននៃការបំលែងវីដេអូជាអត្ថបទ និងការ റെនឌ័រដោយស្វ័យប្រវត្តិប្រើប្រាស់ CPU cores ទាំងអស់ និងការបង្កើនល្បឿនផ្នែករឹងកាតក្រាហ្វិក។\n- បានធ្វើឱ្យការលុបសំឡេងច្រៀងកាន់តែឆ្លាតវៃដោយការពិនិត្យឡើងវិញដោយស្វ័យប្រវត្តិនូវអូឌីយ៉ូដើម ប្រសិនបើបទសំឡេងដាច់ដោយឡែកស្ងាត់ពេក។\n- បានធ្វើឱ្យចំណុចប្រទាក់អ្នកប្រើប្រាស់ស្រស់ស្រាយជាមួយប្លង់ម៉ឺនុយស្អាតជាងមុន និងរចនាប័ទ្មផ្ទាំងដែលប្រសើរឡើង។\n### បានកែសម្រួល\n- បានកែសម្រួលបញ្ហាដែលវីដេអូដែលមានបទបំបែកសំឡេងស្ងាត់ខ្លាំង ឬបាត់មិនអាចបំលែងសំឡេងជាអត្ថបទបានត្រឹមត្រូវ។"
     }
    ],
    "th": [
+    {
+     "version": "2.3.2",
+     "date": "2026-10-14",
+     "text": "### New\n- ตอนนี้คุณสามารถเปิดไฟล์วิดีโอได้โดยตรงจากแอปอื่น ๆ ในตระกูล Sv\n- การสร้างเสียงพากย์เร็วขึ้นแล้ว โดยจะนำคลิปเสียงที่เคยสร้างไว้กลับมาใช้ใหม่อัตโนมัติ\n### Improved\n- การแปลมีความเสถียรมากขึ้นและจัดการกับช่วงเวลาที่มีการใช้งานหนาแน่นได้อย่างราบรื่น\n- แอปจะตรวจสอบว่าส่วนประกอบเสียงพากย์ของคุณเป็นเวอร์ชันล่าสุดแล้วหรือไม่ เพื่อให้มั่นใจถึงประสิทธิภาพสูงสุด\n- การประมวลผลวิดีโอยาวมีความเสถียรและมีประสิทธิภาพมากขึ้น\n### Fixed\n- แก้ไขปัญหาที่บริการเสียงพากย์มักจะหมดเวลา (timeout) หรือหยุดทำงานเป็นครั้งคราว\n- ปรับปรุงวิธีที่แอปจัดการกับชื่อชาวต่างชาติในระหว่างการแปล"
+    },
     {
      "version": "2.3.1",
      "date": "2026-10-12",
@@ -308,14 +313,14 @@
      "version": "2.0.2",
      "date": "2026-09-24",
      "text": "### New\n- เพิ่มหน้าต่างเฉพาะสำหรับการจัดการ API key ของ Gemini พร้อมคำแนะนำทีละขั้นตอนและการซ่อนคีย์ที่ปลอดภัย\n- เพิ่มตัวเลือกในการเปิดโฟลเดอร์ผลลัพธ์โดยอัตโนมัติเมื่อการแปลงเสร็จสิ้น\n### Improved\n- เร่งความเร็วในการแปลด้วยการส่งหลายชุดพร้อมกันในทุก API key ที่คุณกำหนดค่าไว้\n- ปรับปรุงการตรวจจับเพศและเสียงของผู้พูดอัตโนมัติโดยใช้การวิเคราะห์ระดับเสียงและโทนเสียงขั้นสูง\n- ปรับแต่งการตั้งค่าการแปลของ Gemini ให้ตอบสนองเร็วขึ้นโดยไม่ลดทอนคุณภาพ\n- อัปเดตการตรวจสอบ API key เพื่อทดสอบหลายคีย์พร้อมกันและปฏิเสธคีย์ที่ไม่ถูกต้องทันที\n### Fixed\n- แก้ไขปัญหาที่แอปอาจขัดข้องหรือล้มเหลวหากไฟล์โปรแกรมถูกแก้ไขหรือเสียหาย"
-    },
-    {
-     "version": "2.0.1",
-     "date": "2026-09-24",
-     "text": "### ใหม่\n- เพิ่มโปรแกรมตัดต่อวิดีโอแบบเต็มรูปแบบใต้หน้าจอพรีวิว เพื่อเพิ่มเลเยอร์ข้อความกำหนดเอง เบลอส่วนที่ละเอียดอ่อน รูปภาพผู้สนับสนุน เฟรม และฟิลเตอร์สี\n- เพิ่มการรองรับ Facebook Reel, สี่เหลี่ยม 1:1 และรูปทรงพรีวิวแบบกำหนดเองจากเมนูหน้าต่าง\n### ปรับปรุง\n- เร่งความเร็วในการถอดเสียงและเรนเดอร์วิดีโอให้เร็วขึ้น โดยใช้ประโยชน์จากทุกคอร์ CPU และการเร่งฮาร์ดแวร์การ์ดจอโดยอัตโนมัติ\n- ทำให้การลบเสียงร้องฉลาดขึ้น โดยตรวจสอบเสียงต้นฉบับใหม่อัตโนมัติหากแทร็กเสียงที่แยกออกมาเบาเกินไป\n- ปรับปรุงอินเทอร์เฟซผู้ใช้ใหม่ด้วยเลย์เอาต์เมนูที่สะอาดตาขึ้นและสไตล์แท็บที่ดีขึ้น\n### แก้ไขข้อบกพร่อง\n- แก้ไขปัญหาที่วิดีโอซึ่งมีแทร็กแยกเสียงร้องที่เบามากหรือขาดหายไป ไม่สามารถถอดเสียงพูดได้อย่างถูกต้อง"
     }
    ],
    "vi": [
+    {
+     "version": "2.3.2",
+     "date": "2026-10-14",
+     "text": "### Mới\n- Giờ đây bạn có thể mở trực tiếp các tệp video từ các ứng dụng khác trong hệ sinh thái Sv.\n- Việc tạo giọng đọc lồng tiếng nay nhanh hơn nhờ tự động tái sử dụng các đoạn âm thanh đã tạo trước đó.\n### Cải tiến\n- Bản dịch nay ổn định hơn và xử lý mượt mà hơn nhiều trong thời điểm cao điểm.\n- Ứng dụng giờ đây kiểm tra xem các thành phần lồng tiếng của bạn đã là phiên bản mới nhất chưa để đảm bảo hiệu suất tốt nhất.\n- Quá trình xử lý video dài ổn định và hiệu quả hơn.\n### Đã sửa lỗi\n- Đã khắc phục các sự cố dịch vụ lồng tiếng thỉnh thoảng bị quá thời gian (timeout) hoặc dừng đột ngột.\n- Cải thiện cách ứng dụng xử lý tên riêng nước ngoài trong quá trình dịch."
+    },
     {
      "version": "2.3.1",
      "date": "2026-10-12",
@@ -410,15 +415,10 @@
      "version": "2.0.2",
      "date": "2026-09-24",
      "text": "### New\n- Đã thêm cửa sổ riêng để quản lý các API key Gemini với hướng dẫn từng bước và che giấu khóa bảo mật.\n- Đã thêm tùy chọn tự động mở thư mục đầu ra khi quá trình chuyển đổi hoàn tất.\n### Improved\n- Tăng tốc độ dịch bằng cách gửi nhiều loạt song song trên tất cả các API key đã định cấu hình của bạn.\n- Cải thiện việc phát hiện giới tính người nói và giọng nói tự động bằng phân tích cao độ và âm sắc nâng cao.\n- Tối ưu hóa cài đặt dịch Gemini để phản hồi nhanh hơn mà không làm giảm chất lượng.\n- Cập nhật kiểm tra API key để kiểm tra nhiều khóa cùng lúc và từ chối các khóa không hợp lệ ngay lập tức.\n### Fixed\n- Đã sửa lỗi ứng dụng có thể bị treo hoặc gặp sự cố nếu các tệp chương trình bị chỉnh sửa hoặc hỏng."
-    },
-    {
-     "version": "2.0.1",
-     "date": "2026-09-24",
-     "text": "### Mới\n- Thêm trình chỉnh sửa video đầy đủ ngay bên dưới bản xem trước để thêm các lớp văn bản tùy chỉnh, làm mờ vùng nhạy cảm, hình ảnh nhà tài trợ, khung hình và bộ lọc màu.\n- Thêm hỗ trợ cho Facebook Reel, tỷ lệ vuông 1:1 và các hình dạng xem trước tùy chỉnh từ menu cửa sổ.\n### Cải tiến\n- Tăng tốc độ chuyển đổi giọng nói thành văn bản và kết xuất video bằng cách tự động tận dụng tất cả các nhân CPU và tăng tốc phần cứng card đồ họa.\n- Làm cho tính năng tách giọng hát thông minh hơn bằng cách tự động kiểm tra lại âm thanh gốc nếu bản nhạc giọng nói tách ra quá nhỏ.\n- Làm mới giao diện người dùng với bố cục menu gọn gàng hơn và cải thiện kiểu dáng tab.\n### Sửa lỗi\n- Khắc phục sự cố video có bản nhạc tách giọng hát quá nhỏ hoặc bị thiếu không thể chuyển đổi giọng nói thành văn bản đúng cách."
     }
    ]
   },
-  "date": "2026-10-12"
+  "date": "2026-10-14"
  },
- "sig": "bf1b39b0044eff3a35995cdcbf51e001c15ac36c83e3756a1518559d5e13ec3539ba8ea1824ef3b296f72c1dcad379cc7f1a4ee657bddbf0216f765b1e152b00"
+ "sig": "d70e0dddc08e6fcf185e0fd5d8b408b632d17bc124db6fd44b00e52348a95c212271ece5a3098e63cdf577868ae4ff671a24c19772c4f1676e22fdcb70f72706"
 }
